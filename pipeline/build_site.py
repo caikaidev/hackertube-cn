@@ -182,6 +182,7 @@ header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
 
 
 .quote{font-size:14.5px;line-height:1.65;margin:0;color:var(--ink)}
+.ep{font-size:12.5px;line-height:1.6;margin:0;color:var(--mut)}.ep a{color:var(--ink);font-weight:500}
 .quote .qby{color:var(--mut);font-size:12px;white-space:nowrap}
 .sum{font-size:13px;color:var(--mut);line-height:1.6;margin:0;flex:1}
 .foot{font-size:12px;color:var(--mut);border-top:1px dashed var(--line);padding-top:8px;line-height:1.7}
@@ -355,6 +356,10 @@ function quoteHtml(d){
   if (d.quote && d.quote.text) return '<p class="quote">“' + esc(d.quote.text) + '”' + (d.quote.by ? ' <span class="qby">—— 网友 @' + esc(d.quote.by) + '</span>' : '') + '</p>';
   return '';
 }
+function episodeHtml(d){
+  if (d.episode && d.episode.url) return '<p class="ep">网友提到的单集：<a href="' + esc(d.episode.url) + '" target="_blank" rel="noopener">《' + esc(d.episode.title || '视频') + '》</a> ↗</p>';
+  return '';
+}
 function footHtml(d){
   var src = (d.source_topics && d.source_topics[0]) || null;
   var h = '被提及 <span class="mono">' + d.mention_count + '</span> 次';
@@ -370,6 +375,7 @@ function cardHTML(d){
   return '<div class="card">' + cover
     + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
     + quoteHtml(d)
+    + episodeHtml(d)
     + '<div class="foot">' + footHtml(d) + '</div>'
     + '<div class="cardbot">' + markBtns(d) + '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener">' + (direct ? '直达主页 ↗' : '去平台搜 ↗') + '</a></div></div>';
 }
