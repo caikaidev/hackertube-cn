@@ -51,6 +51,10 @@ python3 pipeline/build_site.py   # 产出 site/index.html / site/data.json / sit
 - **自荐会标明**：博主本人到帖子里推荐自己的，数据里带 `self_promo` 标记，页面上可见。
 - 数据文件 `data/data.json` 每条都带来源帖 ID 与证据楼层，可逐条回溯原文核对。
 
+## 灵感来源
+
+Andrej Karpathy 的 [HackerTube](https://hackertube.org)：他把 Hacker News 近二十年的评论挖成了视频推荐站（6,454 个视频、150 个话题）。本项目是照着这个思路做的 V2EX 社区版，数据来源、收录口径与实现完全独立。感谢原作者，也感谢每位在来源帖里认真推荐过的网友和被推荐的博主。
+
 ## 删除与纠正
 
 如果你是被收录的博主，或发现某条信息有误（名字、链接、分类不对），开一个 issue 说明即可，会尽快删除或修正。数据来自公开帖子，本站只做提炼索引，不转载评论全文。

@@ -273,8 +273,9 @@ header h1{font-size:19px;white-space:nowrap}header p{display:none}
 <div class="rows" id="rows" hidden></div>
 <div class="empty" id="empty" hidden>没有符合条件的条目，换个关键词试试。</div>
 <footer>
-数据来源：V2EX 公开讨论帖（共 __NTOPICS__ 帖、__NFLOORS__ 个楼层），引言为网友原话摘录、摘要为机器整理，均经原文校验；提及次数为粗略统计，仅作排序参考。<br>
-收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请通过原帖联系我们核对后处理。<br>
+灵感来源：Andrej Karpathy 的 <a href="https://hackertube.org" target="_blank" rel="noopener">HackerTube</a>（把 Hacker News 评论挖成视频站），本站是它的 V2EX 社区版，数据与口径独立。感谢原作者，也感谢每位在原帖里认真推荐过的网友。<br>
+数据来源：V2EX 公开讨论帖（共 __NTOPICS__ 帖、__NFLOORS__ 个楼层），引言为网友原话摘录、均经原文校验；提及次数为粗略统计，仅作排序参考。<br>
+收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请在 <a href="https://github.com/caikaidev/hackertube-cn" target="_blank" rel="noopener">GitHub 仓库</a> 开 issue，我们核对后处理。<br>
 头像与粉丝数来自平台公开信息；主页链接经站方核对后补全，如有错误同样请联系纠正。<br>
 数据与订阅：<a href="feed.xml">RSS 订阅</a> · <button class="fbtn" id="expJson">导出 JSON</button><button class="fbtn" id="expCsv">导出 CSV</button> 标记备份：<button class="fbtn" id="expMarks">导出标记</button><button class="fbtn" id="impMarksBtn">导入标记</button><input type="file" id="impMarks" accept=".json" hidden><br>
 快捷键：<span class="mono">j</span>/<span class="mono">k</span> 上下移动 · <span class="mono">Enter</span> 打开 · <span class="mono">o</span> 新标签打开 · <span class="mono">/</span> 搜索 · <span class="mono">Cmd/Ctrl+K</span> 命令面板 · <span class="mono">Esc</span> 清除/关闭。收藏、稍后再看、屏蔽只存在你自己的浏览器里，不上传任何服务器。
