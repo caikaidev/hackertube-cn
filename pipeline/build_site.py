@@ -143,7 +143,21 @@ HTML = r"""<!DOCTYPE html>
 [data-theme="dark"]{--bg:#141518;--card:#1d1f24;--ink:#e9e6e0;--mut:#9d968b;--line:#2e3038;--acc:#f0762b;--acc2:#33231a;--bili:#39bcd6;--yt:#ff6b6b}
 *{box-sizing:border-box}[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
-@media (max-width:640px){header h1{font-size:23px}.hbtn{padding:5px 8px;font-size:12px}.stats{gap:9px}.wrap{padding:20px 12px 48px}}
+@media (max-width:640px){
+header h1{font-size:21px}header p{display:none}
+.hbtn{padding:5px 8px;font-size:12px}.hbtns{padding-top:2px}
+.stats{gap:8px;font-size:12px;margin-top:8px;flex-wrap:nowrap;white-space:nowrap;overflow:hidden}
+.stats b{font-size:14px}
+.wrap{padding:16px 12px 48px}
+.controls{position:static;padding:10px 0 4px}
+.search{padding:9px 12px;font-size:14px}
+.controls .row{flex-wrap:nowrap;overflow-x:auto;margin-top:8px;padding-bottom:2px;scrollbar-width:none}
+.controls .row::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:4px 10px;font-size:12px}
+.tabs{flex:none}.tabs button{padding:4px 10px;font-size:12px}
+.sortnote{display:none}
+.card{padding:13px}.coverwrap{height:84px}
+}
 .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
 header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
@@ -243,7 +257,7 @@ footer a{color:var(--mut)}
 <div class="tabs" id="sortTabs">
 <button data-s="mentions" class="on">提及次数</button><button data-s="fans">粉丝数</button><button data-s="recent">最近提及</button>
 </div>
-<span style="font-size:12px;color:var(--mut)">默认优先级：提及次数 › 粉丝数 › 时间，均为倒序</span>
+<span class="sortnote" style="font-size:12px;color:var(--mut)">默认优先级：提及次数 › 粉丝数 › 时间，均为倒序</span>
 </div>
 <div class="row">
 <span style="font-size:13px;color:var(--mut)">标记</span>
