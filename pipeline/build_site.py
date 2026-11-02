@@ -204,7 +204,8 @@ header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
 .rrow .av2fb{width:28px;height:28px;border-radius:8px;flex:none;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:600}
 .rrow .main{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
 .rrow .main a{color:var(--ink);text-decoration:none;font-weight:600}.rrow .main a:hover{color:var(--acc)}
-.rrow .main .q{color:var(--mut);font-weight:400}
+.rrow .main .aka{font-size:11px;color:var(--mut);font-weight:400;white-space:nowrap}
+.q{color:var(--mut);font-weight:400}
 .rrow .meta{flex:none;display:flex;gap:6px;align-items:center;font-size:12px;color:var(--mut)}
 .empty{text-align:center;color:var(--mut);padding:50px 0;font-size:14px}
 footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.9;border-top:1px solid var(--line);padding-top:16px}
@@ -339,7 +340,7 @@ function currentList(){
     if (state.cat !== 'all' && d.category !== state.cat) return false;
     if (state.type !== 'all' && d.type !== state.type) return false;
     if (state.pf !== 'all' && d.platform !== state.pf) return false;
-    if (q && (d.name + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
+    if (q && (d.name + ' ' + (d.aka || '') + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
     return true;
   });
   return sortChain(list);
@@ -379,7 +380,7 @@ function cardHTML(d){
   var covsrc = d.cover && d.cover.indexOf('hdslb.com') > -1 && d.cover.indexOf('@') === -1 ? d.cover + '@960w_540h_1c' : d.cover;
   var cover = d.cover ? '<div class="coverwrap"><img class="coverimg" src="' + esc(covsrc) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div>' : '';
   return '<div class="card">' + cover
-    + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
+    + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + (d.aka ? ' <span class="aka">（现名：' + esc(d.aka) + '）</span>' : '') + '</h3><div class="badges">' + badges(d) + '</div></div></div>'
     + quoteHtml(d)
     + episodeHtml(d)
     + '<div class="foot">' + footHtml(d) + '</div>'
@@ -391,7 +392,7 @@ function rowHTML(d){
     : '<div class="av2fb" style="background:hsl(' + hue + ',55%,50%)">' + esc(d.name.slice(0, 1)) + '</div>';
   var q = (d.quote && d.quote.text) ? ' <span class="q">“' + esc(d.quote.text) + '”</span>' : '';
   return '<div class="rrow"><span class="up mono">▲' + d.mention_count + '</span>' + av
-    + '<div class="main"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + q + '</div>'
+    + '<div class="main"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + (d.aka ? ' <span class="aka">（现名：' + esc(d.aka) + '）</span>' : '') + q + '</div>'
     + '<div class="meta"><span>' + pfName(d.platform) + '</span><span>' + esc(d.category) + '</span>'
     + (d.fans != null ? '<span class="mono">' + fansFmt(d.fans) + ' 粉</span>' : '') + markBtns(d) + '</div></div>';
 }
@@ -524,7 +525,7 @@ function closePal(){ $('palWrap').hidden = true; }
 function palRender(q){
   q = (q || '').trim().toLowerCase();
   var res = [];
-  DATA.forEach(function(d){ if (!q || (d.name + ' ' + d.category + ' ' + (d.summary || '')).toLowerCase().indexOf(q) >= 0) res.push({ label: d.name, hint: pfName(d.platform) + ' · ' + d.category + ' · 提及 ' + d.mention_count, run: function(){ window.open(outLink(d), '_blank'); } }); });
+  DATA.forEach(function(d){ if (!q || (d.name + ' ' + (d.aka || '') + ' ' + d.category + ' ' + (d.summary || '')).toLowerCase().indexOf(q) >= 0) res.push({ label: d.name, hint: pfName(d.platform) + ' · ' + d.category + ' · 提及 ' + d.mention_count, run: function(){ window.open(outLink(d), '_blank'); } }); });
   palActions().forEach(function(a){ if (!q || a.label.toLowerCase().indexOf(q) >= 0) res.push(a); });
   palItems = res.slice(0, 9); palIdx = 0;
   $('palList').innerHTML = palItems.map(function(it, i){ return '<div class="it' + (i === palIdx ? ' sel' : '') + '" data-i="' + i + '"><span>' + esc(it.label) + '</span><small>' + esc(it.hint || '') + '</small></div>'; }).join('') || '<div class="it"><span>没有匹配项</span></div>';

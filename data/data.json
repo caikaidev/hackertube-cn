@@ -127,7 +127,7 @@
   "type": "creator",
   "platform": "bilibili",
   "name": "微小微",
-  "url": "",
+  "url": "https://space.bilibili.com/6997378",
   "summary": "多个用户一致推荐，影响力提升。",
   "category": "生活",
   "mention_count": 7,
@@ -162,7 +162,11 @@
     "floors": [],
     "positive_floors": []
    }
-  ]
+  ],
+  "avatar": "http://i1.hdslb.com/bfs/face/4ab6c4d55dc2aff10f13748ab664392bce5174c3.jpg@128w_128h_1c",
+  "fans": 1004991,
+  "resolved_via": "manual_verified_renamed",
+  "aka": "仙女110"
  },
  {
   "type": "creator",
