@@ -19,6 +19,7 @@
 5. **头像与主页补全**（`pipeline/fetch_covers.py`，审计记录在 `data/cover_report.json`）：
    - 头像、粉丝数取自平台公开接口（B 站 card 接口 / 搜索接口、YouTube 频道页），图片仍在平台 CDN，本站只存链接；
    - 原文没给主页链接的 B 站博主，只在平台搜索结果中存在**精确同名**账号时才补全主页链接，并打上 `resolved_via: bili_search_exact` 标记供核对；对不上的一律不补（宁可空缺）。
+   - 精确同名也对不上的，走置信度评分兜底（`pipeline/fetch_covers_fuzzy.py`）：名字相似度、粉丝量级、签名/视频标题佐证、搜索排名多信号打分（满分 10），**>8 分**才补全，标记 `resolved_via: bili_fuzzy_scored` 并把分数写进数据的 `confidence` 字段，页面上以「相似匹配·置信 X/10」徽章明示。
 
 管线代码在 `pipeline/`，方案细节见 `MVP方案-v0.2.md`，每轮提取的审计记录见 `样本报告-v1.md` / `样本报告-v2.md`。
 
