@@ -285,9 +285,7 @@ header h1{font-size:19px;white-space:nowrap}header p{display:none}
 <div class="tabs" id="typeTabs">
 <button data-t="all" class="on">全部</button><button data-t="creator">博主</button><button data-t="video" id="videoTab">视频</button>
 </div>
-<div class="tabs" id="pfTabs">
-<button data-p="all" class="on">全平台</button><button data-p="bilibili">B站</button><button data-p="youtube">YouTube</button><button data-p="other">其他</button>
-</div>
+<div class="tabs" id="pfTabs"></div>
 </div>
 <div class="row">
 <span style="font-size:13px;color:var(--mut)">排序</span>
@@ -334,7 +332,8 @@ function outLink(d){
   if (d.platform === 'youtube') return 'https://www.youtube.com/results?search_query=' + kw;
   return 'https://www.google.com/search?q=' + kw;
 }
-function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : '其他'); }
+function pfKey(d){ var u = d.url || ''; if (u.indexOf('bilibili.com') >= 0) return 'bilibili'; if (u.indexOf('youtube.com') >= 0 || u.indexOf('youtu.be') >= 0) return 'youtube'; if (u.indexOf('xiaoyuzhoufm.com') >= 0) return 'xyz'; if (u.indexOf('podcasts.apple.com') >= 0) return 'apple'; return d.platform || 'other'; }
+function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : (p === 'xyz' ? '小宇宙' : (p === 'apple' ? 'Apple 播客' : '其他'))); }
 function hueFor(s){ var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; }
 function fansFmt(n){ if (!n && n !== 0) return ''; if (n >= 10000) return (Math.round(n / 1000) / 10) + '万'; return '' + n; }
 function fmtDate(ts){ if (!ts) return ''; var d = new Date(ts * 1000); function p(x){ return (x < 10 ? '0' : '') + x; } return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
@@ -357,6 +356,10 @@ if (cats['播客']) catOrder.push('播客');
 if (cats['其他']) catOrder.push('其他');
 catOrder.forEach(function(c){ catHtml += '<button class="chip" data-c="' + esc(c) + '">' + esc(c) + ' <span class="n">' + cats[c] + '</span></button>'; });
 $('cats').innerHTML = catHtml;
+var pfs = {}; DATA.forEach(function(d){ var k = pfKey(d); pfs[k] = (pfs[k] || 0) + 1; });
+var pfHtml = '<button data-p="all" class="on">全平台</button>';
+[['bilibili', 'B站'], ['youtube', 'YouTube'], ['xyz', '小宇宙'], ['apple', 'Apple 播客'], ['other', '其他']].forEach(function(pr){ if (pfs[pr[0]]) pfHtml += '<button data-p="' + pr[0] + '">' + pr[1] + '</button>'; });
+$('pfTabs').innerHTML = pfHtml;
 if (!DATA.some(function(d){ return d.type === 'video'; })) $('videoTab').style.display = 'none';
 
 function sortChain(list){
@@ -372,7 +375,7 @@ function currentList(){
     if (state.mark !== 'all' && mk !== state.mark) return false;
     if (state.cat !== 'all' && d.category !== state.cat) return false;
     if (state.type !== 'all' && d.type !== state.type) return false;
-    if (state.pf !== 'all' && d.platform !== state.pf) return false;
+    if (state.pf !== 'all' && pfKey(d) !== state.pf) return false;
     if (q && (d.name + ' ' + (d.aka || '') + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
     return true;
   });
@@ -381,7 +384,7 @@ function currentList(){
 var lastList = [], focusIdx = -1;
 
 function badges(d){
-  var h = '<span class="b pf' + (d.platform === 'youtube' ? ' yt' : '') + '">' + pfName(d.platform) + '</span><span class="b">' + esc(d.category) + '</span>';
+  var h = '<span class="b pf' + (pfKey(d) === 'youtube' ? ' yt' : '') + '">' + pfName(pfKey(d)) + '</span><span class="b">' + esc(d.category) + '</span>';
   if (d.fans != null) h += '<span class="b mono">' + fansFmt(d.fans) + ' 粉丝</span>';
   if (d.is_promotion) h += '<span class="b">自荐</span>';
   return h;
@@ -426,7 +429,7 @@ function rowHTML(d){
   var q = (d.quote && d.quote.text) ? ' <span class="q">“' + esc(d.quote.text) + '”</span>' : '';
   return '<div class="rrow"><span class="up mono">▲' + d.mention_count + '</span>' + av
     + '<div class="main"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + (d.aka ? ' <span class="aka">（现名：' + esc(d.aka) + '）</span>' : '') + q + '</div>'
-    + '<div class="meta"><span>' + pfName(d.platform) + '</span><span>' + esc(d.category) + '</span>'
+    + '<div class="meta"><span>' + pfName(pfKey(d)) + '</span><span>' + esc(d.category) + '</span>'
     + (d.fans != null ? '<span class="mono">' + fansFmt(d.fans) + ' 粉</span>' : '') + markBtns(d) + '</div></div>';
 }
 var nodeCache = {};
@@ -558,7 +561,7 @@ function closePal(){ $('palWrap').hidden = true; }
 function palRender(q){
   q = (q || '').trim().toLowerCase();
   var res = [];
-  DATA.forEach(function(d){ if (!q || (d.name + ' ' + (d.aka || '') + ' ' + d.category + ' ' + (d.summary || '')).toLowerCase().indexOf(q) >= 0) res.push({ label: d.name, hint: pfName(d.platform) + ' · ' + d.category + ' · 提及 ' + d.mention_count, run: function(){ window.open(outLink(d), '_blank'); } }); });
+  DATA.forEach(function(d){ if (!q || (d.name + ' ' + (d.aka || '') + ' ' + d.category + ' ' + (d.summary || '')).toLowerCase().indexOf(q) >= 0) res.push({ label: d.name, hint: pfName(pfKey(d)) + ' · ' + d.category + ' · 提及 ' + d.mention_count, run: function(){ window.open(outLink(d), '_blank'); } }); });
   palActions().forEach(function(a){ if (!q || a.label.toLowerCase().indexOf(q) >= 0) res.push(a); });
   palItems = res.slice(0, 9); palIdx = 0;
   $('palList').innerHTML = palItems.map(function(it, i){ return '<div class="it' + (i === palIdx ? ' sel' : '') + '" data-i="' + i + '"><span>' + esc(it.label) + '</span><small>' + esc(it.hint || '') + '</small></div>'; }).join('') || '<div class="it"><span>没有匹配项</span></div>';
