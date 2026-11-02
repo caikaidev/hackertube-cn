@@ -85,6 +85,7 @@ for it in items:
     it["source_topics"] = srcs
     if mention_ts:
         it["last_mention"] = max(mention_ts)
+        it["first_mention"] = min(mention_ts)
     if quote:
         it["quote"] = quote
     it.pop("sources", None)
@@ -177,18 +178,18 @@ header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
 .card h3{margin:0;font-size:17px;line-height:1.35}
 .card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{color:var(--acc)}
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:5px}
-.b{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--acc2);color:var(--acc);border:1px solid var(--line)}
-.b.pf{background:transparent;color:var(--bili);border-color:var(--line)}.b.pf.yt{color:var(--yt)}
-.b.promo{color:#94700a}
+.b{font-size:11px;padding:2px 8px;border-radius:999px;background:transparent;color:var(--mut);border:1px solid var(--line)}
+
+
 .quote{font-size:14.5px;line-height:1.65;margin:0;color:var(--ink)}
 .quote .qby{color:var(--mut);font-size:12px;white-space:nowrap}
 .sum{font-size:13px;color:var(--mut);line-height:1.6;margin:0;flex:1}
 .foot{font-size:12px;color:var(--mut);border-top:1px dashed var(--line);padding-top:8px;line-height:1.7}
 .foot a{color:var(--mut)}
 .mks{display:flex;gap:6px;align-items:center}
-.mk{font-size:12px;border:1px solid var(--line);background:transparent;border-radius:7px;padding:2px 9px;cursor:pointer;color:var(--mut)}
-.mk.on{color:var(--acc);border-color:var(--acc);background:var(--acc2)}
-.go{font-size:13px;color:var(--acc);text-decoration:none;border:1px solid var(--line);background:var(--acc2);padding:5px 12px;border-radius:8px}
+.mk{font-size:12px;border:0;background:transparent;padding:2px 3px;cursor:pointer;color:var(--mut)}
+.mk.on{color:var(--ink);font-weight:600}
+.go{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:transparent;padding:5px 12px;border-radius:8px}
 .cardbot{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .focused{outline:2px solid var(--acc);outline-offset:-2px}
 .rows{margin-top:16px;border-bottom:1px solid var(--line)}
@@ -273,7 +274,7 @@ header h1{font-size:19px;white-space:nowrap}header p{display:none}
 <footer>
 数据来源：V2EX 公开讨论帖（共 __NTOPICS__ 帖、__NFLOORS__ 个楼层），引言为网友原话摘录、摘要为机器整理，均经原文校验；提及次数为粗略统计，仅作排序参考。<br>
 收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请通过原帖联系我们核对后处理。<br>
-头像与粉丝数来自平台公开信息；标有「同名核对补全」的主页链接，是站方按平台同名账号精确核对后补上的；标有「相似匹配·置信 X/10」的，是多信号评分超过 8 分后补上的，如有错误同样请联系纠正。<br>
+头像与粉丝数来自平台公开信息；主页链接经站方核对后补全，如有错误同样请联系纠正。<br>
 数据与订阅：<a href="feed.xml">RSS 订阅</a> · <button class="fbtn" id="expJson">导出 JSON</button><button class="fbtn" id="expCsv">导出 CSV</button> 标记备份：<button class="fbtn" id="expMarks">导出标记</button><button class="fbtn" id="impMarksBtn">导入标记</button><input type="file" id="impMarks" accept=".json" hidden><br>
 快捷键：<span class="mono">j</span>/<span class="mono">k</span> 上下移动 · <span class="mono">Enter</span> 打开 · <span class="mono">o</span> 新标签打开 · <span class="mono">/</span> 搜索 · <span class="mono">Cmd/Ctrl+K</span> 命令面板 · <span class="mono">Esc</span> 清除/关闭。收藏、稍后再看、屏蔽只存在你自己的浏览器里，不上传任何服务器。
 </footer>
@@ -332,7 +333,7 @@ function currentList(){
     if (state.cat !== 'all' && d.category !== state.cat) return false;
     if (state.type !== 'all' && d.type !== state.type) return false;
     if (state.pf !== 'all' && d.platform !== state.pf) return false;
-    if (q && (d.name + ' ' + (d.summary || '') + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
+    if (q && (d.name + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
     return true;
   });
   return sortChain(list);
@@ -342,9 +343,7 @@ var lastList = [], focusIdx = -1;
 function badges(d){
   var h = '<span class="b pf' + (d.platform === 'youtube' ? ' yt' : '') + '">' + pfName(d.platform) + '</span><span class="b">' + esc(d.category) + '</span>';
   if (d.fans != null) h += '<span class="b mono">' + fansFmt(d.fans) + ' 粉丝</span>';
-  if (d.resolved_via === 'bili_search_exact') h += '<span class="b">同名核对补全</span>';
-  if (d.resolved_via === 'bili_fuzzy_scored') h += '<span class="b">相似匹配·置信 ' + d.confidence + '/10</span>';
-  if (d.is_promotion) h += '<span class="b promo">自荐</span>';
+  if (d.is_promotion) h += '<span class="b">自荐</span>';
   return h;
 }
 function markBtns(d){
@@ -359,7 +358,7 @@ function quoteHtml(d){
 function footHtml(d){
   var src = (d.source_topics && d.source_topics[0]) || null;
   var h = '被提及 <span class="mono">' + d.mention_count + '</span> 次';
-  if (d.last_mention) h += ' · 最近提及 <span class="mono">' + fmtDate(d.last_mention) + '</span>';
+  if (d.first_mention) h += ' · 首提 <span class="mono">' + fmtDate(d.first_mention) + '</span>';
   if (src) h += ' · 来源：<a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.title) + '</a>' + (src.by ? '（首提 @' + esc(src.by) + '）' : '');
   return h;
 }
@@ -371,7 +370,6 @@ function cardHTML(d){
   return '<div class="card">' + cover
     + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
     + quoteHtml(d)
-    + (d.summary ? '<p class="sum">' + esc(d.summary) + '</p>' : '')
     + '<div class="foot">' + footHtml(d) + '</div>'
     + '<div class="cardbot">' + markBtns(d) + '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener">' + (direct ? '直达主页 ↗' : '去平台搜 ↗') + '</a></div></div>';
 }
@@ -379,7 +377,7 @@ function rowHTML(d){
   var link = outLink(d), hue = hueFor(d.category + d.name);
   var av = d.avatar ? '<img class="av2" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=\'<div class=&quot;av2fb&quot; style=&quot;background:hsl(' + hue + ',55%,50%)&quot;>' + esc(d.name.slice(0, 1)) + '</div>\'">'
     : '<div class="av2fb" style="background:hsl(' + hue + ',55%,50%)">' + esc(d.name.slice(0, 1)) + '</div>';
-  var q = (d.quote && d.quote.text) ? ' <span class="q">“' + esc(d.quote.text) + '”</span>' : (d.summary ? ' <span class="q">' + esc(d.summary) + '</span>' : '');
+  var q = (d.quote && d.quote.text) ? ' <span class="q">“' + esc(d.quote.text) + '”</span>' : '';
   return '<div class="rrow"><span class="up mono">▲' + d.mention_count + '</span>' + av
     + '<div class="main"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + q + '</div>'
     + '<div class="meta"><span>' + pfName(d.platform) + '</span><span>' + esc(d.category) + '</span>'
