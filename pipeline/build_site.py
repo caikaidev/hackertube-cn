@@ -332,8 +332,8 @@ function outLink(d){
   if (d.platform === 'youtube') return 'https://www.youtube.com/results?search_query=' + kw;
   return 'https://www.google.com/search?q=' + kw;
 }
-function pfKey(d){ var u = d.url || ''; if (u.indexOf('bilibili.com') >= 0) return 'bilibili'; if (u.indexOf('youtube.com') >= 0 || u.indexOf('youtu.be') >= 0) return 'youtube'; if (u.indexOf('xiaoyuzhoufm.com') >= 0) return 'xyz'; if (u.indexOf('podcasts.apple.com') >= 0) return 'apple'; return d.platform || 'other'; }
-function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : (p === 'xyz' ? '小宇宙' : (p === 'apple' ? 'Apple 播客' : '其他'))); }
+function pfKey(d){ var u = d.url || ''; if (u.indexOf('bilibili.com') >= 0) return 'bilibili'; if (u.indexOf('youtube.com') >= 0 || u.indexOf('youtu.be') >= 0) return 'youtube'; if (u.indexOf('xiaoyuzhoufm.com') >= 0 || u.indexOf('podcasts.apple.com') >= 0) return 'podcast'; return (d.platform === 'bilibili' || d.platform === 'youtube' || d.platform === 'podcast') ? d.platform : 'other'; }
+function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : (p === 'podcast' ? '播客' : '其他')); }
 function hueFor(s){ var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; }
 function fansFmt(n){ if (!n && n !== 0) return ''; if (n >= 10000) return (Math.round(n / 1000) / 10) + '万'; return '' + n; }
 function fmtDate(ts){ if (!ts) return ''; var d = new Date(ts * 1000); function p(x){ return (x < 10 ? '0' : '') + x; } return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
@@ -351,14 +351,13 @@ function setMark(d, m){ var k = mkey(d); if (m) marks[k] = m; else delete marks[
 var cats = {}; DATA.forEach(function(d){ cats[d.category] = (cats[d.category] || 0) + 1; });
 $('stats').innerHTML = '<span><b class="mono">' + DATA.length + '</b> 条收录</span><span><b class="mono">__NTOPICS__</b> 个来源帖</span><span><b class="mono">__NFLOORS__</b> 个楼层</span>';
 var catHtml = '<button class="chip on" data-c="all">全部 <span class="n">' + DATA.length + '</span></button>';
-var catOrder = Object.keys(cats).filter(function(c){ return c !== '播客' && c !== '其他'; }).sort(function(a, b){ return cats[b] - cats[a]; });
-if (cats['播客']) catOrder.push('播客');
+var catOrder = Object.keys(cats).filter(function(c){ return c !== '其他'; }).sort(function(a, b){ return cats[b] - cats[a]; });
 if (cats['其他']) catOrder.push('其他');
 catOrder.forEach(function(c){ catHtml += '<button class="chip" data-c="' + esc(c) + '">' + esc(c) + ' <span class="n">' + cats[c] + '</span></button>'; });
 $('cats').innerHTML = catHtml;
 var pfs = {}; DATA.forEach(function(d){ var k = pfKey(d); pfs[k] = (pfs[k] || 0) + 1; });
 var pfHtml = '<button data-p="all" class="on">全平台</button>';
-[['bilibili', 'B站'], ['youtube', 'YouTube'], ['xyz', '小宇宙'], ['apple', 'Apple 播客'], ['other', '其他']].forEach(function(pr){ if (pfs[pr[0]]) pfHtml += '<button data-p="' + pr[0] + '">' + pr[1] + '</button>'; });
+[['bilibili', 'B站'], ['youtube', 'YouTube'], ['podcast', '播客'], ['other', '其他']].forEach(function(pr){ if (pfs[pr[0]]) pfHtml += '<button data-p="' + pr[0] + '">' + pr[1] + '</button>'; });
 $('pfTabs').innerHTML = pfHtml;
 if (!DATA.some(function(d){ return d.type === 'video'; })) $('videoTab').style.display = 'none';
 
