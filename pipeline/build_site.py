@@ -304,8 +304,7 @@ header h1{font-size:19px;white-space:nowrap}header p{display:none}
 收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请在 <a href="https://github.com/caikaidev/hackertube-cn" target="_blank" rel="noopener">GitHub 仓库</a> 开 issue，我们核对后处理。<br>
 头像与粉丝数来自平台公开信息；主页链接经站方核对后补全，如有错误同样请联系纠正。<br>
 数据与订阅：<a href="feed.xml">RSS 订阅</a> · <button class="fbtn" id="expJson">导出 JSON</button><button class="fbtn" id="expCsv">导出 CSV</button> 标记备份：<button class="fbtn" id="expMarks">导出标记</button><button class="fbtn" id="impMarksBtn">导入标记</button><input type="file" id="impMarks" accept=".json" hidden><br>
-快捷键：<span class="mono">j</span>/<span class="mono">k</span> 上下移动 · <span class="mono">Enter</span> 打开 · <span class="mono">o</span> 新标签打开 · <span class="mono">/</span> 搜索 · <span class="mono">Cmd/Ctrl+K</span> 命令面板 · <span class="mono">Esc</span> 清除/关闭。收藏、稍后再看、屏蔽只存在你自己的浏览器里，不上传任何服务器。<br>
-版本 <span class="mono">__VERSION__</span> · 构建于 __BUILT__ · 数据指纹 <span class="mono">__DFP__</span>（同见 <a href="version.json">version.json</a>，用来核对线上是不是最新版）
+快捷键：<span class="mono">j</span>/<span class="mono">k</span> 上下移动 · <span class="mono">Enter</span> 打开 · <span class="mono">o</span> 新标签打开 · <span class="mono">/</span> 搜索 · <span class="mono">Cmd/Ctrl+K</span> 命令面板 · <span class="mono">Esc</span> 清除/关闭。收藏、稍后再看、屏蔽只存在你自己的浏览器里，不上传任何服务器。
 </footer>
 </div>
 <div class="pal-wrap" id="palWrap" hidden>
