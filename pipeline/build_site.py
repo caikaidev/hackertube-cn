@@ -154,6 +154,7 @@ function render(){
     '<div class="badges"><span class="b pf'+(d.platform==='youtube'?' yt':'')+'">'+PFNAME[d.platform]+'</span><span class="b">'+esc(d.category)+'</span>'+
     (d.fans?'<span class="b">'+fansFmt(d.fans)+' 粉丝</span>':'')+
     (d.resolved_via==='bili_search_exact'?'<span class="b">主页·同名核对补全</span>':'')+
+    (d.resolved_via==='bili_fuzzy_scored'?'<span class="b">相似匹配·置信'+d.confidence+'/10</span>':'')+
     (d.self_promo?'<span class="b promo">自荐</span>':'')+'</div></div></div>'+
     '<p class="sum">'+esc(d.summary||'')+'</p>'+
     '<a class="go" href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+(d.url?'直达主页/视频':'去'+PFNAME[d.platform]+'搜索')+' ↗</a>'+
