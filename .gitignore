@@ -1,0 +1,11 @@
+# 原始语料与中间产物不入库（V2EX 网友原文全文，只在本地留存）
+data/raw/
+data/parsed/
+data/extracted/
+data/extracted_v2/
+data/sweep/
+
+__pycache__/
+*.pyc
+.env
+.DS_Store
