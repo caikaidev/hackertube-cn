@@ -103,9 +103,9 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 <div class="row">
 <span style="font-size:13px;color:var(--mut)">排序</span>
 <div class="tabs" id="sortTabs">
-<button data-s="fans" class="on">粉丝数</button><button data-s="recent">最近提及</button><button data-s="mentions">提及次数</button>
+<button data-s="mentions" class="on">提及次数</button><button data-s="fans">粉丝数</button><button data-s="recent">最近提及</button>
 </div>
-<span style="font-size:12px;color:var(--mut)">粉丝从多到少 · 提及从新到旧</span>
+<span style="font-size:12px;color:var(--mut)">默认优先级：提及次数 › 粉丝数 › 时间，均为倒序</span>
 </div>
 </div>
 <div class="grid" id="grid"></div>
@@ -119,7 +119,7 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 <script type="application/json" id="data">__DATA__</script>
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
-const state = {q:'', cat:'全部', type:'all', pf:'all', sort:'fans'};
+const state = {q:'', cat:'全部', type:'all', pf:'all', sort:'mentions'};
 const PFNAME = {bilibili:'B站', youtube:'YouTube', other:'其他平台'};
 const cats = ['全部', ...new Set(DATA.map(d=>d.category))];
 document.getElementById('stats').innerHTML =
@@ -159,9 +159,9 @@ function render(){
     (state.type==='all'||d.type===state.type)&&
     (state.pf==='all'||d.platform===state.pf)&&
     (!state.q||(d.name+' '+d.summary+' '+d.category).toLowerCase().includes(state.q)));
-  if(state.sort==='fans') list.sort((a,b)=>((b.fans||-1)-(a.fans||-1))||(b.mention_count-a.mention_count));
-  else if(state.sort==='recent') list.sort((a,b)=>((b.last_mention||0)-(a.last_mention||0))||((b.fans||-1)-(a.fans||-1)));
-  else list.sort((a,b)=>(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1)));
+  if(state.sort==='fans') list.sort((a,b)=>((b.fans||-1)-(a.fans||-1))||(b.mention_count-a.mention_count)||((b.last_mention||0)-(a.last_mention||0)));
+  else if(state.sort==='recent') list.sort((a,b)=>((b.last_mention||0)-(a.last_mention||0))||(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1)));
+  else list.sort((a,b)=>(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1))||((b.last_mention||0)-(a.last_mention||0)));
   const grid=document.getElementById('grid');
   document.getElementById('empty').hidden=list.length>0;
   grid.innerHTML=list.map(d=>{
