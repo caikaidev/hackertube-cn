@@ -30,12 +30,12 @@ D. 某个楼层以名单形式集中推荐了多位博主（例如一楼列出�
 2. url 只能填写原文或标注链接中真实出现的链接，禁止推断或拼接；没有就留空字符串。
 3. 推荐人就是博主本人时 "self_promo": true。
 4. summary 只概括原文已有的推荐理由，≤40字。
-5. category 从 [编程, 科技数码, 财经, 科普, 历史人文, 影视, 音乐, 生活, 游戏, 播客, 其他] 中选一个。播客/谈话节目/有声内容优先归「播客」，不要塞「其他」。
+5. category 从 [编程, 科技数码, 财经, 科普, 历史人文, 影视, 音乐, 生活, 游戏, 其他] 中选一个。
 6. 新闻时政类不要放入 items，单独放入 excluded。
 
 【输出】只输出一个 JSON 对象：
 {"items": [{"type": "creator", "platform": "bilibili", "name": "", "url": "", "summary": "", "category": "", "mention_count": 1, "positive_floors": [], "source_floors": [], "self_promo": false}], "excluded": [{"name": "", "reason": ""}]}
-type 可为 video 或 creator；platform 可为 bilibili、youtube 或 other。
+type 可为 video 或 creator；platform 可为 bilibili、youtube、podcast 或 other（播客节目/有声音频填 podcast）。
 
 """
 

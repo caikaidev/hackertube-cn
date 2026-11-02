@@ -24,12 +24,12 @@ C. 被求推荐帖的楼主在后续楼层确认采纳或点名感谢。
 2. 推荐人就是博主本人时 "self_promo": true。
 3. 同一博主/视频在多楼出现时合并为一条，mention_count 累加（只算独立提及的楼层数）。
 4. summary 只概括原文已有的推荐理由，不添加原文没有的评价，≤40字。
-5. category 从 [编程, 科技数码, 财经, 科普, 历史人文, 影视, 音乐, 生活, 游戏, 播客, 其他] 中选一个。播客/谈话节目/有声内容优先归「播客」，不要塞「其他」。
+5. category 从 [编程, 科技数码, 财经, 科普, 历史人文, 影视, 音乐, 生活, 游戏, 其他] 中选一个。
 6. 新闻时政类（时政评论、新闻政评、政治话题博主）不要放入 items，单独放入 excluded，name+一句话原因即可。
 
 【输出】只输出一个 JSON 对象，不要其他文字：
 {"items": [{"type": "video", "platform": "bilibili", "name": "博主名或视频标题", "url": "", "summary": "", "category": "", "mention_count": 1, "positive_floors": [], "source_floors": [], "self_promo": false}], "excluded": [{"name": "", "reason": ""}]}
-type 可为 video 或 creator；platform 可为 bilibili、youtube 或 other。
+type 可为 video 或 creator；platform 可为 bilibili、youtube、podcast 或 other（播客节目/有声音频填 podcast）。
 
 """
 
