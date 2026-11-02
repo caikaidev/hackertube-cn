@@ -86,7 +86,7 @@
   "type": "creator",
   "platform": "bilibili",
   "name": "Links",
-  "url": "",
+  "url": "https://space.bilibili.com/3816626",
   "summary": "分享生活类视频内容。",
   "category": "生活",
   "mention_count": 7,
@@ -118,7 +118,11 @@
     "positive_floors": []
    }
   ],
-  "via_sweep": "users=7 pos=True"
+  "via_sweep": "users=7 pos=True",
+  "avatar": "https://i2.hdslb.com/bfs/face/2827281d7fd11cd62d9cc355039860cd2979970b.jpg@128w_128h_1c",
+  "fans": 4894983,
+  "resolved_via": "bili_fuzzy_scored",
+  "confidence": 8.5
  },
  {
   "type": "creator",
@@ -1389,7 +1393,7 @@
   "type": "creator",
   "platform": "bilibili",
   "name": "何同学",
-  "url": "",
+  "url": "https://space.bilibili.com/163637592",
   "summary": "分享科技与创意领域内容。",
   "category": "其他",
   "mention_count": 2,
@@ -1404,7 +1408,11 @@
     "positive_floors": []
    }
   ],
-  "via_sweep": "users=2 pos=True"
+  "via_sweep": "users=2 pos=True",
+  "avatar": "https://i0.hdslb.com/bfs/face/492d0bb71749332040f9d812954fa0b52e66c490.jpg@128w_128h_1c",
+  "fans": 13059324,
+  "resolved_via": "bili_fuzzy_scored",
+  "confidence": 9.0
  },
  {
   "type": "creator",

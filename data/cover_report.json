@@ -652,5 +652,301 @@
    "platform": "other",
    "outcome": "skipped"
   }
+ ],
+ "fuzzy_pass": [
+  {
+   "name": "微小微",
+   "best": {
+    "mid": "353298291",
+    "uname": "我不是微小微",
+    "fans": 22414,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "3546870448130150",
+    "uname": "小微小微你好呀",
+    "fans": 9,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "Links",
+   "best": {
+    "mid": "3816626",
+    "uname": "Linksphotograph",
+    "fans": 4894983,
+    "score": 8.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 2.0,
+     "corroboration": 1.0,
+     "rank": 0.5,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "405543950",
+    "uname": "林克斯先生Links",
+    "fans": 705972,
+    "score": 6.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 1.5,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": true
+  },
+  {
+   "name": "当下",
+   "best": {
+    "mid": "32360194",
+    "uname": "当下频道",
+    "fans": 447723,
+    "score": 7.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 1.5,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "671349344",
+    "uname": "当下财经",
+    "fans": 3589,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "野食小哥",
+   "best": {
+    "mid": "27876832",
+    "uname": "野食小哥゙",
+    "fans": 76,
+    "score": 5.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.5,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "352415469",
+    "uname": "野食小哥的鸡",
+    "fans": 11,
+    "score": 5.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "zhucegeqiu",
+   "best": null,
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "何同学",
+   "best": {
+    "mid": "163637592",
+    "uname": "老师好我叫何同学",
+    "fans": 13059325,
+    "score": 9.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 2.5,
+     "corroboration": 1.0,
+     "rank": 0.5,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "1192648858",
+    "uname": "何同学工作室",
+    "fans": 1466096,
+    "score": 8.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 2.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": true
+  },
+  {
+   "name": "谷阿莫",
+   "best": {
+    "mid": "123393925",
+    "uname": "谷阿莫咖啡",
+    "fans": 38,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "226982404",
+    "uname": "谷阿莫come",
+    "fans": 15,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "落拓呀",
+   "best": {
+    "mid": "43276908",
+    "uname": "是落拓呀",
+    "fans": 126106,
+    "score": 6.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 1.0,
+     "corroboration": 0.0,
+     "rank": 0.5,
+     "handle": 0.0
+    }
+   },
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "liangguan5",
+   "best": null,
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "林亦",
+   "best": {
+    "mid": "173806227",
+    "uname": "林亦hzy",
+    "fans": 1719,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "101418707",
+    "uname": "林亦蝶0112",
+    "fans": 1115,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "知识噪音",
+   "best": null,
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "老周横眉",
+   "best": {
+    "mid": "3546660189768141",
+    "uname": "横眉冷对直言不讳老周",
+    "fans": 219,
+    "score": 0.5,
+    "detail": {
+     "name": 0.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.5,
+     "handle": 0.0
+    }
+   },
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "姜汁+CLS 同学",
+   "best": {
+    "mid": "11821578",
+    "uname": "姜汁",
+    "fans": 284,
+    "score": 5.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "1039025435",
+    "uname": "战国时代_姜汁汽水",
+    "fans": 833154,
+    "score": 1.5,
+    "detail": {
+     "name": 0.0,
+     "fans": 1.5,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  }
  ]
 }
