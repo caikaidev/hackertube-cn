@@ -99,7 +99,7 @@ def out_link(d):
         return "https://search.bilibili.com/all?keyword=" + uq(kw)
     if d.get("platform") == "youtube":
         return "https://www.youtube.com/results?search_query=" + uq(kw)
-    return "https://www.bing.com/search?q=" + uq(kw)
+    return "https://www.google.com/search?q=" + uq(kw)
 
 # ---- RSS feed (all entries, newest mention first) ----
 feed_items = sorted(items, key=lambda d: -(d.get("last_mention") or 0))
@@ -135,6 +135,10 @@ HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://i0.hdslb.com">
+<link rel="preconnect" href="https://i1.hdslb.com">
+<link rel="preconnect" href="https://i2.hdslb.com">
+<link rel="preconnect" href="https://yt3.googleusercontent.com">
 <title>HackerTube CN — V2EX 网友筛选的视频与博主清单</title>
 <meta name="description" content="从 V2EX 高互动讨论中提取、经多人认可的视频与博主推荐，只做外链索引，不托管视频。">
 <link rel="alternate" type="application/rss+xml" title="HackerTube CN" href="feed.xml">
@@ -165,7 +169,7 @@ header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
 .tabs button{border:0;background:transparent;padding:5px 14px;border-radius:8px;font-size:13px;cursor:pointer;color:var(--mut)}
 .tabs button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;content-visibility:auto;contain-intrinsic-size:auto 280px}
 .coverwrap{height:96px;border-radius:10px;overflow:hidden;position:relative;background:var(--acc2);margin:-4px -4px 2px}
 .coverblur{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(16px) saturate(1.25);opacity:.5;transform:scale(1.25)}
 .coverimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -297,7 +301,7 @@ function outLink(d){
   var kw = encodeURIComponent(d.name);
   if (d.platform === 'bilibili') return 'https://search.bilibili.com/all?keyword=' + kw;
   if (d.platform === 'youtube') return 'https://www.youtube.com/results?search_query=' + kw;
-  return 'https://www.bing.com/search?q=' + kw;
+  return 'https://www.google.com/search?q=' + kw;
 }
 function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : '其他'); }
 function hueFor(s){ var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; }
@@ -371,8 +375,9 @@ function footHtml(d){
 function cardHTML(d){
   var link = outLink(d), direct = !!d.url, hue = hueFor(d.category + d.name);
   var avaFb = '<div class="ava fb" style="background:linear-gradient(135deg,hsl(' + hue + ',55%,55%),hsl(' + ((hue + 40) % 360) + ',55%,42%))">' + esc(d.name.slice(0, 1)) + '</div>';
-  var ava = avaFb + (d.avatar ? '<img class="ava im" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '');
-  var cover = d.cover ? '<div class="coverwrap"><img class="coverimg" src="' + esc(d.cover) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></div>' : '';
+  var ava = avaFb + (d.avatar ? '<img class="ava im" src="' + esc(d.avatar) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">' : '');
+  var covsrc = d.cover && d.cover.indexOf('hdslb.com') > -1 && d.cover.indexOf('@') === -1 ? d.cover + '@960w_540h_1c' : d.cover;
+  var cover = d.cover ? '<div class="coverwrap"><img class="coverimg" src="' + esc(covsrc) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div>' : '';
   return '<div class="card">' + cover
     + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
     + quoteHtml(d)
