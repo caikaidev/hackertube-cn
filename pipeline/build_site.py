@@ -353,9 +353,7 @@ function cardHTML(d){
   var link = outLink(d), direct = !!d.url, hue = hueFor(d.category + d.name);
   var avaFb = '<div class="ava fb" style="background:linear-gradient(135deg,hsl(' + hue + ',55%,55%),hsl(' + ((hue + 40) % 360) + ',55%,42%))">' + esc(d.name.slice(0, 1)) + '</div>';
   var ava = avaFb + (d.avatar ? '<img class="ava im" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '');
-  var cover = '<div class="coverwrap" style="background:linear-gradient(120deg,hsl(' + hue + ',45%,82%),hsl(' + ((hue + 40) % 360) + ',45%,68%))">'
-    + (d.avatar ? '<img class="coverblur" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '')
-    + (d.cover ? '<img class="coverimg" src="' + esc(d.cover) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '') + '</div>';
+  var cover = d.cover ? '<div class="coverwrap"><img class="coverimg" src="' + esc(d.cover) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></div>' : '';
   return '<div class="card">' + cover
     + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
     + quoteHtml(d)
