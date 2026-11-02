@@ -1462,7 +1462,14 @@
      50
     ]
    }
-  ]
+  ],
+  "episode": {
+   "url": "https://www.youtube.com/watch?v=ggzw_6EBHBY",
+   "title": "越聪明越穷？“低信任式防御”让你错过所有机会",
+   "topic_id": 1184310,
+   "floor": 0,
+   "by": "Mohanson"
+  }
  },
  {
   "type": "creator",
@@ -1650,7 +1657,14 @@
   "avatar": "https://i2.hdslb.com/bfs/face/afe334d673fda9bd834923aa0a67f207120e5eee.jpg@128w_128h_1c",
   "fans": 1849156,
   "resolved_via": "bili_search_exact",
-  "cover": "https://i0.hdslb.com/bfs/space/c65e92b516460911f11b404950be1c9ff36eae51.png"
+  "cover": "https://i0.hdslb.com/bfs/space/c65e92b516460911f11b404950be1c9ff36eae51.png",
+  "episode": {
+   "url": "https://www.bilibili.com/video/BV1Q5411874P",
+   "title": "这是正经唐僧吗？",
+   "topic_id": 840328,
+   "floor": 89,
+   "by": "ZC3746"
+  }
  },
  {
   "type": "creator",
