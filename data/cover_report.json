@@ -1,0 +1,656 @@
+{
+ "stats": {
+  "card_api": 9,
+  "search_exact": 0,
+  "search_multi": 0,
+  "yt": 0,
+  "no_match": 13,
+  "name_mismatch_on_url": 5,
+  "errors": 0
+ },
+ "entries": [
+  {
+   "name": "软件工艺师",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "微小微",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "Links",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "当下",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "蜀犬吠日",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "4740223"
+  },
+  {
+   "name": "野食小哥",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "瞎看什么",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "稚嫩的魔法师",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "1276787"
+  },
+  {
+   "name": "酒酿 Lily 王",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "516316998"
+  },
+  {
+   "name": "zhucegeqiu",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "李沐",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: 跟李沐学AI"
+  },
+  {
+   "name": "稚晖君",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "20259914"
+  },
+  {
+   "name": "女菩萨",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "28863088"
+  },
+  {
+   "name": "木鱼水心",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "927587"
+  },
+  {
+   "name": "硬核课堂",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "无穷小亮",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "12725434"
+  },
+  {
+   "name": "码农高天",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "codesheep",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "384068749"
+  },
+  {
+   "name": "CodingStartup",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: CodingStartup起码课"
+  },
+  {
+   "name": "老高与小茉",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "老王",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "1947715"
+  },
+  {
+   "name": "王老菊",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "1946428780"
+  },
+  {
+   "name": "尚硅谷",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "302417610"
+  },
+  {
+   "name": "柴知道",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "26798384"
+  },
+  {
+   "name": "回形针",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3493124294839048"
+  },
+  {
+   "name": "寒食君",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "纯纯甘",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "110930331"
+  },
+  {
+   "name": "绿导师",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: 绿导师原谅你了"
+  },
+  {
+   "name": "影视飓风",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "946974"
+  },
+  {
+   "name": "杨旭游记",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: yaaangmin"
+  },
+  {
+   "name": "SCFR",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "499771376"
+  },
+  {
+   "name": "芳斯塔芙",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "72270557"
+  },
+  {
+   "name": "极速拍档",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "25150941"
+  },
+  {
+   "name": "淘沙博士",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "289706107"
+  },
+  {
+   "name": "遇见狂神说",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "95256449"
+  },
+  {
+   "name": "李永乐老师",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "214350401"
+  },
+  {
+   "name": "TESTV",
+   "platform": "other",
+   "outcome": "card_name_mismatch_no_avatar",
+   "note": "space mid 21815801 now belongs to 卷王程序员 (1584 fans), not TESTV; avatar intentionally left empty, source URL kept as-is"
+  },
+  {
+   "name": "峰哥亡命天涯",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "35847683"
+  },
+  {
+   "name": "奇乐编程学院",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: Ross-Ning"
+  },
+  {
+   "name": "毕导",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "254463269"
+  },
+  {
+   "name": "幼麟",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: 幼麟实验室"
+  },
+  {
+   "name": "小 A",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "11888"
+  },
+  {
+   "name": "落拓",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3218276"
+  },
+  {
+   "name": "食贫道",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "39627524"
+  },
+  {
+   "name": "靳卫萍",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "韩顺平",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "651245581"
+  },
+  {
+   "name": "冷淡熊",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "448039667"
+  },
+  {
+   "name": "盗月社",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "268845872"
+  },
+  {
+   "name": "谭玉刚",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "张汉东",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: ChaosBot (account renamed)"
+  },
+  {
+   "name": "何同学",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "蓝战非",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "极客湾",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "22885043"
+  },
+  {
+   "name": "孙富贵",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "敖厂长",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "122879"
+  },
+  {
+   "name": "谷阿莫",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "谜之声",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "673816"
+  },
+  {
+   "name": "落拓呀",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "阿星探店",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "Go 夜读",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "326749661"
+  },
+  {
+   "name": "导演小策",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "81824112"
+  },
+  {
+   "name": "而立计划",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "233224563"
+  },
+  {
+   "name": "探钓者序",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3546389998995863"
+  },
+  {
+   "name": "三宋在这",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "硬核空间",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "126233254"
+  },
+  {
+   "name": "史诗级韭菜",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "322005137"
+  },
+  {
+   "name": "笨笨的韭菜",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "11473291"
+  },
+  {
+   "name": "不老的老回",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "52103692"
+  },
+  {
+   "name": "阿斗归来了",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "21837784"
+  },
+  {
+   "name": "虫哥说电影",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "29296192"
+  },
+  {
+   "name": "正月点灯笼",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "车祸警示录",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "539418077"
+  },
+  {
+   "name": "田野上的繁荣",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "588278127"
+  },
+  {
+   "name": "STN 工作室",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "7349"
+  },
+  {
+   "name": "自说自话的总裁",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "385805493"
+  },
+  {
+   "name": "摩的司机徐师傅",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3493117728656046"
+  },
+  {
+   "name": "1900 影剧室",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "17223352"
+  },
+  {
+   "name": "javidx9",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "莫烦 Python",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "243821484"
+  },
+  {
+   "name": "喜欢历史的程序君",
+   "platform": "bilibili",
+   "outcome": "card_api"
+  },
+  {
+   "name": "两颗太阳 Show",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "41117009"
+  },
+  {
+   "name": "脑总 MrBrain",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "赖导 AboutLai",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "480670664"
+  },
+  {
+   "name": "liangguan5",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "Little Chinese Everywhere",
+   "platform": "youtube",
+   "outcome": "yt_avatar"
+  },
+  {
+   "name": "E 大",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "林亦",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "vox",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "董明珠",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "飞碟说",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "5581898"
+  },
+  {
+   "name": "齐俊杰",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "手工耿",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "280793434"
+  },
+  {
+   "name": "中队长",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "1089193494"
+  },
+  {
+   "name": "知识噪音",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "四季萌芽",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "维森来了",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "92177068"
+  },
+  {
+   "name": "老周横眉",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "猫铁咖啡",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "396983406"
+  },
+  {
+   "name": "巫师财经",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "土味角虫",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "61369218"
+  },
+  {
+   "name": "小黑屋的貘",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "1150034331"
+  },
+  {
+   "name": "小约翰可汗",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "灵茶山艾府",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "206214"
+  },
+  {
+   "name": "Johnny",
+   "platform": "youtube",
+   "outcome": "yt_avatar"
+  },
+  {
+   "name": "视野环球财经",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "608347907"
+  },
+  {
+   "name": "沉默的螺旋上",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "454166343"
+  },
+  {
+   "name": "cbvivi",
+   "platform": "bilibili",
+   "outcome": "card_api",
+   "note": "card name differs: 瞎看什么 (same account; cbvivi is the same creator)"
+  },
+  {
+   "name": "电影最 top",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "17819768"
+  },
+  {
+   "name": "方猫 BOOM",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "138624168"
+  },
+  {
+   "name": "林芷伊 kiwi",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "16993069"
+  },
+  {
+   "name": "姜汁+CLS 同学",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "polymatter",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "bloomberg origin",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "小宇宙播客：硅谷 101、科技早知道",
+   "platform": "other",
+   "outcome": "skipped"
+  }
+ ]
+}
