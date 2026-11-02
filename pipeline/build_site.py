@@ -54,6 +54,12 @@ header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
 .tabs button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.head{display:flex;gap:12px;align-items:flex-start}
+.avaw{position:relative;width:52px;height:52px;flex:none}
+.ava{width:52px;height:52px;border-radius:12px;display:block}
+.ava.fb{display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;font-weight:600}
+.ava.im{position:absolute;inset:0;object-fit:cover;background:#fff}
+.head .tt{min-width:0;flex:1}
 .card h3{margin:0;font-size:17px;line-height:1.35}
 .card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{color:var(--acc)}
 .badges{display:flex;gap:6px;flex-wrap:wrap}
@@ -91,7 +97,8 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 <div class="empty" id="empty" hidden>没有符合条件的条目，换个关键词试试。</div>
 <footer>
 数据来源：V2EX 公开讨论帖（共 8 帖、1,049 个楼层），摘要为机器整理、经原文校验；提及次数为粗略统计，仅作排序参考。<br>
-收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请通过原帖联系我们核对后处理。
+收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请通过原帖联系我们核对后处理。<br>
+头像与粉丝数来自平台公开信息；标有「同名核对补全」的主页链接，是站方按平台同名账号精确核对后补上的，如有错误同样请联系纠正。
 </footer>
 </div>
 <script type="application/json" id="data">__DATA__</script>
@@ -128,6 +135,8 @@ function outLink(d){
   return 'https://www.bing.com/search?q='+kw;
 }
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function hue(s){let h=0;for(const c of (s||''))h=(h*31+c.charCodeAt(0))%360;return h}
+function fansFmt(n){if(n>=10000){const v=n/10000;return (v>=100?Math.round(v):v.toFixed(1).replace(/\.0$/,''))+'万'}return ''+n}
 function render(){
   const list = DATA.filter(d=>
     (state.cat==='全部'||d.category===state.cat)&&
@@ -138,9 +147,14 @@ function render(){
   document.getElementById('empty').hidden=list.length>0;
   grid.innerHTML=list.map(d=>{
     const src=(d.source_topics||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">《'+esc(s.title)+'》</a>'+(s.by?' · 首提 @'+esc(s.by):'')).join('；');
-    return '<div class="card"><h3><a href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+esc(d.name)+'</a></h3>'+
+    const h=hue(d.category);
+    const fb='<div class="ava fb" style="background:linear-gradient(135deg,hsl('+h+' 55% 55%),hsl('+((h+40)%360)+' 55% 42%))">'+esc((d.name||'').trim().charAt(0))+'</div>';
+    const ava='<div class="avaw">'+fb+(d.avatar?'<img class="ava im" src="'+esc(d.avatar)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">':'')+'</div>';
+    return '<div class="card"><div class="head">'+ava+'<div class="tt"><h3><a href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+esc(d.name)+'</a></h3>'+
     '<div class="badges"><span class="b pf'+(d.platform==='youtube'?' yt':'')+'">'+PFNAME[d.platform]+'</span><span class="b">'+esc(d.category)+'</span>'+
-    (d.self_promo?'<span class="b promo">自荐</span>':'')+'</div>'+
+    (d.fans?'<span class="b">'+fansFmt(d.fans)+' 粉丝</span>':'')+
+    (d.resolved_via==='bili_search_exact'?'<span class="b">主页·同名核对补全</span>':'')+
+    (d.self_promo?'<span class="b promo">自荐</span>':'')+'</div></div></div>'+
     '<p class="sum">'+esc(d.summary||'')+'</p>'+
     '<a class="go" href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+(d.url?'直达主页/视频':'去'+PFNAME[d.platform]+'搜索')+' ↗</a>'+
     '<div class="foot">被提及 '+d.mention_count+' 次 · 来源 V2EX：'+src+'</div></div>';
