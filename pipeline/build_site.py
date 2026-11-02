@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
-"""Build self-contained static index.html from data.json (+ parsed topics for provenance)."""
-import json, os, glob
+"""Build self-contained static index.html (+ feed.xml) from data.json.
+
+v6 geek edition (external-review triage, user-approved 2026-11-02):
+accepted: dark mode, keyboard-first nav, card/list dual view, real community
+quotes as primary copy, local marks (fav/later/blocked, localStorage +
+import/export), JSON/CSV export, RSS feed, Cmd+K palette — all in the same
+single zero-dependency file.
+rejected: iframe embeds (site stays pure-outlink by founding rule), 50%
+thumbnail trick (no per-video data, no such API), React/Tailwind stack,
+IndexedDB (localStorage is enough at this scale).
+"""
+import json, os, glob, re
+from email.utils import formatdate
+from xml.sax.saxutils import escape as xesc
 
 BASE = os.path.join(os.path.dirname(__file__), "..")
 items = json.load(open(os.path.join(BASE, "data", "data.json"), encoding="utf-8"))
@@ -9,9 +21,50 @@ for p in glob.glob(os.path.join(BASE, "data", "parsed", "topic_*.json")):
     t = json.load(open(p, encoding="utf-8"))
     topics[t["topic_id"]] = t
 
+URL_RE = re.compile(r"https?://\S+")
+
+def clean_quote(text):
+    t = URL_RE.sub("", text or "")
+    t = re.sub(r"@([0-9A-Za-z_]+)", "", t)
+    t = re.sub(r"\s+", " ", t).strip(" \t\r\n-—:：")
+    return t
+
+NEG_WORDS = ("难看", "不行", "太差", "很差", "抄袭", "抄的", "水分", "水了", "取关", "拉黑", "不好看", "没意思")
+
+def pick_quote(it, t, s, by_floor):
+    """Real community quote: earliest positive floor naming the creator; fall back
+    to other positive floors, then to name-mentioning floors without negative words."""
+    def grab(flnos, minlen):
+        out = []
+        for flno in flnos or []:
+            f = by_floor.get(flno)
+            if not f:
+                continue
+            txt = clean_quote(f.get("content"))
+            if len(txt) >= minlen:
+                out.append((f.get("created", 0), txt, f.get("username", "")))
+        return out
+    pos = grab(s.get("positive_floors"), 8)
+    tiers = [
+        [c for c in pos if it["name"] in c[1]],
+        [c for c in pos if len(c[1]) >= 16],
+        [c for c in grab(s.get("floors"), 12)
+         if it["name"] in c[1] and not any(w in c[1] for w in NEG_WORDS)],
+        pos,
+    ]
+    for pool in tiers:
+        if pool:
+            pool.sort(key=lambda c: c[0])
+            _, txt, user = pool[0]
+            if len(txt) > 88:
+                txt = txt[:88] + "…"
+            return {"text": txt, "by": user}
+    return None
+
 for it in items:
     srcs = []
     mention_ts = []
+    quote = None
     for s in it["sources"]:
         t = topics.get(s["topic_id"])
         if not t:
@@ -26,14 +79,55 @@ for it in items:
                 mention_ts.append(by_floor[flno]["created"])
         srcs.append({"title": t["title"], "url": t["url"], "by": first_user})
         if not mention_ts and t["floors"]:
-            # No floor-level evidence recorded: fall back to the topic's start.
             mention_ts.append(min(f["created"] for f in t["floors"] if f.get("created")))
+        if quote is None:
+            quote = pick_quote(it, t, s, by_floor)
     it["source_topics"] = srcs
     if mention_ts:
         it["last_mention"] = max(mention_ts)
+    if quote:
+        it["quote"] = quote
     it.pop("sources", None)
 
+def out_link(d):
+    if d.get("url"):
+        return d["url"]
+    kw = d["name"]
+    from urllib.parse import quote as uq
+    if d.get("platform") == "bilibili":
+        return "https://search.bilibili.com/all?keyword=" + uq(kw)
+    if d.get("platform") == "youtube":
+        return "https://www.youtube.com/results?search_query=" + uq(kw)
+    return "https://www.bing.com/search?q=" + uq(kw)
+
+# ---- RSS feed (all entries, newest mention first) ----
+feed_items = sorted(items, key=lambda d: -(d.get("last_mention") or 0))
+rss = ['<?xml version="1.0" encoding="UTF-8"?>',
+       '<rss version="2.0"><channel>',
+       '<title>HackerTube CN</title>',
+       '<link>https://hackertube-cn.pages.dev/</link>',
+       '<description>从 V2EX 高互动讨论里挖出来的视频与博主清单</description>',
+       '<language>zh-cn</language>']
+for d in feed_items:
+    link = out_link(d)
+    desc = (d.get("quote") or {}).get("text") or d.get("summary") or ""
+    rss.append("<item>")
+    rss.append(f"<title>{xesc(d['name'])}</title>")
+    rss.append(f"<link>{xesc(link)}</link>")
+    rss.append(f"<guid isPermaLink=\"false\">htcn-{xesc(d['name'])}</guid>")
+    if d.get("last_mention"):
+        rss.append(f"<pubDate>{formatdate(d['last_mention'])}</pubDate>")
+    rss.append(f"<category>{xesc(d.get('category',''))}</category>")
+    rss.append(f"<category>{xesc(d.get('platform',''))}</category>")
+    rss.append(f"<description>{xesc(desc)}</description>")
+    rss.append("</item>")
+rss.append("</channel></rss>")
+with open(os.path.join(BASE, "site", "feed.xml"), "w", encoding="utf-8") as f:
+    f.write("\n".join(rss))
+
 data_json = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
+NTOPICS = len(topics)
+NFLOORS = sum(len(t["floors"]) for t in topics.values())
 
 HTML = r"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -42,59 +136,101 @@ HTML = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HackerTube CN — V2EX 网友筛选的视频与博主清单</title>
 <meta name="description" content="从 V2EX 高互动讨论中提取、经多人认可的视频与博主推荐，只做外链索引，不托管视频。">
+<link rel="alternate" type="application/rss+xml" title="HackerTube CN" href="feed.xml">
+<script>(function(){try{var t=localStorage.getItem('ht-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='light';}})();</script>
 <style>
 :root{--bg:#faf7f2;--card:#fff;--ink:#1c1917;--mut:#78716c;--line:#e7e0d6;--acc:#ea580c;--acc2:#fff3e8;--bili:#0aa6c2;--yt:#e03131}
+[data-theme="dark"]{--bg:#141518;--card:#1d1f24;--ink:#e9e6e0;--mut:#9d968b;--line:#2e3038;--acc:#f0762b;--acc2:#33231a;--bili:#39bcd6;--yt:#ff6b6b}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 header h1{font-size:30px;margin:0;letter-spacing:.5px}header h1 .cn{color:var(--acc)}
 header p{color:var(--mut);margin:8px 0 0;font-size:14px;line-height:1.6}
+.hbtns{display:flex;gap:8px;flex:none;padding-top:6px}
+.hbtn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:9px;padding:6px 11px;font-size:13px;cursor:pointer}
+.hbtn:hover{border-color:var(--acc);color:var(--acc)}
 .stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--mut)}
 .stats b{color:var(--ink);font-size:16px}
 .controls{position:sticky;top:0;background:var(--bg);padding:14px 0 10px;z-index:5}
-.search{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:12px;font-size:15px;background:#fff;outline:none}
+.search{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:12px;font-size:15px;background:var(--card);color:var(--ink);outline:none}
 .search:focus{border-color:var(--acc)}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
-.chip{border:1px solid var(--line);background:#fff;color:var(--ink);padding:5px 12px;border-radius:999px;font-size:13px;cursor:pointer}
-.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:5px 12px;border-radius:999px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .chip .n{opacity:.55;font-size:12px;margin-left:3px}
-.tabs{display:flex;gap:4px;background:#efe9df;padding:3px;border-radius:10px}
+.tabs{display:flex;gap:4px;background:var(--acc2);padding:3px;border-radius:10px}
 .tabs button{border:0;background:transparent;padding:5px 14px;border-radius:8px;font-size:13px;cursor:pointer;color:var(--mut)}
-.tabs button.on{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.tabs button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.coverwrap{height:96px;border-radius:10px;overflow:hidden;position:relative;background:var(--acc2);margin:-4px -4px 2px}
+.coverblur{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(16px) saturate(1.25);opacity:.5;transform:scale(1.25)}
+.coverimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .head{display:flex;gap:12px;align-items:flex-start}
 .avaw{position:relative;width:52px;height:52px;flex:none}
 .ava{width:52px;height:52px;border-radius:12px;display:block}
 .ava.fb{display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;font-weight:600}
-.ava.im{position:absolute;inset:0;object-fit:cover;background:#fff}
+.ava.im{position:absolute;inset:0;object-fit:cover;background:var(--card)}
 .head .tt{min-width:0;flex:1}
 .card h3{margin:0;font-size:17px;line-height:1.35}
 .card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{color:var(--acc)}
-.badges{display:flex;gap:6px;flex-wrap:wrap}
-.b{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--acc2);color:var(--acc);border:1px solid #f3ddc9}
-.b.pf{background:#eef7fa;color:var(--bili);border-color:#d3ecf2}.b.pf.yt{background:#fdeeee;color:var(--yt);border-color:#f6dede}
-.b.promo{background:#fff7db;color:#94700a;border-color:#efe3ae}
-.sum{font-size:13.5px;color:#44403c;line-height:1.65;margin:0;flex:1}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:5px}
+.b{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--acc2);color:var(--acc);border:1px solid var(--line)}
+.b.pf{background:transparent;color:var(--bili);border-color:var(--line)}.b.pf.yt{color:var(--yt)}
+.b.promo{color:#94700a}
+.quote{font-size:14.5px;line-height:1.65;margin:0;color:var(--ink)}
+.quote .qby{color:var(--mut);font-size:12px;white-space:nowrap}
+.sum{font-size:13px;color:var(--mut);line-height:1.6;margin:0;flex:1}
 .foot{font-size:12px;color:var(--mut);border-top:1px dashed var(--line);padding-top:8px;line-height:1.7}
 .foot a{color:var(--mut)}
-.go{align-self:flex-start;font-size:13px;color:var(--acc);text-decoration:none;border:1px solid #f3ddc9;background:var(--acc2);padding:5px 12px;border-radius:8px}
+.mks{display:flex;gap:6px;align-items:center}
+.mk{font-size:12px;border:1px solid var(--line);background:transparent;border-radius:7px;padding:2px 9px;cursor:pointer;color:var(--mut)}
+.mk.on{color:var(--acc);border-color:var(--acc);background:var(--acc2)}
+.go{font-size:13px;color:var(--acc);text-decoration:none;border:1px solid var(--line);background:var(--acc2);padding:5px 12px;border-radius:8px}
+.cardbot{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.focused{outline:2px solid var(--acc);outline-offset:-2px}
+.rows{margin-top:16px;border-bottom:1px solid var(--line)}
+.rrow{display:flex;gap:10px;align-items:center;padding:8px 10px;border:1px solid var(--line);border-bottom:0;background:var(--card)}
+.rrow .up{flex:none;font-size:13px;color:var(--acc);min-width:34px;text-align:center}
+.rrow .av2{width:28px;height:28px;border-radius:8px;flex:none;object-fit:cover}
+.rrow .av2fb{width:28px;height:28px;border-radius:8px;flex:none;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:600}
+.rrow .main{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+.rrow .main a{color:var(--ink);text-decoration:none;font-weight:600}.rrow .main a:hover{color:var(--acc)}
+.rrow .main .q{color:var(--mut);font-weight:400}
+.rrow .meta{flex:none;display:flex;gap:6px;align-items:center;font-size:12px;color:var(--mut)}
 .empty{text-align:center;color:var(--mut);padding:50px 0;font-size:14px}
-footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-top:1px solid var(--line);padding-top:16px}
+footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.9;border-top:1px solid var(--line);padding-top:16px}
+footer .fbtn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:7px;padding:3px 10px;font-size:12px;cursor:pointer;margin-right:6px}
+footer a{color:var(--mut)}
+.pal-wrap{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;justify-content:center;align-items:flex-start;padding-top:12vh;z-index:50}
+.pal{background:var(--card);width:min(560px,92vw);border-radius:12px;border:1px solid var(--line);overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.3)}
+.pal input{width:100%;padding:13px 15px;font-size:15px;border:0;outline:none;background:transparent;color:var(--ink)}
+.pal .it{padding:9px 15px;font-size:14px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;color:var(--ink)}
+.pal .it small{color:var(--mut)}
+.pal .it.sel{background:var(--acc2)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
+<div>
 <h1>HackerTube <span class="cn">CN</span></h1>
 <p>从 V2EX 高互动讨论里挖出来的视频与博主清单——每一条都经过多位网友提及或认可。本站只做外链索引，不托管任何视频。</p>
 <div class="stats" id="stats"></div>
+</div>
+<div class="hbtns">
+<button class="hbtn" id="palBtn" title="命令面板">⌘K</button>
+<button class="hbtn" id="viewBtn" title="切换卡片/列表视图">列表</button>
+<button class="hbtn" id="themeBtn" title="切换暗黑模式">暗黑</button>
+</div>
 </header>
 <div class="controls">
-<input class="search" id="q" type="search" placeholder="搜博主名、关键词…">
+<input class="search" id="q" type="search" placeholder="搜博主名、关键词…（按 / 快速聚焦）">
 <div class="row" id="cats"></div>
 <div class="row">
 <div class="tabs" id="typeTabs">
-<button data-t="all" class="on">全部</button><button data-t="creator">博主</button><button data-t="video">视频</button>
+<button data-t="all" class="on">全部</button><button data-t="creator">博主</button><button data-t="video" id="videoTab">视频</button>
 </div>
 <div class="tabs" id="pfTabs">
 <button data-p="all" class="on">全平台</button><button data-p="bilibili">B站</button><button data-p="youtube">YouTube</button><button data-p="other">其他</button>
@@ -107,88 +243,274 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 </div>
 <span style="font-size:12px;color:var(--mut)">默认优先级：提及次数 › 粉丝数 › 时间，均为倒序</span>
 </div>
+<div class="row">
+<span style="font-size:13px;color:var(--mut)">标记</span>
+<div class="tabs" id="markTabs">
+<button data-m="all" class="on">全部</button><button data-m="fav">收藏</button><button data-m="later">稍后再看</button>
+</div>
+<button class="mk" id="blockedBtn" hidden></button>
+</div>
 </div>
 <div class="grid" id="grid"></div>
+<div class="rows" id="rows" hidden></div>
 <div class="empty" id="empty" hidden>没有符合条件的条目，换个关键词试试。</div>
 <footer>
-数据来源：V2EX 公开讨论帖（共 8 帖、1,049 个楼层），摘要为机器整理、经原文校验；提及次数为粗略统计，仅作排序参考。<br>
+数据来源：V2EX 公开讨论帖（共 __NTOPICS__ 帖、__NFLOORS__ 个楼层），引言为网友原话摘录、摘要为机器整理，均经原文校验；提及次数为粗略统计，仅作排序参考。<br>
 收录口径：被多人独立提及或有正面佐证才入选；新闻时政类默认不收录。如需删除或纠正某条，请通过原帖联系我们核对后处理。<br>
-头像与粉丝数来自平台公开信息；标有「同名核对补全」的主页链接，是站方按平台同名账号精确核对后补上的，如有错误同样请联系纠正。
+头像与粉丝数来自平台公开信息；标有「同名核对补全」的主页链接，是站方按平台同名账号精确核对后补上的；标有「相似匹配·置信 X/10」的，是多信号评分超过 8 分后补上的，如有错误同样请联系纠正。<br>
+数据与订阅：<a href="feed.xml">RSS 订阅</a> · <button class="fbtn" id="expJson">导出 JSON</button><button class="fbtn" id="expCsv">导出 CSV</button> 标记备份：<button class="fbtn" id="expMarks">导出标记</button><button class="fbtn" id="impMarksBtn">导入标记</button><input type="file" id="impMarks" accept=".json" hidden><br>
+快捷键：<span class="mono">j</span>/<span class="mono">k</span> 上下移动 · <span class="mono">Enter</span> 打开 · <span class="mono">o</span> 新标签打开 · <span class="mono">/</span> 搜索 · <span class="mono">Cmd/Ctrl+K</span> 命令面板 · <span class="mono">Esc</span> 清除/关闭。收藏、稍后再看、屏蔽只存在你自己的浏览器里，不上传任何服务器。
 </footer>
+</div>
+<div class="pal-wrap" id="palWrap" hidden>
+<div class="pal">
+<input id="palInput" type="text" placeholder="搜博主、分类，或输入命令…">
+<div id="palList"></div>
+</div>
 </div>
 <script type="application/json" id="data">__DATA__</script>
 <script>
-const DATA = JSON.parse(document.getElementById('data').textContent);
-const state = {q:'', cat:'全部', type:'all', pf:'all', sort:'mentions'};
-const PFNAME = {bilibili:'B站', youtube:'YouTube', other:'其他平台'};
-const cats = ['全部', ...new Set(DATA.map(d=>d.category))];
-document.getElementById('stats').innerHTML =
- '<span><b>'+DATA.length+'</b> 条收录</span><span><b>'+DATA.filter(d=>d.type!=='video').length+'</b> 位博主</span><span><b>'+DATA.filter(d=>d.url).length+'</b> 条带直达链接</span><span>来源 <b>8</b> 个 V2EX 讨论帖</span>';
-const catsEl = document.getElementById('cats');
-cats.forEach(c=>{
-  const n = c==='全部'?DATA.length:DATA.filter(d=>d.category===c).length;
-  const b=document.createElement('button'); b.className='chip'+(c==='全部'?' on':'');
-  b.innerHTML=c+'<span class="n">'+n+'</span>';
-  b.onclick=()=>{state.cat=c; [...catsEl.children].forEach(x=>x.classList.remove('on')); b.classList.add('on'); render();};
-  catsEl.appendChild(b);
-});
-function tabWire(id, key, attr){
-  const el=document.getElementById(id);
-  el.addEventListener('click',e=>{
-    const btn=e.target.closest('button'); if(!btn) return;
-    state[key]=btn.dataset[attr];
-    [...el.children].forEach(x=>x.classList.remove('on')); btn.classList.add('on'); render();
+var DATA = JSON.parse(document.getElementById('data').textContent);
+var $ = function(id){ return document.getElementById(id); };
+function esc(s){ return (s == null ? '' : String(s)).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+function outLink(d){
+  if (d.url) return d.url;
+  var kw = encodeURIComponent(d.name);
+  if (d.platform === 'bilibili') return 'https://search.bilibili.com/all?keyword=' + kw;
+  if (d.platform === 'youtube') return 'https://www.youtube.com/results?search_query=' + kw;
+  return 'https://www.bing.com/search?q=' + kw;
+}
+function pfName(p){ return p === 'bilibili' ? 'B站' : (p === 'youtube' ? 'YouTube' : '其他'); }
+function hueFor(s){ var h = 0; for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; }
+function fansFmt(n){ if (!n && n !== 0) return ''; if (n >= 10000) return (Math.round(n / 1000) / 10) + '万'; return '' + n; }
+function fmtDate(ts){ if (!ts) return ''; var d = new Date(ts * 1000); function p(x){ return (x < 10 ? '0' : '') + x; } return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
+function mkey(d){ return d.name + '|' + d.platform; }
+
+var state = { q: '', cat: 'all', type: 'all', pf: 'all', sort: 'mentions', mark: 'all', showBlocked: false };
+var view = 'card';
+try { view = localStorage.getItem('ht-view') || 'card'; } catch (e) {}
+var marks = {};
+try { marks = JSON.parse(localStorage.getItem('ht-marks') || '{}') || {}; } catch (e) { marks = {}; }
+function saveMarks(){ try { localStorage.setItem('ht-marks', JSON.stringify(marks)); } catch (e) {} }
+function getMark(d){ return marks[mkey(d)] || ''; }
+function setMark(d, m){ var k = mkey(d); if (m) marks[k] = m; else delete marks[k]; saveMarks(); render(); }
+
+var cats = {}; DATA.forEach(function(d){ cats[d.category] = (cats[d.category] || 0) + 1; });
+$('stats').innerHTML = '<span><b class="mono">' + DATA.length + '</b> 条收录</span><span><b class="mono">__NTOPICS__</b> 个来源帖</span><span><b class="mono">__NFLOORS__</b> 个楼层</span>';
+var catHtml = '<button class="chip on" data-c="all">全部 <span class="n">' + DATA.length + '</span></button>';
+Object.keys(cats).sort(function(a, b){ return cats[b] - cats[a]; }).forEach(function(c){ catHtml += '<button class="chip" data-c="' + esc(c) + '">' + esc(c) + ' <span class="n">' + cats[c] + '</span></button>'; });
+$('cats').innerHTML = catHtml;
+if (!DATA.some(function(d){ return d.type === 'video'; })) $('videoTab').style.display = 'none';
+
+function sortChain(list){
+  var K = { mentions: function(d){ return d.mention_count || 0; }, fans: function(d){ return (d.fans == null ? -1 : d.fans); }, recent: function(d){ return d.last_mention || 0; } };
+  var order = ['mentions', 'fans', 'recent']; order.splice(order.indexOf(state.sort), 1); order.unshift(state.sort);
+  return list.slice().sort(function(a, b){ for (var i = 0; i < 3; i++) { var d0 = K[order[i]](b) - K[order[i]](a); if (d0) return d0; } return 0; });
+}
+function currentList(){
+  var q = state.q.trim().toLowerCase();
+  var list = DATA.filter(function(d){
+    var mk = getMark(d);
+    if (mk === 'blocked' && !state.showBlocked) return false;
+    if (state.mark !== 'all' && mk !== state.mark) return false;
+    if (state.cat !== 'all' && d.category !== state.cat) return false;
+    if (state.type !== 'all' && d.type !== state.type) return false;
+    if (state.pf !== 'all' && d.platform !== state.pf) return false;
+    if (q && (d.name + ' ' + (d.summary || '') + ' ' + d.category + ' ' + ((d.quote || {}).text || '')).toLowerCase().indexOf(q) < 0) return false;
+    return true;
+  });
+  return sortChain(list);
+}
+var lastList = [], focusIdx = -1;
+
+function badges(d){
+  var h = '<span class="b pf' + (d.platform === 'youtube' ? ' yt' : '') + '">' + pfName(d.platform) + '</span><span class="b">' + esc(d.category) + '</span>';
+  if (d.fans != null) h += '<span class="b mono">' + fansFmt(d.fans) + ' 粉丝</span>';
+  if (d.resolved_via === 'bili_search_exact') h += '<span class="b">同名核对补全</span>';
+  if (d.resolved_via === 'bili_fuzzy_scored') h += '<span class="b">相似匹配·置信 ' + d.confidence + '/10</span>';
+  if (d.is_promotion) h += '<span class="b promo">自荐</span>';
+  return h;
+}
+function markBtns(d){
+  var mk = getMark(d);
+  function b(act, label){ return '<button class="mk' + (mk === act ? ' on' : '') + '" data-act="' + act + '">' + label + '</button>'; }
+  return '<div class="mks">' + b('fav', '收藏') + b('later', '稍后') + b('blocked', '屏蔽') + '</div>';
+}
+function quoteHtml(d){
+  if (d.quote && d.quote.text) return '<p class="quote">“' + esc(d.quote.text) + '”' + (d.quote.by ? ' <span class="qby">—— 网友 @' + esc(d.quote.by) + '</span>' : '') + '</p>';
+  return '';
+}
+function footHtml(d){
+  var src = (d.source_topics && d.source_topics[0]) || null;
+  var h = '被提及 <span class="mono">' + d.mention_count + '</span> 次';
+  if (d.last_mention) h += ' · 最近提及 <span class="mono">' + fmtDate(d.last_mention) + '</span>';
+  if (src) h += ' · 来源：<a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.title) + '</a>' + (src.by ? '（首提 @' + esc(src.by) + '）' : '');
+  return h;
+}
+function cardHTML(d){
+  var link = outLink(d), direct = !!d.url, hue = hueFor(d.category + d.name);
+  var avaFb = '<div class="ava fb" style="background:linear-gradient(135deg,hsl(' + hue + ',55%,55%),hsl(' + ((hue + 40) % 360) + ',55%,42%))">' + esc(d.name.slice(0, 1)) + '</div>';
+  var ava = avaFb + (d.avatar ? '<img class="ava im" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '');
+  var cover = '<div class="coverwrap" style="background:linear-gradient(120deg,hsl(' + hue + ',45%,82%),hsl(' + ((hue + 40) % 360) + ',45%,68%))">'
+    + (d.avatar ? '<img class="coverblur" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '')
+    + (d.cover ? '<img class="coverimg" src="' + esc(d.cover) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '') + '</div>';
+  return '<div class="card">' + cover
+    + '<div class="head"><div class="avaw">' + ava + '</div><div class="tt"><h3><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a></h3><div class="badges">' + badges(d) + '</div></div></div>'
+    + quoteHtml(d)
+    + (d.summary ? '<p class="sum">' + esc(d.summary) + '</p>' : '')
+    + '<div class="foot">' + footHtml(d) + '</div>'
+    + '<div class="cardbot">' + markBtns(d) + '<a class="go" href="' + esc(link) + '" target="_blank" rel="noopener">' + (direct ? '直达主页 ↗' : '去平台搜 ↗') + '</a></div></div>';
+}
+function rowHTML(d){
+  var link = outLink(d), hue = hueFor(d.category + d.name);
+  var av = d.avatar ? '<img class="av2" src="' + esc(d.avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=\'<div class=&quot;av2fb&quot; style=&quot;background:hsl(' + hue + ',55%,50%)&quot;>' + esc(d.name.slice(0, 1)) + '</div>\'">'
+    : '<div class="av2fb" style="background:hsl(' + hue + ',55%,50%)">' + esc(d.name.slice(0, 1)) + '</div>';
+  var q = (d.quote && d.quote.text) ? ' <span class="q">“' + esc(d.quote.text) + '”</span>' : (d.summary ? ' <span class="q">' + esc(d.summary) + '</span>' : '');
+  return '<div class="rrow"><span class="up mono">▲' + d.mention_count + '</span>' + av
+    + '<div class="main"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(d.name) + '</a>' + q + '</div>'
+    + '<div class="meta"><span>' + pfName(d.platform) + '</span><span>' + esc(d.category) + '</span>'
+    + (d.fans != null ? '<span class="mono">' + fansFmt(d.fans) + ' 粉</span>' : '') + markBtns(d) + '</div></div>';
+}
+function render(){
+  lastList = currentList(); focusIdx = -1;
+  var blockedN = DATA.filter(function(d){ return getMark(d) === 'blocked'; }).length;
+  var bb = $('blockedBtn');
+  if (blockedN) { bb.hidden = false; bb.textContent = state.showBlocked ? '隐藏屏蔽（' + blockedN + '）' : '已屏蔽 ' + blockedN + ' 条 · 显示'; } else bb.hidden = true;
+  if (view === 'list') {
+    $('grid').hidden = true; $('rows').hidden = false;
+    $('rows').innerHTML = lastList.map(rowHTML).join('');
+  } else {
+    $('rows').hidden = true; $('grid').hidden = false;
+    $('grid').innerHTML = lastList.map(cardHTML).join('');
+  }
+  $('empty').hidden = lastList.length > 0;
+  $('viewBtn').textContent = view === 'list' ? '卡片' : '列表';
+}
+function bindTabs(id, attr, key){
+  $(id).addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    state[key] = b.dataset[attr];
+    var bs = $(id).querySelectorAll('button'); for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('on', bs[i] === b);
+    render();
   });
 }
-tabWire('typeTabs','type','t'); tabWire('pfTabs','pf','p'); tabWire('sortTabs','sort','s');
-function fmtDate(ts){if(!ts)return '';const d=new Date(ts*1000);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
-document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase(); render();});
-function outLink(d){
-  if(d.url) return d.url;
-  const kw=encodeURIComponent(d.name);
-  if(d.platform==='bilibili') return 'https://search.bilibili.com/all?keyword='+kw;
-  if(d.platform==='youtube') return 'https://www.youtube.com/results?search_query='+kw;
-  return 'https://www.bing.com/search?q='+kw;
+$('cats').addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; state.cat = b.dataset.c;
+  var bs = $('cats').querySelectorAll('button'); for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('on', bs[i] === b); render(); });
+bindTabs('typeTabs', 't', 'type'); bindTabs('pfTabs', 'p', 'pf'); bindTabs('sortTabs', 's', 'sort'); bindTabs('markTabs', 'm', 'mark');
+$('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
+$('blockedBtn').addEventListener('click', function(){ state.showBlocked = !state.showBlocked; render(); });
+function onMarks(e){
+  var b = e.target.closest('.mk'); if (!b || !b.dataset.act) return;
+  var host = b.closest('.card') || b.closest('.rrow'); if (!host) return;
+  var idx = Array.prototype.indexOf.call(host.parentNode.children, host);
+  var d = lastList[idx]; if (!d) return;
+  var act = b.dataset.act;
+  setMark(d, getMark(d) === act ? '' : act);
 }
-function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function hue(s){let h=0;for(const c of (s||''))h=(h*31+c.charCodeAt(0))%360;return h}
-function fansFmt(n){if(n>=10000){const v=n/10000;return (v>=100?Math.round(v):v.toFixed(1).replace(/\.0$/,''))+'万'}return ''+n}
-function render(){
-  const list = DATA.filter(d=>
-    (state.cat==='全部'||d.category===state.cat)&&
-    (state.type==='all'||d.type===state.type)&&
-    (state.pf==='all'||d.platform===state.pf)&&
-    (!state.q||(d.name+' '+d.summary+' '+d.category).toLowerCase().includes(state.q)));
-  if(state.sort==='fans') list.sort((a,b)=>((b.fans||-1)-(a.fans||-1))||(b.mention_count-a.mention_count)||((b.last_mention||0)-(a.last_mention||0)));
-  else if(state.sort==='recent') list.sort((a,b)=>((b.last_mention||0)-(a.last_mention||0))||(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1)));
-  else list.sort((a,b)=>(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1))||((b.last_mention||0)-(a.last_mention||0)));
-  const grid=document.getElementById('grid');
-  document.getElementById('empty').hidden=list.length>0;
-  grid.innerHTML=list.map(d=>{
-    const src=(d.source_topics||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">《'+esc(s.title)+'》</a>'+(s.by?' · 首提 @'+esc(s.by):'')).join('；');
-    const h=hue(d.category);
-    const fb='<div class="ava fb" style="background:linear-gradient(135deg,hsl('+h+' 55% 55%),hsl('+((h+40)%360)+' 55% 42%))">'+esc((d.name||'').trim().charAt(0))+'</div>';
-    const ava='<div class="avaw">'+fb+(d.avatar?'<img class="ava im" src="'+esc(d.avatar)+'" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">':'')+'</div>';
-    return '<div class="card"><div class="head">'+ava+'<div class="tt"><h3><a href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+esc(d.name)+'</a></h3>'+
-    '<div class="badges"><span class="b pf'+(d.platform==='youtube'?' yt':'')+'">'+PFNAME[d.platform]+'</span><span class="b">'+esc(d.category)+'</span>'+
-    (d.fans?'<span class="b">'+fansFmt(d.fans)+' 粉丝</span>':'')+
-    (d.resolved_via==='bili_search_exact'?'<span class="b">主页·同名核对补全</span>':'')+
-    (d.resolved_via==='bili_fuzzy_scored'?'<span class="b">相似匹配·置信'+d.confidence+'/10</span>':'')+
-    (d.self_promo?'<span class="b promo">自荐</span>':'')+'</div></div></div>'+
-    '<p class="sum">'+esc(d.summary||'')+'</p>'+
-    '<a class="go" href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+(d.url?'直达主页/视频':'去'+PFNAME[d.platform]+'搜索')+' ↗</a>'+
-    '<div class="foot">被提及 '+d.mention_count+' 次'+(d.last_mention?' · 最近提及 '+fmtDate(d.last_mention):'')+' · 来源 V2EX：'+src+'</div></div>';
-  }).join('');
+$('grid').addEventListener('click', onMarks); $('rows').addEventListener('click', onMarks);
+
+function applyTheme(t){
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('ht-theme', t); } catch (e) {}
+  $('themeBtn').textContent = t === 'dark' ? '亮色' : '暗黑';
 }
+$('themeBtn').addEventListener('click', function(){ applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'); });
+$('themeBtn').textContent = document.documentElement.dataset.theme === 'dark' ? '亮色' : '暗黑';
+function applyView(v){ view = v; try { localStorage.setItem('ht-view', v); } catch (e) {} render(); }
+$('viewBtn').addEventListener('click', function(){ applyView(view === 'list' ? 'card' : 'list'); });
+
+function download(name, text, type){
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], { type: type || 'text/plain;charset=utf-8' }));
+  a.download = name; a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); }, 2000);
+}
+function csvCell(s){ s = (s == null ? '' : String(s)); return '"' + s.replace(/"/g, '""') + '"'; }
+$('expJson').addEventListener('click', function(){ download('hackertube-cn-data.json', JSON.stringify(DATA, null, 1), 'application/json'); });
+$('expCsv').addEventListener('click', function(){
+  var lines = ['name,platform,category,fans,mention_count,url,quote,summary'];
+  DATA.forEach(function(d){ lines.push([d.name, d.platform, d.category, d.fans == null ? '' : d.fans, d.mention_count, d.url || '', (d.quote || {}).text || '', d.summary || ''].map(csvCell).join(',')); });
+  download('hackertube-cn-data.csv', lines.join('\n'), 'text/csv');
+});
+$('expMarks').addEventListener('click', function(){ download('hackertube-cn-marks.json', JSON.stringify(marks, null, 1), 'application/json'); });
+$('impMarksBtn').addEventListener('click', function(){ $('impMarks').click(); });
+$('impMarks').addEventListener('change', function(e){
+  var f = e.target.files[0]; if (!f) return;
+  var r = new FileReader();
+  r.onload = function(){ try { var o = JSON.parse(r.result); if (o && typeof o === 'object') { marks = o; saveMarks(); render(); alert('标记已导入'); } } catch (err) { alert('导入失败：不是有效的标记文件'); } };
+  r.readAsText(f); e.target.value = '';
+});
+
+/* keyboard-first */
+function focusables(){ return view === 'list' ? $('rows').children : $('grid').children; }
+function setFocus(i){
+  var els = focusables(); if (!els.length) return;
+  focusIdx = Math.max(0, Math.min(i, els.length - 1));
+  for (var j = 0; j < els.length; j++) els[j].classList.toggle('focused', j === focusIdx);
+  els[focusIdx].scrollIntoView({ block: 'nearest' });
+}
+document.addEventListener('keydown', function(e){
+  if (!$('palWrap').hidden) return;
+  var tag = (e.target.tagName || '').toLowerCase();
+  if (tag === 'input' || tag === 'textarea') {
+    if (e.key === 'Escape') { e.target.value = ''; if (e.target.id === 'q') { state.q = ''; render(); } e.target.blur(); }
+    return;
+  }
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openPal(); return; }
+  if (e.key === 'j') { setFocus(focusIdx + 1); }
+  else if (e.key === 'k') { setFocus(focusIdx - 1); }
+  else if (e.key === 'Enter') { if (focusIdx >= 0 && lastList[focusIdx]) location.href = outLink(lastList[focusIdx]); }
+  else if (e.key === 'o') { if (focusIdx >= 0 && lastList[focusIdx]) window.open(outLink(lastList[focusIdx]), '_blank'); }
+  else if (e.key === '/') { e.preventDefault(); $('q').focus(); }
+  else if (e.key === 'Escape') { if (state.q) { state.q = ''; $('q').value = ''; render(); } }
+});
+
+/* command palette */
+var palItems = [], palIdx = 0;
+function palActions(){
+  var acts = [
+    { label: '切换暗黑/亮色', hint: '命令', run: function(){ $('themeBtn').click(); } },
+    { label: '切换卡片/列表视图', hint: '命令', run: function(){ $('viewBtn').click(); } },
+    { label: '导出数据 JSON', hint: '命令', run: function(){ $('expJson').click(); } },
+    { label: '导出数据 CSV', hint: '命令', run: function(){ $('expCsv').click(); } }
+  ];
+  Object.keys(cats).forEach(function(c){ acts.push({ label: '只看分类：' + c, hint: '分类 · ' + cats[c] + ' 条', run: function(){ state.cat = c;
+    var bs = $('cats').querySelectorAll('button'); for (var i = 0; i < bs.length; i++) bs[i].classList.toggle('on', bs[i].dataset.c === c); render(); } }); });
+  return acts;
+}
+function openPal(){ $('palWrap').hidden = false; $('palInput').value = ''; palRender(''); setTimeout(function(){ $('palInput').focus(); }, 10); }
+function closePal(){ $('palWrap').hidden = true; }
+function palRender(q){
+  q = (q || '').trim().toLowerCase();
+  var res = [];
+  DATA.forEach(function(d){ if (!q || (d.name + ' ' + d.category + ' ' + (d.summary || '')).toLowerCase().indexOf(q) >= 0) res.push({ label: d.name, hint: pfName(d.platform) + ' · ' + d.category + ' · 提及 ' + d.mention_count, run: function(){ window.open(outLink(d), '_blank'); } }); });
+  palActions().forEach(function(a){ if (!q || a.label.toLowerCase().indexOf(q) >= 0) res.push(a); });
+  palItems = res.slice(0, 9); palIdx = 0;
+  $('palList').innerHTML = palItems.map(function(it, i){ return '<div class="it' + (i === palIdx ? ' sel' : '') + '" data-i="' + i + '"><span>' + esc(it.label) + '</span><small>' + esc(it.hint || '') + '</small></div>'; }).join('') || '<div class="it"><span>没有匹配项</span></div>';
+}
+$('palBtn').addEventListener('click', openPal);
+$('palInput').addEventListener('input', function(e){ palRender(e.target.value); });
+$('palInput').addEventListener('keydown', function(e){
+  if (e.key === 'ArrowDown') { e.preventDefault(); palIdx = Math.min(palIdx + 1, palItems.length - 1); palRender($('palInput').value); palIdx = Math.min(palIdx, palItems.length - 1);
+    var els = $('palList').children; for (var i = 0; i < els.length; i++) els[i].classList.toggle('sel', i === palIdx); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); palIdx = Math.max(palIdx - 1, 0);
+    var els2 = $('palList').children; for (var j = 0; j < els2.length; j++) els2[j].classList.toggle('sel', j === palIdx); }
+  else if (e.key === 'Enter') { var it = palItems[palIdx]; if (it) { closePal(); it.run(); } }
+  else if (e.key === 'Escape') { closePal(); }
+});
+$('palList').addEventListener('click', function(e){ var el = e.target.closest('.it'); if (!el) return; var it = palItems[+el.dataset.i]; if (it) { closePal(); it.run(); } });
+$('palWrap').addEventListener('click', function(e){ if (e.target === $('palWrap')) closePal(); });
+
 render();
 </script>
 </body>
 </html>
 """
-html = HTML.replace("__DATA__", data_json)
-out = os.path.join(BASE, "site", "index.html")
-with open(out, "w", encoding="utf-8") as f:
+
+html = HTML.replace("__DATA__", data_json).replace("__NTOPICS__", str(NTOPICS)).replace("__NFLOORS__", format(NFLOORS, ","))
+with open(os.path.join(BASE, "site", "index.html"), "w", encoding="utf-8") as f:
     f.write(html)
 with open(os.path.join(BASE, "site", "data.json"), "w", encoding="utf-8") as f:
-    json.dump(items, f, ensure_ascii=False, indent=1)
-print("built", out, len(html), "bytes,", len(items), "items")
+    f.write(data_json)
+nq = sum(1 for i in items if i.get("quote"))
+nc = sum(1 for i in items if i.get("cover"))
+print(f"built site/index.html ({len(html)} bytes), site/data.json, site/feed.xml | quotes {nq}/{len(items)} covers {nc}/{len(items)}")
