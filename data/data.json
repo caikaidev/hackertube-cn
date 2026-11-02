@@ -1,78 +1,67 @@
 [
  {
   "type": "creator",
-  "platform": "bilibili",
-  "name": "罗永浩的十字路口",
-  "url": "https://space.bilibili.com/538596213",
-  "summary": "访谈风格适合做采访类节目，深具影响力。",
+  "platform": "other",
+  "name": "半拿铁",
+  "url": "",
+  "summary": "基本都是企业行业故事的，轻松随意便于放松。",
   "category": "其他",
-  "mention_count": 18,
+  "mention_count": 12,
   "self_promo": false,
   "sources": [
    {
     "source": "v2ex",
-    "topic_id": 1175341,
+    "topic_id": 1041601,
     "floors": [],
     "positive_floors": [
-     3,
-     10,
-     11,
-     50
+     24,
+     28
     ]
    },
    {
     "source": "v2ex",
-    "topic_id": 1175341,
-    "floors": [],
-    "positive_floors": [
-     56,
-     57,
-     78,
-     107
-    ]
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1175341,
-    "floors": [],
-    "positive_floors": [
-     114,
-     115,
-     126
-    ]
+    "topic_id": 1088094,
+    "floors": [
+     19
+    ],
+    "positive_floors": []
    },
    {
     "source": "v2ex",
     "topic_id": 1166095,
     "floors": [],
     "positive_floors": [
-     22,
-     49,
-     54
+     60,
+     82
     ]
    },
    {
     "source": "v2ex",
     "topic_id": 1185562,
     "floors": [
-     20
+     24
     ],
     "positive_floors": [
-     20
+     24
     ]
    },
    {
     "source": "v2ex",
     "topic_id": 1185562,
     "floors": [
-     76
+     66
+    ],
+    "positive_floors": []
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     66
     ],
     "positive_floors": []
    }
-  ],
-  "avatar": "https://i0.hdslb.com/bfs/face/be8407fc55e47132912b11efabffa54209d203c4.jpg@128w_128h_1c",
-  "fans": 1081478,
-  "resolved_via": "manual_verified"
+  ]
  },
  {
   "type": "creator",
@@ -119,9 +108,49 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/b9156496b6f7a934731143e57f7eb89a19ca0aff.jpg",
-  "fans": 82309
+  "fans": 82308,
+  "resolved_via": "source_url"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "忽左忽右",
+  "url": "",
+  "summary": "现在只爱听这三个贫嘴找乐子。",
+  "category": "其他",
+  "mention_count": 8,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1041601,
+    "floors": [],
+    "positive_floors": [
+     18,
+     28
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     4
+    ],
+    "positive_floors": [
+     43
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1166095,
+    "floors": [],
+    "positive_floors": [
+     60,
+     82
+    ]
+   }
+  ]
  },
  {
   "type": "creator",
@@ -129,7 +158,7 @@
   "name": "微小微",
   "url": "https://space.bilibili.com/6997378",
   "summary": "多个用户一致推荐，影响力提升。",
-  "category": "生活",
+  "category": "其他",
   "mention_count": 7,
   "self_promo": false,
   "sources": [
@@ -163,10 +192,11 @@
     "positive_floors": []
    }
   ],
-  "avatar": "http://i1.hdslb.com/bfs/face/4ab6c4d55dc2aff10f13748ab664392bce5174c3.jpg@128w_128h_1c",
-  "fans": 1004991,
-  "resolved_via": "manual_verified_renamed",
-  "aka": "仙女110"
+  "avatar": "http://i1.hdslb.com/bfs/face/4ab6c4d55dc2aff10f13748ab664392bce5174c3.jpg",
+  "fans": 1004989,
+  "aka": "仙女110",
+  "resolved_via": "source_url",
+  "cover": "https://i0.hdslb.com/bfs/space/6a1198e25f8764bd30d53411dac9fdf840bc3265.png"
  },
  {
   "type": "creator",
@@ -205,9 +235,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i0.hdslb.com/bfs/face/03c8076eb6391bd3e796643aca0e878babf8fb05.jpg",
-  "fans": 34870
+  "fans": 34870,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -242,7 +272,7 @@
   "name": "峰哥亡命天涯",
   "url": "https://space.bilibili.com/35847683",
   "summary": "访谈内容引人关注，值得一看。",
-  "category": "生活",
+  "category": "其他",
   "mention_count": 5,
   "self_promo": false,
   "sources": [
@@ -263,9 +293,57 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/ae439693d6fd79a55b1b5f935ed6474ae6fba35b.jpg",
-  "fans": 3282223
+  "fans": 3282492,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "无聊斋",
+  "url": "",
+  "summary": "刘旸教主的笑声太魔性，个人比较爱看这种贫嘴、玩梗的博客。",
+  "category": "其他",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1041601,
+    "floors": [],
+    "positive_floors": [
+     13,
+     14,
+     18
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "小鱼哥",
+  "url": "https://space.bilibili.com/598816",
+  "summary": "小鱼哥分析幽默且有趣，适合轻松学习财经知识。",
+  "category": "财经",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floors": [],
+    "positive_floors": [
+     10,
+     12,
+     11,
+     7
+    ]
+   }
+  ],
+  "avatar": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+  "fans": 10,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -317,9 +395,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i0.hdslb.com/bfs/face/d0403c0c2552818bb9b7e3e3516e87c412921bb2.jpg",
-  "fans": 1306929
+  "fans": 1306919,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -351,8 +429,8 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "http://i0.hdslb.com/bfs/face/member/noface.jpg",
+  "resolved_via": "source_url",
   "fans": 0
  },
  {
@@ -377,9 +455,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i1.hdslb.com/bfs/face/569499c4cbabfa3c5a5a672e7c02a07d59b64bd1.jpg",
-  "fans": 704440
+  "fans": 704440,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -413,9 +491,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/cb9ef82714507e6bda707dac216da94c97d70037.jpg",
-  "fans": 2834687
+  "fans": 2834690,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -447,9 +525,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/e922d9dc09a2d21f1400ad0f02f75ecf1b3575c8.jpg",
-  "fans": 14616104
+  "fans": 14616104,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -478,9 +556,106 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/99dcd2806b3c82bc771f58789609feb78a227d74.jpg",
-  "fans": 36430
+  "fans": 36430,
+  "resolved_via": "source_url"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "付鹏",
+  "url": "https://space.bilibili.com/3259455",
+  "summary": "作为首席经济学家，内容隐晦且深刻。",
+  "category": "财经",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floors": [],
+    "positive_floors": [
+     5,
+     34
+    ]
+   }
+  ],
+  "avatar": "https://static.hdslb.com/images/member/noface.gif",
+  "fans": 0,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "under the influence",
+  "url": "https://podcasts.apple.com/us/podcast/%E4%B8%8D%E6%98%8E%E7%99%BD%E6%92%AD%E5%AE%A2/id1625856906",
+  "summary": "讲 marketing 的播客，内容丰富，适合学习外语和了解西方社会发展。",
+  "category": "其他",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1088094,
+    "floors": [],
+    "positive_floors": [
+     6,
+     13,
+     18,
+     22
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "无人知晓",
+  "url": "",
+  "summary": "讲得好，值得一听的播客，受欢迎。",
+  "category": "其他",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1088094,
+    "floors": [],
+    "positive_floors": [
+     11
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     66
+    ],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "郭德纲",
+  "url": "",
+  "summary": "他的长篇评书包袱少，适合助眠",
+  "category": "其他",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     2
+    ],
+    "positive_floors": [
+     23
+    ]
+   }
+  ]
  },
  {
   "type": "creator",
@@ -542,6 +717,81 @@
  {
   "type": "creator",
   "platform": "other",
+  "name": "罗永浩的十字路口",
+  "url": "https://space.bilibili.com/538596213",
+  "summary": "节奏和话题把控得很好，值得反复听。",
+  "category": "其他",
+  "mention_count": 18,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1166095,
+    "floors": [],
+    "positive_floors": [
+     22,
+     49,
+     54
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     20
+    ],
+    "positive_floors": [
+     20
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1175341,
+    "floors": [],
+    "positive_floors": [
+     3,
+     10,
+     11,
+     50
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1175341,
+    "floors": [],
+    "positive_floors": [
+     56,
+     57,
+     78,
+     107
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1175341,
+    "floors": [],
+    "positive_floors": [
+     114,
+     115,
+     126
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
+    ],
+    "positive_floors": []
+   }
+  ],
+  "avatar": "https://i0.hdslb.com/bfs/face/be8407fc55e47132912b11efabffa54209d203c4.jpg@128w_128h_1c",
+  "fans": 1081478,
+  "resolved_via": "manual_verified"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
   "name": "声动早咖啡",
   "url": "",
   "summary": "适合通勤时听的节目，评价较好。",
@@ -592,10 +842,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/35f3c5de392fb02fc621e302b9ed0bcd3dedd9de.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/aabb00d3fa8b1526879ee5fc3875c5f543100aa2.jpg@128w_128h_1c",
-  "fans": 1814077
+  "fans": 1814077,
+  "cover": "https://i0.hdslb.com/bfs/space/35f3c5de392fb02fc621e302b9ed0bcd3dedd9de.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -618,10 +868,10 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/83bb511365da513c55aa3d1958524f3b7db40684.jpg@128w_128h_1c",
   "fans": 764422,
-  "cover": "https://i0.hdslb.com/bfs/space/265ecddc52d74e624dc38cf0cff13317085aedf7.png"
+  "cover": "https://i0.hdslb.com/bfs/space/265ecddc52d74e624dc38cf0cff13317085aedf7.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -644,9 +894,93 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
-  "fans": 18
+  "fans": 18,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "珍大户",
+  "url": "https://space.bilibili.com/355327690",
+  "summary": "讲解宏观经济学，适合对经济感兴趣的观众。",
+  "category": "财经",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floors": [],
+    "positive_floors": [
+     13,
+     17,
+     19
+    ]
+   }
+  ],
+  "avatar": "https://i2.hdslb.com/bfs/face/277c735fc07351baa73d6ac083ccddfd770a232a.jpg",
+  "fans": 1361225,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "史诗级韭菜",
+  "url": "https://space.bilibili.com/322005137",
+  "summary": "被推荐的财经博主，近期不建议入市。",
+  "category": "财经",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": []
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": [
+     11,
+     23
+    ]
+   }
+  ],
+  "avatar": "https://i2.hdslb.com/bfs/face/5a9e33bec2c768cc2d56d80f370f5a33faa8d5b0.webp@128w_128h_1c",
+  "fans": 375243,
+  "cover": "https://i0.hdslb.com/bfs/activity-plat/static/CXk9FblYeJ.png",
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "梁文道",
+  "url": "",
+  "summary": "他的《八分》被认为是经典催眠节目",
+  "category": "其他",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [],
+    "positive_floors": [
+     48
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     116
+    ],
+    "positive_floors": []
+   }
+  ]
  },
  {
   "type": "creator",
@@ -654,8 +988,8 @@
   "name": "老高与小茉",
   "url": "",
   "summary": "很多人提到这个频道，反响不一。",
-  "category": "影视",
-  "mention_count": 3,
+  "category": "其他",
+  "mention_count": 6,
   "self_promo": false,
   "sources": [
    {
@@ -666,6 +1000,15 @@
     ],
     "positive_floors": [
      16,
+     24
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1064781,
+    "floors": [],
+    "positive_floors": [
+     7,
      24
     ]
    },
@@ -781,53 +1124,6 @@
  },
  {
   "type": "creator",
-  "platform": "other",
-  "name": "半拿铁",
-  "url": "",
-  "summary": "经常听的播客之一",
-  "category": "其他",
-  "mention_count": 5,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1166095,
-    "floors": [],
-    "positive_floors": [
-     60,
-     82
-    ]
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     24
-    ],
-    "positive_floors": [
-     24
-    ]
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     66
-    ],
-    "positive_floors": []
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     66
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
   "platform": "bilibili",
   "name": "王老菊",
   "url": "https://space.bilibili.com/1946428780",
@@ -847,9 +1143,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/817c2a3ea3fa9a8350c0d622b00976145f868823.jpg@128w_128h_1c",
-  "fans": 939
+  "fans": 939,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -872,10 +1168,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/8e57216d2e53d1d4afcf0a897ab59bb053bbee1f.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c",
-  "fans": 18895391
+  "fans": 18895391,
+  "cover": "https://i0.hdslb.com/bfs/space/8e57216d2e53d1d4afcf0a897ab59bb053bbee1f.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -962,9 +1258,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/735a740232b89fc8f994202342f678e80d2dfa9b.jpg@128w_128h_1c",
-  "fans": 41601
+  "fans": 41601,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -986,9 +1282,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/66d18877c510381d9479d822fc4dfecb82c2efc3.jpg@128w_128h_1c",
-  "fans": 317571
+  "fans": 317571,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1011,9 +1307,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/524e7989aff12d16030107bd133b284d49e46905.jpg@128w_128h_1c",
-  "fans": 496619
+  "fans": 496619,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1036,9 +1332,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/c5da9ec1ee98f69068acb005a9063e3968f60fc6.jpg@128w_128h_1c",
-  "fans": 312334
+  "fans": 312334,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1061,10 +1357,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/1211e5d833fe750a62c98883791ccbe111e4cd3e.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/b6dad37ef0a68341b6e2f84de5e1f9ee02f8365e.jpg@128w_128h_1c",
-  "fans": 7097297
+  "fans": 7097297,
+  "cover": "https://i0.hdslb.com/bfs/space/1211e5d833fe750a62c98883791ccbe111e4cd3e.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1087,10 +1383,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/70ce28bcbcb4b7d0b4f644b6f082d63a702653c1.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/b830989d9b8af6001da511a8a95b0ea806c11b60.jpg@128w_128h_1c",
-  "fans": 3384086
+  "fans": 3384086,
+  "cover": "https://i0.hdslb.com/bfs/space/70ce28bcbcb4b7d0b4f644b6f082d63a702653c1.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1112,6 +1408,8 @@
     ]
    }
   ],
+  "avatar": "https://i2.hdslb.com/bfs/face/afe334d673fda9bd834923aa0a67f207120e5eee.jpg@128w_128h_1c",
+  "fans": 1849156,
   "cover": "https://i0.hdslb.com/bfs/space/c65e92b516460911f11b404950be1c9ff36eae51.png",
   "episode": {
    "url": "https://www.bilibili.com/video/BV1Q5411874P",
@@ -1121,9 +1419,7 @@
    "floor": 89,
    "by": "ZC3746"
   },
-  "resolved_via": "bili_search_exact",
-  "avatar": "https://i2.hdslb.com/bfs/face/afe334d673fda9bd834923aa0a67f207120e5eee.jpg@128w_128h_1c",
-  "fans": 1849156
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1145,9 +1441,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/75e7900298999ef755bde5509c256c39561892ef.jpg@128w_128h_1c",
-  "fans": 3344967
+  "fans": 3344967,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1169,10 +1465,10 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/709477a1337157e40dcf09f20d4ff39898e3dabf.jpg@128w_128h_1c",
   "fans": 229781,
-  "cover": "https://i0.hdslb.com/bfs/space/0055fac1524386114a4442a708f8d07c70ca50ff.png"
+  "cover": "https://i0.hdslb.com/bfs/space/0055fac1524386114a4442a708f8d07c70ca50ff.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1194,9 +1490,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/79d6dcaff782ab912e9940da9b94292bc5ddb30c.jpg@128w_128h_1c",
-  "fans": 1343064
+  "fans": 1343064,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1219,10 +1515,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/4c0d7e17b5f94cdf4a0e71346748c06f380bf5d3.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/5bc1308ef3ac8eed73ed98ad4770f960547688d3.jpg@128w_128h_1c",
-  "fans": 2628520
+  "fans": 2628520,
+  "cover": "https://i0.hdslb.com/bfs/space/4c0d7e17b5f94cdf4a0e71346748c06f380bf5d3.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1243,9 +1539,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
-  "fans": 86
+  "fans": 86,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1266,9 +1562,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/ab8eabf8337b624c5f8fcb082af32b74ffacddcc.jpg@128w_128h_1c",
-  "fans": 48046
+  "fans": 48046,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -1289,9 +1585,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/41067a1aed838c02fd4cd7236f73287f210ce696.jpg@128w_128h_1c",
-  "fans": 32187
+  "fans": 32187,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -1313,9 +1609,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/7da48f2ca095299093d5a33d19242f3628135f8e.jpg@128w_128h_1c",
-  "fans": 5293
+  "fans": 5293,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -1336,9 +1632,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/378e302faec33f1168246f917f11a0fd7577f9fa.jpg@128w_128h_1c",
-  "fans": 12875
+  "fans": 12875,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -1359,9 +1655,164 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i0.hdslb.com/bfs/face/2389c5476d2ae12a8e1c8e70e880ca107e99a594.jpg@128w_128h_1c",
-  "fans": 167414
+  "fans": 167414,
+  "resolved_via": "source_url"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "Veritasium",
+  "url": "",
+  "summary": "内容质量高，关注科学",
+  "category": "科普",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1064781,
+    "floors": [],
+    "positive_floors": [
+     20,
+     21
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "schelley",
+  "url": "https://www.youtube.com/@schelley",
+  "summary": "博主感觉不错，受到好评。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [],
+    "positive_floors": [
+     28
+    ]
+   }
+  ],
+  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lXbRJzyP2dD1htFBqsM0S5EKnbxPO1u3-4ZxUX9hmD3w=s176-c-k-c0x00ffffff-no-rj",
+  "resolved_via": "yt_channel_page",
+  "cover": "https://yt3.googleusercontent.com/pThx9cIA_Kx09n-A6n6OxnZ6E8SsYDC8TAfBMkUwK2t3v8BFjbevTHHEv3CT5ALrjB8eZkYwwJQ=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "grindsgears",
+  "url": "https://www.bilibili.com/video/BV1NRxKeDECL/?share_source=copy_web&vd_source=d143ad24fca0a45bd90a23c8f0dc6fec",
+  "summary": "金矿投资机会，内容实用而有深度。",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floors": [],
+    "positive_floors": [
+     19
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "南半球聊财经",
+  "url": "https://space.bilibili.com/517986781",
+  "summary": "财经内容多样，但可能不再更新。",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floors": [],
+    "positive_floors": [
+     21
+    ]
+   }
+  ],
+  "avatar": "https://i2.hdslb.com/bfs/face/7d625c8a5fb028a7f94c413b3d1590bb378370cd.jpg",
+  "fans": 894991,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "叶落初冬",
+  "url": "https://space.bilibili.com/439750728",
+  "summary": "他的节目讲解引起讨论",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     1
+    ],
+    "positive_floors": [
+     46
+    ]
+   }
+  ],
+  "avatar": "https://i1.hdslb.com/bfs/face/161b8970ba60368dab56e2fe42f5ad40060cd6ef.jpg",
+  "fans": 130,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "枫落白衣",
+  "url": "",
+  "summary": "历史爱好者，原创播讲《中国史话》等。",
+  "category": "历史人文",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [],
+    "positive_floors": [
+     93
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "听风的蚕",
+  "url": "https://space.bilibili.com/3546564563831207",
+  "summary": "适合晚上助眠的播客节目。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     71
+    ],
+    "positive_floors": []
+   }
+  ],
+  "avatar": "https://i0.hdslb.com/bfs/face/61a4bb385062abe013bbd08d749f6b91548551a3.jpg",
+  "fans": 1378310,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1383,9 +1834,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/a45d14d291e96d2c2bbd1a646adb039c69eaa6ba.jpg@128w_128h_1c",
-  "fans": 49
+  "fans": 49,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1478,6 +1929,24 @@
  },
  {
   "type": "creator",
+  "platform": "other",
+  "name": "于谦",
+  "url": "",
+  "summary": "当下众多播客中，众人关注于谦的播客",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1161892,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
   "platform": "bilibili",
   "name": "小 A 在上网",
   "url": "https://space.bilibili.com/3546587229849778",
@@ -1500,27 +1969,6 @@
   "avatar": "https://i0.hdslb.com/bfs/face/b496e9229ac889f7f398f69f46e8cf40c7d3c818.jpg",
   "fans": 635462,
   "resolved_via": "bili_search_exact"
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "忽左忽右",
-  "url": "",
-  "summary": "经常听的播客之一",
-  "category": "其他",
-  "mention_count": 2,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1166095,
-    "floors": [],
-    "positive_floors": [
-     60,
-     82
-    ]
-   }
-  ]
  },
  {
   "type": "creator",
@@ -1606,7 +2054,6 @@
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif",
-  "fans": 0,
   "resolved_via": "bili_search_exact"
  },
  {
@@ -1631,7 +2078,8 @@
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/5ad8dfbf8f2d23affcc4f8c8c12a8ad8f109bad0.jpg",
   "fans": 2133743,
-  "resolved_via": "bili_search_exact"
+  "resolved_via": "bili_search_exact",
+  "cover": "https://i0.hdslb.com/bfs/space/d8d5b948483db01ee615037c143104be10e63a36.png"
  },
  {
   "type": "creator",
@@ -1677,11 +2125,11 @@
     ]
    }
   ],
+  "avatar": "https://i0.hdslb.com/bfs/face/492d0bb71749332040f9d812954fa0b52e66c490.jpg@128w_128h_1c",
+  "fans": 13059324,
   "cover": "https://i0.hdslb.com/bfs/space/2a2a129c34a18b5bc2b6972a5b5f992e949070cc.jpg",
   "resolved_via": "bili_fuzzy_scored",
-  "confidence": 9.0,
-  "avatar": "https://i0.hdslb.com/bfs/face/492d0bb71749332040f9d812954fa0b52e66c490.jpg@128w_128h_1c",
-  "fans": 13059324
+  "confidence": 9.0
  },
  {
   "type": "creator",
@@ -1724,10 +2172,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/681490e6600ee52089320ed4e5bc6cae7771b4cb.jpg@128w_128h_1c",
-  "fans": 1528366
+  "fans": 1528366,
+  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1735,7 +2183,7 @@
   "name": "食贫道",
   "url": "https://space.bilibili.com/39627524",
   "summary": "被多次提到，值得关注。",
-  "category": "编程",
+  "category": "其他",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -1749,10 +2197,10 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/eef12b850c10b0d7a7929236abb08604955823c0.jpg@128w_128h_1c",
   "fans": 9741289,
-  "cover": "https://i0.hdslb.com/bfs/space/056e3d058d0deff958b0ac0b4e7fd3dfe108caa1.png"
+  "cover": "https://i0.hdslb.com/bfs/space/056e3d058d0deff958b0ac0b4e7fd3dfe108caa1.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1761,7 +2209,7 @@
   "url": "https://space.bilibili.com/398581197",
   "summary": "被多位用户提及，并且有正面评价。",
   "category": "生活",
-  "mention_count": 3,
+  "mention_count": 2,
   "self_promo": false,
   "sources": [
    {
@@ -1772,19 +2220,11 @@
      182,
      199
     ]
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1150933,
-    "floors": [
-     46
-    ],
-    "positive_floors": []
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png",
   "avatar": "https://i1.hdslb.com/bfs/face/6a6b4346d00f3881937c710dfd11c514d104004a.jpg",
-  "fans": 1004441
+  "fans": 1004441,
+  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png"
  },
  {
   "type": "creator",
@@ -1805,10 +2245,10 @@
     ]
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/e22f5b8e06ea3ee4de9e4da702ce8ef9a2958f5a.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/ec34c6f6de3b28bada6a62fcdce14f5f438c9cdb.jpg@128w_128h_1c",
-  "fans": 8435666
+  "fans": 8435666,
+  "cover": "https://i0.hdslb.com/bfs/space/e22f5b8e06ea3ee4de9e4da702ce8ef9a2958f5a.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -1922,31 +2362,6 @@
  {
   "type": "creator",
   "platform": "bilibili",
-  "name": "史诗级韭菜",
-  "url": "https://space.bilibili.com/322005137",
-  "summary": "被多个用户推荐，受到好评",
-  "category": "财经",
-  "mention_count": 2,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1205371,
-    "floors": [],
-    "positive_floors": [
-     11,
-     23
-    ]
-   }
-  ],
-  "cover": "https://i0.hdslb.com/bfs/activity-plat/static/CXk9FblYeJ.png",
-  "resolved_via": "bili_search_exact",
-  "avatar": "https://i2.hdslb.com/bfs/face/5a9e33bec2c768cc2d56d80f370f5a33faa8d5b0.webp@128w_128h_1c",
-  "fans": 375243
- },
- {
-  "type": "creator",
-  "platform": "bilibili",
   "name": "笨笨的韭菜",
   "url": "https://space.bilibili.com/11473291",
   "summary": "和史诗级韭菜一起被推荐，得到正面评价",
@@ -1964,9 +2379,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/f66dd4e51ce99d67107b92efcaa28878c2093b93.jpg@128w_128h_1c",
-  "fans": 291400
+  "fans": 291400,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2016,9 +2431,9 @@
     ]
    }
   ],
-  "resolved_via": "source_url",
   "avatar": "https://i2.hdslb.com/bfs/face/ca58a72682f108d42a94aba4c72022750f0096ad.jpg@128w_128h_1c",
-  "fans": 1049772
+  "fans": 1049772,
+  "resolved_via": "source_url"
  },
  {
   "type": "creator",
@@ -2037,9 +2452,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/6b2ade215ea603b495648875c925172a863d16d4.jpg@128w_128h_1c",
-  "fans": 6125939
+  "fans": 6125939,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2076,10 +2491,10 @@
     "positive_floors": []
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/7a02171b68c17d28c0992dd26a4acaea1b8b4141.jpg@128w_128h_1c",
-  "fans": 660307
+  "fans": 660307,
+  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2098,9 +2513,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/21d2a655e44aa4844c7353d138b33581f7aaa94f.jpg@128w_128h_1c",
-  "fans": 593848
+  "fans": 593848,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2119,9 +2534,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/b8a75ae7d2a0e2af1d36ca9f1084d850eebb28e3.jpg@128w_128h_1c",
-  "fans": 8081761
+  "fans": 8081761,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2140,9 +2555,357 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
-  "fans": 1
+  "fans": 1,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "张小珺商业访谈录",
+  "url": "",
+  "summary": "内容很不错，最近聊大模型很 Nice，博客节奏也很好。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1041601,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "午夜狂暴哈士奇",
+  "url": "https://space.bilibili.com/412888728",
+  "summary": "分享有趣的AI使用新思路",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1064007,
+    "floors": [
+     12
+    ],
+    "positive_floors": [
+     11
+    ]
+   }
+  ],
+  "avatar": "https://i0.hdslb.com/bfs/face/c175079c9493e3135d6386b3ac043b128481c6f9.jpg",
+  "fans": 193,
+  "resolved_via": "bili_search_exact"
+ },
+ {
+  "type": "creator",
+  "platform": "xiaohongshu",
+  "name": "火箭哥 Lewis",
+  "url": "https://www.xiaohongshu.com/user/profile/614ecd350000000002019976",
+  "summary": "前SpaceX高管，分享前沿科技信息",
+  "category": "科技数码",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1064007,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "Andreas Kling",
+  "url": "",
+  "summary": "从简单到复杂的系统级编程视频，非常适合入门。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [
+     8
+    ],
+    "positive_floors": [
+     9
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "Neal Wu",
+  "url": "https://www.youtube.com/@NealWuProgramming",
+  "summary": "值得关注的编程博主。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [],
+    "positive_floors": []
+   }
+  ],
+  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_m7172uJ37WImCpBBr5WG-zSa5EzKSpnGcNZnrlFu9FzDh2=s176-c-k-c0x00ffffff-no-rj",
+  "resolved_via": "yt_channel_page"
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "hello mayuko",
+  "url": "https://www.youtube.com/@hellomayuko",
+  "summary": "受欢迎的女程序员博主。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [],
+    "positive_floors": [
+     37
+    ]
+   }
+  ],
+  "avatar": "https://yt3.googleusercontent.com/gVqlo_VAO2aypAjCR6yk1ylFa3OW8BQ24yHiZNwz-W_6TPh2AZlGdwcAqlIabnnnRAT3y8KX=s176-c-k-c0x00ffffff-no-rj",
+  "resolved_via": "yt_channel_page",
+  "cover": "https://yt3.googleusercontent.com/IQhihZKbmY0AXUlwOTZ6DnmBc6-mkZGQUWPhsZC1Zk_mRL3zcnxPOP4D9SVt7IQ1JndEqXZiiXc=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "Fireship",
+  "url": "",
+  "summary": "程序员相关内容积极推荐。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "techlead",
+  "url": "",
+  "summary": "虽然近几年变化多端，但早期视频值得一看。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "paulwu",
+  "url": "",
+  "summary": "被认为有价值的基金博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     2
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "仓又加错-刘成岗",
+  "url": "",
+  "summary": "适合学习互联网投资的博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     2
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "管我财",
+  "url": "",
+  "summary": "适合捡垃圾与保守投资者的博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     2
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "黑色面包",
+  "url": "",
+  "summary": "推荐给喜欢美股的用户。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "坚信价值",
+  "url": "",
+  "summary": "适合学习基础知识的博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "爱理财的小羊",
+  "url": "",
+  "summary": "推荐的财经博主之一。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     10
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "峰哥亡命天涯",
+  "url": "https://space.bilibili.com/35847683",
+  "summary": "也是被推荐的财经博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     10
+    ]
+   }
+  ],
+  "avatar": "https://i2.hdslb.com/bfs/face/ae439693d6fd79a55b1b5f935ed6474ae6fba35b.jpg",
+  "fans": 3282223,
+  "resolved_via": "source_url"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "外部性",
+  "url": "",
+  "summary": "被常听的播客之一。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1080149,
+    "floors": [],
+    "positive_floors": [
+     13
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "那月有声",
+  "url": "https://space.bilibili.com/374703854",
+  "summary": "语速/节奏/音色适合睡觉，内容推荐故事汇。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floors": [
+     65
+    ],
+    "positive_floors": []
+   }
+  ],
+  "avatar": "https://i0.hdslb.com/bfs/face/734b555edd00f1409c606deafc32a0797983e548.jpg",
+  "fans": 359190,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2222,6 +2985,29 @@
  {
   "type": "creator",
   "platform": "bilibili",
+  "name": "阿星探店",
+  "url": "https://space.bilibili.com/398581197",
+  "summary": "不更新的原因不明。",
+  "category": "生活",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1150933,
+    "floors": [
+     46
+    ],
+    "positive_floors": []
+   }
+  ],
+  "avatar": "https://i1.hdslb.com/bfs/face/6a6b4346d00f3881937c710dfd11c514d104004a.jpg",
+  "fans": 1004441,
+  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
   "name": "步履不停的后天",
   "url": "https://space.bilibili.com/40606197",
   "summary": "视频质量很高的一个博主。",
@@ -2267,9 +3053,9 @@
   "type": "creator",
   "platform": "other",
   "name": "Little Chinese Everywhere",
-  "url": "https://www.youtube.com/@littlechineseeverywhere",
+  "url": "https://www.youtube.com/channel/UC60_AhMStd5h1u44z2qW4uA",
   "summary": "质量很高的内容，关于古丝绸之路的计划受到推荐。",
-  "category": "生活",
+  "category": "其他",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -2280,9 +3066,9 @@
     "positive_floors": []
    }
   ],
+  "avatar": "https://yt3.googleusercontent.com/ZOP-nd14maZaqHL6nlB22UMmR09GNraTzbxVmFdO0rKVv9FNz4SP6nQ4BM8rRMA4G415LN8EGlc=s176-c-k-c0x00ffffff-no-rj",
   "cover": "https://yt3.googleusercontent.com/7ZTBBN47ThFUHPPRVAzoLC6MvLuqosTLHcI4ma4Fi_VIFI2MZED2Tg4W-Y2Pf_42FH-EFrH3fg=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-  "resolved_via": "yt_channel_page",
-  "avatar": "https://yt3.googleusercontent.com/ZOP-nd14maZaqHL6nlB22UMmR09GNraTzbxVmFdO0rKVv9FNz4SP6nQ4BM8rRMA4G415LN8EGlc=s176-c-k-c0x00ffffff-no-rj"
+  "resolved_via": "yt_channel_page"
  },
  {
   "type": "creator",
@@ -2304,7 +3090,6 @@
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif",
-  "fans": 0,
   "resolved_via": "bili_search_exact"
  },
  {
@@ -2342,9 +3127,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
-  "fans": 5
+  "fans": 5,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2363,9 +3148,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/f9718665815750c1c835896b7d717d4a2167a3ef.jpg@128w_128h_1c",
-  "fans": 1044546
+  "fans": 1044546,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2409,7 +3194,7 @@
   "name": "飞碟说",
   "url": "https://space.bilibili.com/5581898",
   "summary": "受到多位用户提及，值得关注。",
-  "category": "编程",
+  "category": "其他",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -2420,10 +3205,10 @@
     "positive_floors": []
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i2.hdslb.com/bfs/face/4ac8e19a6bcfd648db4eb167ad1bafd13f959231.jpg@128w_128h_1c",
-  "fans": 1298867
+  "fans": 1298867,
+  "cover": "https://i0.hdslb.com/bfs/space/c919a9818172a8297f8b0597722f96504a1e1d88.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2442,10 +3227,10 @@
     "positive_floors": []
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/9ccc0447aebf0656809b339b41aa5b3705f27c47.png",
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/e03559195e5e5e10951437616d0fc9ee6bbeccce.jpg@128w_128h_1c",
-  "fans": 427306
+  "fans": 427306,
+  "cover": "https://i0.hdslb.com/bfs/space/9ccc0447aebf0656809b339b41aa5b3705f27c47.png",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2500,9 +3285,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/f26353bfba18d7dd3b9a8cf6a33fc59cc2da63a2.jpg@128w_128h_1c",
-  "fans": 44458
+  "fans": 44458,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2523,9 +3308,9 @@
     "positive_floors": []
    }
   ],
+  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nLxOCT7qrhIe50CgsatjLIkcALBlBA5b6phRdsYEH9MA=s176-c-k-c0x00ffffff-no-rj",
   "cover": "https://yt3.googleusercontent.com/xh8Hh9C6rfCQP2PH31RCwxbL2p92yYb1Pp1QoytmhXudsZTmFpdgzGL92P5jj1kcrNba4DOH=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-  "resolved_via": "yt_channel_page",
-  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nLxOCT7qrhIe50CgsatjLIkcALBlBA5b6phRdsYEH9MA=s176-c-k-c0x00ffffff-no-rj"
+  "resolved_via": "yt_channel_page"
  },
  {
   "type": "creator",
@@ -2533,7 +3318,7 @@
   "name": "灵茶山艾府",
   "url": "https://space.bilibili.com/206214",
   "summary": "讲算法的内容受到高度评价。",
-  "category": "编程",
+  "category": "其他",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -2546,9 +3331,9 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i0.hdslb.com/bfs/face/6d74d5d4d4460ba1acad394d31a39515871d8c67.jpg@128w_128h_1c",
-  "fans": 232745
+  "fans": 232745,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2679,26 +3464,6 @@
  {
   "type": "creator",
   "platform": "other",
-  "name": "无人知晓",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     66
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
   "name": "机核",
   "url": "",
   "summary": "游戏类、生活类播客",
@@ -2823,8 +3588,8 @@
     ]
    }
   ],
-  "resolved_via": "bili_search_exact",
-  "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c"
+  "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2883,9 +3648,9 @@
     "positive_floors": []
    }
   ],
-  "resolved_via": "bili_search_exact",
   "avatar": "https://i1.hdslb.com/bfs/face/9dfaaf10b479431d03f0464716c4f828a69cd284.jpg@128w_128h_1c",
-  "fans": 517
+  "fans": 517,
+  "resolved_via": "bili_search_exact"
  },
  {
   "type": "creator",
@@ -2926,9 +3691,9 @@
     "positive_floors": []
    }
   ],
+  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lipWfr05o_6CSvTmpo-bfMwaNqNrUUfIA8tpCYmvXrVA=s176-c-k-c0x00ffffff-no-rj",
   "cover": "https://yt3.googleusercontent.com/GCDRWAvEeo3WkuQlP4_aA3Bimw-nI0aLrphHnWOdflK0D9Mezokj2GtX8pbOmUd5_SFDMsRXY1w=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-  "resolved_via": "yt_channel_page",
-  "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lipWfr05o_6CSvTmpo-bfMwaNqNrUUfIA8tpCYmvXrVA=s176-c-k-c0x00ffffff-no-rj"
+  "resolved_via": "yt_channel_page"
  },
  {
   "type": "creator",
@@ -2949,9 +3714,9 @@
     "positive_floors": []
    }
   ],
+  "avatar": "https://yt3.googleusercontent.com/4n7lgk5U_hJYGKa8UVydgxYq08E9AGCaaDyazGfFhy7eIY3q1BagxhlCvm0MqQYhT1bvuTCNHec=s176-c-k-c0x00ffffff-no-rj",
   "cover": "https://yt3.googleusercontent.com/bcWbcfCGbJW5AArixSPCnBoSYSCvVEXjTvzjd9ZYCtvXIsi1Zp-5224XOjGFmOAJO_E2NHve=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
-  "resolved_via": "yt_channel_page",
-  "avatar": "https://yt3.googleusercontent.com/4n7lgk5U_hJYGKa8UVydgxYq08E9AGCaaDyazGfFhy7eIY3q1BagxhlCvm0MqQYhT1bvuTCNHec=s176-c-k-c0x00ffffff-no-rj"
+  "resolved_via": "yt_channel_page"
  },
  {
   "type": "creator",
@@ -4100,7 +4865,7 @@
   "url": "",
   "summary": "商业播客，楼主与名单楼两次推荐",
   "category": "财经",
-  "mention_count": 3,
+  "mention_count": 4,
   "self_promo": false,
   "sources": [
    {
@@ -4126,6 +4891,14 @@
      76
     ],
     "positive_floors": []
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
+    ],
+    "positive_floors": []
    }
   ]
  },
@@ -4136,7 +4909,7 @@
   "url": "",
   "summary": "播客名单楼集中推荐之一",
   "category": "科技数码",
-  "mention_count": 2,
+  "mention_count": 3,
   "self_promo": false,
   "sources": [
    {
@@ -4146,6 +4919,14 @@
     ],
     "positive_floors": [],
     "source": "v2ex"
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
+    ],
+    "positive_floors": []
    },
    {
     "source": "v2ex",

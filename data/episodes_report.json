@@ -38,6 +38,23 @@
   "match_via": null
  },
  {
+  "video": "bili:BV1NRxKeDECL",
+  "occurrences": [
+   {
+    "source": "v2ex",
+    "topic_id": 1076739,
+    "floor": 5,
+    "by": "grindsgears",
+    "text": "建议你看看我的视频\r\n [中国股市：被忽视的金矿，如何抓住财富机会？]  https://www.bilibili.com/video/BV1NRxKeDECL/?share_source=copy_web&vd_source=d143ad24fca0a45bd90a23c8f0dc6fec"
+   }
+  ],
+  "resolved": {
+   "error": "稿件不可见"
+  },
+  "matched_entry": null,
+  "match_via": null
+ },
+ {
   "video": "bili:BV1Q5411874P",
   "occurrences": [
    {
@@ -76,6 +93,23 @@
   "match_via": null
  },
  {
+  "video": "bili:BV1wD421V7Xz",
+  "occurrences": [
+   {
+    "source": "v2ex",
+    "topic_id": 1089081,
+    "floor": 74,
+    "by": "HuKing",
+    "text": "https://www.bilibili.com/video/BV1wD421V7Xz 张宇基础 30 讲"
+   }
+  ],
+  "resolved": {
+   "error": "稿件不可见"
+  },
+  "matched_entry": null,
+  "match_via": null
+ },
+ {
   "video": "bili:BV1wL4y1B7wN",
   "occurrences": [
    {
@@ -90,6 +124,25 @@
    "title": "破壳三周年，这个开源项目的故事竟然这么精彩| Benefit from Open Source",
    "author": "Koala聊开源",
    "mid": 489667127
+  },
+  "matched_entry": null,
+  "match_via": null
+ },
+ {
+  "video": "yt:3LPJfIKxwWc",
+  "occurrences": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floor": 14,
+    "by": "gary907478",
+    "text": "@zhandouji2023 \r\ncs50 哈佛 CS 公开课\r\nhttps://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science\r\n这个是对应的 ytb list\r\nhttps://www.youtube.com/watch?v=3LPJfIKxwWc&lis"
+   }
+  ],
+  "resolved": {
+   "title": "CS50x 2024 - Lecture 0 - Scratch",
+   "author": "CS50",
+   "mid": null
   },
   "matched_entry": null,
   "match_via": null
@@ -114,6 +167,25 @@
   "match_via": null
  },
  {
+  "video": "yt:IXBC85SGC0Q",
+  "occurrences": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floor": 17,
+    "by": "Vogan",
+    "text": "https://www.youtube.com/watch?v=IXBC85SGC0Q"
+   }
+  ],
+  "resolved": {
+   "title": "Without AI:  Linux kernel developer writes USB driver in just 3h for Apple Xserve front-panel!",
+   "author": "Bits inside by René Rebe",
+   "mid": null
+  },
+  "matched_entry": null,
+  "match_via": null
+ },
+ {
   "video": "yt:MW-ezf2RhVg",
   "occurrences": [
    {
@@ -127,6 +199,25 @@
   "resolved": {
    "title": "128. Manus决定出售前最后的访谈：啊，这奇幻的2025年漂流啊…",
    "author": "Zhang Xiaojun Podcast",
+   "mid": null
+  },
+  "matched_entry": null,
+  "match_via": null
+ },
+ {
+  "video": "yt:WjKQQAFwrR4",
+  "occurrences": [
+   {
+    "source": "v2ex",
+    "topic_id": 1066559,
+    "floor": 21,
+    "by": "nevermoreluo",
+    "text": "看你想要什么了，无聊了也可以当乐子人看  \nhttps://www.youtube.com/watch?v=WjKQQAFwrR4"
+   }
+  ],
+  "resolved": {
+   "title": "How Much Memory for 1,000,000 Threads in 7 Languages | Go, Rust, C#, Elixir, Java, Node, Python",
+   "author": "The PrimeTime",
    "mid": null
   },
   "matched_entry": null,
