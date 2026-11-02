@@ -142,7 +142,27 @@ HTML = r"""<!DOCTYPE html>
 <title>HackerTube CN — V2EX 网友筛选的视频与博主清单</title>
 <meta name="description" content="从 V2EX 高互动讨论中提取、经多人认可的视频与博主推荐，只做外链索引，不托管视频。">
 <link rel="alternate" type="application/rss+xml" title="HackerTube CN" href="feed.xml">
-<script>(function(){try{var t=localStorage.getItem('ht-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='light';}})();</script>
+<script>(function(){try{var t=localStorage.getItem('ht-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='light';}})();
+// Android: Bilibili's app does not claim space.bilibili.com web links (iOS universal
+// links do hand off), so try the app scheme first and fall back to the web page.
+document.addEventListener('click', function(e){
+  var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a || !/Android/i.test(navigator.userAgent || '')) return;
+  var m = a.href.match(/space\.bilibili\.com\/(\d+)/);
+  var v = a.href.match(/bilibili\.com\/video\/(BV[0-9A-Za-z]+)/);
+  if (!m && !v) return;
+  e.preventDefault();
+  var scheme = m ? 'bilibili://space/' + m[1] : 'bilibili://video/' + v[1];
+  var web = a.href, gone = false;
+  var onVis = function(){ if (document.hidden) gone = true; };
+  document.addEventListener('visibilitychange', onVis);
+  window.location.href = scheme;
+  setTimeout(function(){
+    document.removeEventListener('visibilitychange', onVis);
+    if (!gone && !document.hidden) window.location.href = web;
+  }, 1200);
+});
+</script>
 <style>
 :root{--bg:#faf7f2;--card:#fff;--ink:#1c1917;--mut:#78716c;--line:#e7e0d6;--acc:#ea580c;--acc2:#fff3e8;--bili:#0aa6c2;--yt:#e03131}
 [data-theme="dark"]{--bg:#141518;--card:#1d1f24;--ink:#e9e6e0;--mut:#9d968b;--line:#2e3038;--acc:#f0762b;--acc2:#33231a;--bili:#39bcd6;--yt:#ff6b6b}
