@@ -6,6 +6,8 @@
 - 纯外链：本站不托管、不嵌入任何视频，点卡片直接去 B 站 / YouTube 看原视频。
 - 无账号、无后端：一个静态页面 + 一份 JSON 数据。
 
+<p><img src="docs/screenshot-mobile.jpg" width="340" alt="HackerTube CN 移动端界面"></p>
+
 ## 站点功能
 
 - **网友原话优先**：卡片主文案是来源帖里网友的真实评价（带出处），不是机器生成的摘要；
