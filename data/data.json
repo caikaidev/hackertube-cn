@@ -1,11 +1,11 @@
 [
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "半拿铁",
   "url": "https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00",
   "summary": "基本都是企业行业故事的，轻松随意便于放松。",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 12,
   "self_promo": false,
   "sources": [
@@ -114,11 +114,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "忽左忽右",
   "url": "https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7",
   "summary": "现在只爱听这三个贫嘴找乐子。",
-  "category": "播客",
+  "category": "历史人文",
   "mention_count": 8,
   "self_promo": false,
   "sources": [
@@ -307,11 +307,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "无聊斋",
   "url": "https://www.xiaoyuzhoufm.com/podcast/5e280fac418a84a0461fb129",
   "summary": "刘旸教主的笑声太魔性，个人比较爱看这种贫嘴、玩梗的博客。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 5,
   "self_promo": false,
   "sources": [
@@ -355,11 +355,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "三个火呛手",
   "url": "https://www.xiaoyuzhoufm.com/podcast/642ea4a1f54371d8b2d75168",
   "summary": "多个用户推荐，受欢迎的节目。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 5,
   "self_promo": false,
   "sources": [
@@ -594,11 +594,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "under the influence",
   "url": "https://podcasts.apple.com/ca/podcast/under-the-influence-with-terry-oreilly/id493536367",
   "summary": "讲 marketing 的播客，内容丰富，适合学习外语和了解西方社会发展。",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
@@ -617,11 +617,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "无人知晓",
   "url": "https://www.xiaoyuzhoufm.com/podcast/611719d3cb0b82e1df0ad29e",
   "summary": "讲得好，值得一听的播客，受欢迎。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
@@ -645,11 +645,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "郭德纲",
   "url": "https://podcasts.apple.com/cn/podcast/郭论1-郭德纲品俗文化史/id1764275603",
   "summary": "他的长篇评书包袱少，适合助眠",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
@@ -724,11 +724,11 @@
  },
  {
   "type": "creator",
-  "platform": "bilibili",
+  "platform": "podcast",
   "name": "罗永浩的十字路口",
   "url": "https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88",
   "summary": "节奏和话题把控得很好，值得反复听。",
-  "category": "播客",
+  "category": "科技数码",
   "mention_count": 18,
   "self_promo": false,
   "sources": [
@@ -799,11 +799,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "声动早咖啡",
   "url": "https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3",
   "summary": "适合通勤时听的节目，评价较好。",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
@@ -964,11 +964,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "梁文道",
   "url": "https://podcasts.apple.com/co/podcast/八分半/id1751418168",
   "summary": "他的《八分》被认为是经典催眠节目",
-  "category": "播客",
+  "category": "历史人文",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
@@ -1805,7 +1805,7 @@
   "name": "听风的蚕",
   "url": "https://space.bilibili.com/3546564563831207",
   "summary": "适合晚上助眠的播客节目。",
-  "category": "播客",
+  "category": "历史人文",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -1877,7 +1877,7 @@
   "name": "老宋 CHANNEL",
   "url": "https://space.bilibili.com/15418765",
   "summary": "质量很高的旅行博主",
-  "category": "播客",
+  "category": "历史人文",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -1937,11 +1937,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "于谦",
   "url": "https://podcasts.apple.com/cn/podcast/谦道1-于谦首档音频脱口秀/id1764275418",
   "summary": "当下众多播客中，众人关注于谦的播客",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -1980,11 +1980,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "大内密谈",
   "url": "https://www.xiaoyuzhoufm.com/podcast/5e3bdf08418a84a046fb556c",
   "summary": "经常听的播客之一",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -2001,11 +2001,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "知行小酒馆",
   "url": "https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216",
   "summary": "被多位提及的播客",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -2247,11 +2247,11 @@
  },
  {
   "type": "creator",
-  "platform": "youtube",
+  "platform": "podcast",
   "name": "Joe Rogan Experience",
   "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272",
   "summary": "年度最佳播客，质量高，访谈优秀。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 3,
   "self_promo": false,
   "sources": [
@@ -2297,11 +2297,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "忽软忽硬",
   "url": "",
   "summary": "用户集体推荐，内容朴实。",
-  "category": "播客",
+  "category": "科技数码",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -2318,11 +2318,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "谐星聊天会",
   "url": "https://www.xiaoyuzhoufm.com/podcast/5e280fa7418a84a0461f912b",
   "summary": "更新太慢，但还是有意思",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -2556,11 +2556,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "张小珺商业访谈录",
   "url": "https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962",
   "summary": "内容很不错，最近聊大模型很 Nice，博客节奏也很好。",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 3,
   "self_promo": false,
   "sources": [
@@ -2872,7 +2872,7 @@
   "name": "那月有声",
   "url": "https://space.bilibili.com/374703854",
   "summary": "语速/节奏/音色适合睡觉，内容推荐故事汇。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -3318,11 +3318,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "面基",
   "url": "https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f",
   "summary": "推荐的播客之一，值得一听。",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 2,
   "self_promo": false,
   "sources": [
@@ -3366,11 +3366,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "《东吴相对论》",
   "url": "https://podcasts.apple.com/in/podcast/冬吴相对论/id825464000",
   "summary": "开车时适合随机播放",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -3403,11 +3403,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "《肥话连篇》",
   "url": "https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42",
   "summary": "夫妻档播客，比较轻松",
-  "category": "播客",
+  "category": "生活",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -3443,11 +3443,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "藏书票",
   "url": "https://www.xiaoyuzhoufm.com/podcast/618a37a685846474bcfe2ac0",
   "summary": "拉美文学相关",
-  "category": "播客",
+  "category": "历史人文",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -4820,11 +4820,11 @@
  },
  {
   "type": "creator",
-  "platform": "other",
+  "platform": "podcast",
   "name": "商业就是这样",
   "url": "https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101",
   "summary": "商业播客，楼主与名单楼两次推荐",
-  "category": "播客",
+  "category": "财经",
   "mention_count": 4,
   "self_promo": false,
   "sources": [
