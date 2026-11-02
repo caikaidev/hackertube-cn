@@ -19,6 +19,15 @@ from corpus import load_topics, source_of, topic_key
 
 BASE = os.path.join(os.path.dirname(__file__), "..")
 items = json.load(open(os.path.join(BASE, "data", "data.json"), encoding="utf-8"))
+
+# Platform label must match the direct-link destination (user rule, 2026-11-02):
+# if the entry links to Bilibili/YouTube, its platform tag follows the link.
+for _e in items:
+    _u = _e.get("url") or ""
+    if "bilibili.com" in _u:
+        _e["platform"] = "bilibili"
+    elif "youtube.com" in _u or "youtu.be" in _u:
+        _e["platform"] = "youtube"
 topics = load_topics()
 
 URL_RE = re.compile(r"https?://\S+")
@@ -343,7 +352,10 @@ function setMark(d, m){ var k = mkey(d); if (m) marks[k] = m; else delete marks[
 var cats = {}; DATA.forEach(function(d){ cats[d.category] = (cats[d.category] || 0) + 1; });
 $('stats').innerHTML = '<span><b class="mono">' + DATA.length + '</b> 条收录</span><span><b class="mono">__NTOPICS__</b> 个来源帖</span><span><b class="mono">__NFLOORS__</b> 个楼层</span>';
 var catHtml = '<button class="chip on" data-c="all">全部 <span class="n">' + DATA.length + '</span></button>';
-Object.keys(cats).sort(function(a, b){ return cats[b] - cats[a]; }).forEach(function(c){ catHtml += '<button class="chip" data-c="' + esc(c) + '">' + esc(c) + ' <span class="n">' + cats[c] + '</span></button>'; });
+var catOrder = Object.keys(cats).filter(function(c){ return c !== '播客' && c !== '其他'; }).sort(function(a, b){ return cats[b] - cats[a]; });
+if (cats['播客']) catOrder.push('播客');
+if (cats['其他']) catOrder.push('其他');
+catOrder.forEach(function(c){ catHtml += '<button class="chip" data-c="' + esc(c) + '">' + esc(c) + ' <span class="n">' + cats[c] + '</span></button>'; });
 $('cats').innerHTML = catHtml;
 if (!DATA.some(function(d){ return d.type === 'video'; })) $('videoTab').style.display = 'none';
 
