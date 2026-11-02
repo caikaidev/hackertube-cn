@@ -1,0 +1,2537 @@
+[
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "软件工艺师",
+  "url": "https://space.bilibili.com/361469957",
+  "summary": "广受好评的琦玉老师，分享多种编程技术。",
+  "category": "编程",
+  "mention_count": 9,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     2,
+     32,
+     53
+    ]
+   },
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     83
+    ]
+   },
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     0
+    ],
+    "positive_floors": [
+     179
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "微小微",
+  "url": "",
+  "summary": "传递积极向上的内容，令人感动。",
+  "category": "生活",
+  "mention_count": 7,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 326698,
+    "floors": [
+     1,
+     5,
+     6,
+     14
+    ],
+    "positive_floors": [
+     16,
+     40,
+     51
+    ]
+   },
+   {
+    "topic_id": 326698,
+    "floors": [],
+    "positive_floors": [
+     68
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "Links",
+  "url": "",
+  "summary": "分享生活类视频内容。",
+  "category": "生活",
+  "mention_count": 7,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     18,
+     32,
+     35
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [
+     95,
+     182,
+     190
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     125
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=7 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "当下",
+  "url": "",
+  "summary": "推荐优质博主",
+  "category": "其他",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1171199,
+    "floors": [
+     25
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [
+     248
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     5,
+     60,
+     61
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=5 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "蜀犬吠日",
+  "url": "",
+  "summary": "节目质量高，很多楼层提到。",
+  "category": "其他",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     138,
+     159,
+     163
+    ]
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     241,
+     251
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "野食小哥",
+  "url": "",
+  "summary": "多人表示视频好看，有吸引力。",
+  "category": "生活",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [
+     3,
+     20,
+     23
+    ],
+    "positive_floors": [
+     19,
+     21,
+     22,
+     25
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "瞎看什么",
+  "url": "http://space.bilibili.com/34858100",
+  "summary": "推荐良心 UP 主",
+  "category": "影视",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [
+     13,
+     44,
+     55,
+     70
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     125
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=5 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "稚嫩的魔法师",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "编程",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     12,
+     125,
+     258
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 326698,
+    "floors": [
+     29
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     114
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=5 pos=False"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "酒酿 Lily 王",
+  "url": "",
+  "summary": "受多个用户推荐，优质内容。",
+  "category": "其他",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     8
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "zhucegeqiu",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 5,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     58,
+     90,
+     112,
+     144,
+     192
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=5 pos=False"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "李沐",
+  "url": "https://space.bilibili.com/1567748478",
+  "summary": "推荐认真搞技术的 UP 主",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [
+     25,
+     80,
+     81,
+     135
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=4 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "稚晖君",
+  "url": "",
+  "summary": "技术UP该有的样子，值得关注",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     5,
+     24
+    ],
+    "positive_floors": [
+     9
+    ]
+   },
+   {
+    "topic_id": 723217,
+    "floors": [
+     114
+    ],
+    "positive_floors": [
+     116
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "女菩萨",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     27,
+     40,
+     66,
+     105
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=4 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "木鱼水心",
+  "url": "",
+  "summary": "受到多个用户推荐，内容引人入胜。",
+  "category": "影视",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     72,
+     104
+    ]
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     120
+    ],
+    "positive_floors": [
+     125
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "硬核课堂",
+  "url": "https://space.bilibili.com/1324259795",
+  "summary": "论文、系统设计，教学视频质量高",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     0
+    ],
+    "positive_floors": [
+     185
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "无穷小亮",
+  "url": "",
+  "summary": "推荐喜欢的 UP 主",
+  "category": "科普",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     165
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     60,
+     94,
+     137
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=4 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "码农高天",
+  "url": "https://space.bilibili.com/245645656",
+  "summary": "推荐喜欢的 UP 主",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     186
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     35,
+     55,
+     58
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=4 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "codesheep",
+  "url": "",
+  "summary": "推荐干货内容，关注量大",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     1,
+     6
+    ],
+    "positive_floors": [
+     40
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "CodingStartup",
+  "url": "https://space.bilibili.com/451368848",
+  "summary": "推荐编程博主",
+  "category": "编程",
+  "mention_count": 4,
+  "self_promo": true,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     5,
+     55,
+     90
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     45
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=4 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "老高与小茉",
+  "url": "",
+  "summary": "很多人提到这个频道，反响不一。",
+  "category": "影视",
+  "mention_count": 4,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     9
+    ],
+    "positive_floors": [
+     16,
+     24
+    ]
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "老王",
+  "url": "",
+  "summary": "推荐各类高质量博主",
+  "category": "其他",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     11
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1205371,
+    "floors": [
+     41,
+     103
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "王老菊",
+  "url": "",
+  "summary": "游戏实况催眠，经典老番，帮助入睡。",
+  "category": "游戏",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     4,
+     9,
+     55
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "尚硅谷",
+  "url": "",
+  "summary": "最适合普通程序员学技术。",
+  "category": "编程",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [],
+    "positive_floors": [
+     65,
+     80,
+     84
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "柴知道",
+  "url": "",
+  "summary": "提供全面的科技与财经分析。",
+  "category": "科技数码",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     23,
+     63
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     96
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "回形针",
+  "url": "",
+  "summary": "分享科技类知识和内容。",
+  "category": "科技数码",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     53,
+     185,
+     230
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "寒食君",
+  "url": "https://space.bilibili.com/1578320",
+  "summary": "推荐编程博主",
+  "category": "编程",
+  "mention_count": 3,
+  "self_promo": true,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     27,
+     58
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     87
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "纯纯甘",
+  "url": "",
+  "summary": "推荐值得看的 UP 主",
+  "category": "其他",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     70,
+     97,
+     158
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "绿导师",
+  "url": "https://space.bilibili.com/202224425",
+  "summary": "推荐认真搞技术的 UP 主",
+  "category": "科技数码",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [
+     133,
+     140,
+     141
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "影视飓风",
+  "url": "",
+  "summary": "影视飓风被多位用户推荐，显示出其受欢迎程度。",
+  "category": "影视",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     180,
+     189,
+     190
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "杨旭游记",
+  "url": "https://space.bilibili.com/4564101/",
+  "summary": "多位用户推荐，内容受到好评。",
+  "category": "生活",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     40
+    ],
+    "positive_floors": [
+     50
+    ]
+   },
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "SCFR",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     38,
+     159,
+     241
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "芳斯塔芙",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     38,
+     262
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     125
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "极速拍档",
+  "url": "",
+  "summary": "分享生活类内容与娱乐。",
+  "category": "生活",
+  "mention_count": 3,
+  "self_promo": true,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     205,
+     247
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     138
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "淘沙博士",
+  "url": "",
+  "summary": "分享财经和投资知识。",
+  "category": "财经",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     19,
+     23,
+     41
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "遇见狂神说",
+  "url": "",
+  "summary": "讲解技术内容，风格独特。",
+  "category": "编程",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [],
+    "positive_floors": [
+     85,
+     88,
+     93
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "李永乐老师",
+  "url": "",
+  "summary": "受欢迎的技术解说类博主。",
+  "category": "科普",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     12,
+     13,
+     33
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "TESTV",
+  "url": "http://space.bilibili.com/21815801",
+  "summary": "拍广告比拍正片专业的不恰饭测评",
+  "category": "科技数码",
+  "mention_count": 3,
+  "self_promo": true,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     247
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 326698,
+    "floors": [
+     13,
+     27
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "峰哥亡命天涯",
+  "url": "http://b23.tv/Vn5HeYP",
+  "summary": "访谈内容引人关注，值得一看。",
+  "category": "生活",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     56,
+     59,
+     60
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "奇乐编程学院",
+  "url": "https://space.bilibili.com/372313671",
+  "summary": "推荐编程博主",
+  "category": "其他",
+  "mention_count": 3,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     24,
+     69
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     11
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=3 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "毕导",
+  "url": "",
+  "summary": "生活中的科研课题，内容高质量。",
+  "category": "科技数码",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     244
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "幼麟",
+  "url": "https://space.bilibili.com/567195437",
+  "summary": "推荐主的内容受到认可。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     41
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "小 A",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     78,
+     161
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "落拓",
+  "url": "",
+  "summary": "推荐编程博主",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     15,
+     78
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "食贫道",
+  "url": "",
+  "summary": "被多次提到，值得关注。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     113,
+     165
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "靳卫萍",
+  "url": "",
+  "summary": "每周更新宏观策略，受到用户关注",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "韩顺平",
+  "url": "",
+  "summary": "视频讲的确实不错",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     113
+    ],
+    "positive_floors": [
+     115
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "冷淡熊",
+  "url": "",
+  "summary": "个别用户认为内容经典，值得观看。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     60,
+     89
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "盗月社",
+  "url": "",
+  "summary": "近期视频效果不错。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     129
+    ],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "谭玉刚",
+  "url": "https://space.bilibili.com/41036636",
+  "summary": "硬核的操作系统知识分享。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     53
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "张汉东",
+  "url": "https://space.bilibili.com/24917186",
+  "summary": "推荐人数较多，值得关注。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     12,
+     13
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "何同学",
+  "url": "",
+  "summary": "分享科技与创意领域内容。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     1,
+     8
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "蓝战非",
+  "url": "",
+  "summary": "优质频道，我也在看",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     34
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [
+     115
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "极客湾",
+  "url": "",
+  "summary": "还不如极客湾活多",
+  "category": "科技数码",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     63
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     12
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "孙富贵",
+  "url": "",
+  "summary": "被低估的宝藏 UP",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     55
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1205371,
+    "floors": [
+     71
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "敖厂长",
+  "url": "",
+  "summary": "推荐良心 UP 主",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [
+     4,
+     20
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "谷阿莫",
+  "url": "",
+  "summary": "推荐良心 UP 主",
+  "category": "游戏",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [
+     20,
+     35
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "谜之声",
+  "url": "",
+  "summary": "推荐良心 UP 主",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [
+     24,
+     30
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "落拓呀",
+  "url": "",
+  "summary": "推荐编程博主",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     15,
+     78
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "阿星探店",
+  "url": "",
+  "summary": "被多位用户提及，并且有正面评价。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     182,
+     199
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "Go 夜读",
+  "url": "",
+  "summary": "学习Golang的好手。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [],
+    "positive_floors": [
+     81,
+     107
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "导演小策",
+  "url": "",
+  "summary": "推荐人众多，共同认可其作品质量。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     60,
+     104
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "而立计划",
+  "url": "",
+  "summary": "被多个用户认为值得关注。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     60,
+     110
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "探钓者序",
+  "url": "",
+  "summary": "分享个人兴趣和生活日常。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     36,
+     165
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "三宋在这",
+  "url": "",
+  "summary": "三宋在这（温馨有趣的小两口儿）",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": true,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     247
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 840328,
+    "floors": [
+     118
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "硬核空间",
+  "url": "",
+  "summary": "推荐编程博主",
+  "category": "科技数码",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     36,
+     81
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "史诗级韭菜",
+  "url": "",
+  "summary": "被多个用户推荐，受到好评",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": [
+     11,
+     23
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "笨笨的韭菜",
+  "url": "",
+  "summary": "和史诗级韭菜一起被推荐，得到正面评价",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": [
+     22,
+     23
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "不老的老回",
+  "url": "",
+  "summary": "多位用户推荐，内容受到好评。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     4
+    ],
+    "positive_floors": [
+     12
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "阿斗归来了",
+  "url": "",
+  "summary": "多位用户推荐，内容受到好评。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     32
+    ],
+    "positive_floors": [
+     31
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "虫哥说电影",
+  "url": "",
+  "summary": "多位用户推荐，内容受到好评。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     32
+    ],
+    "positive_floors": [
+     31
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "正月点灯笼",
+  "url": "https://space.bilibili.com/24014925",
+  "summary": "讲算法相关的视频，通俗易懂",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     156
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "车祸警示录",
+  "url": "",
+  "summary": "分享交通安全和事故警示。",
+  "category": "科普",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     38,
+     262
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "田野上的繁荣",
+  "url": "",
+  "summary": "在生活区推荐中重复提及，质量受肯定。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": [
+     60,
+     104
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "STN 工作室",
+  "url": "",
+  "summary": "每周四晚准时更新。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [
+     119
+    ],
+    "positive_floors": [
+     141
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "自说自话的总裁",
+  "url": "",
+  "summary": "分享个人观察与见解。",
+  "category": "历史人文",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     9,
+     14
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "摩的司机徐师傅",
+  "url": "",
+  "summary": "分享日常出行与经历。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     38,
+     262
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "1900 影剧室",
+  "url": "",
+  "summary": "讨论电影与电视相关内容。",
+  "category": "影视",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     59,
+     178
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "javidx9",
+  "url": "",
+  "summary": "油管上javidx9的视频挺优质",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [
+     24
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 893469,
+    "floors": [
+     134
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "莫烦 Python",
+  "url": "",
+  "summary": "Python 学习视频很棒。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 723217,
+    "floors": [],
+    "positive_floors": [
+     73,
+     101
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "喜欢历史的程序君",
+  "url": "https://space.bilibili.com/39222989",
+  "summary": "主要讲解 Rust 相关内容。",
+  "category": "编程",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 893469,
+    "floors": [],
+    "positive_floors": [
+     83
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "两颗太阳 Show",
+  "url": "",
+  "summary": "分享有趣且多样化的内容。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     38,
+     166
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "脑总 MrBrain",
+  "url": "",
+  "summary": "观点独到，受到正面评价",
+  "category": "财经",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": [
+     46,
+     50
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "赖导 AboutLai",
+  "url": "",
+  "summary": "旅行视频里的 top1，拍摄手法和内容均佳。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     10,
+     38
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "liangguan5",
+  "url": "",
+  "summary": "在B站备受认可的UP主，正面评价集中。",
+  "category": "其他",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [],
+    "positive_floors": [
+     63,
+     68
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "Little Chinese Everywhere",
+  "url": "https://www.youtube.com/@littlechineseeverywhere",
+  "summary": "用英语讲解的旅行视频，很有趣。",
+  "category": "生活",
+  "mention_count": 2,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [
+     31
+    ],
+    "positive_floors": []
+   },
+   {
+    "topic_id": 1176867,
+    "floors": [
+     109
+    ],
+    "positive_floors": []
+   }
+  ],
+  "via_sweep": "users=2 pos=True"
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "E 大",
+  "url": "",
+  "summary": "财经领域值得关注的博主。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     62
+    ],
+    "positive_floors": [
+     62
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "林亦",
+  "url": "",
+  "summary": "视频内容丰富。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "vox",
+  "url": "",
+  "summary": "英文博主，推荐高质量内容。",
+  "category": "科技数码",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "董明珠",
+  "url": "",
+  "summary": "受到多位用户提及，值得关注。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "飞碟说",
+  "url": "",
+  "summary": "受到多位用户提及，值得关注。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "齐俊杰",
+  "url": "",
+  "summary": "他的知识星球让人受益匪浅。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     61
+    ],
+    "positive_floors": [
+     61
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "手工耿",
+  "url": "",
+  "summary": "手工创意视频非常吸引人。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "中队长",
+  "url": "",
+  "summary": "讲电影的，挺好看。",
+  "category": "影视",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "知识噪音",
+  "url": "",
+  "summary": "最近值得推荐，优质内容。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "四季萌芽",
+  "url": "",
+  "summary": "受到多位用户提及，值得关注。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "维森来了",
+  "url": "",
+  "summary": "声音好听，视频很平静，受人喜爱。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "老周横眉",
+  "url": "",
+  "summary": "受到点评，值得关注。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "猫铁咖啡",
+  "url": "",
+  "summary": "提供启发性内容，受欢迎。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "巫师财经",
+  "url": "",
+  "summary": "对明星等选题分析很有见地。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     70
+    ],
+    "positive_floors": [
+     70
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "土味角虫",
+  "url": "",
+  "summary": "视频十分搞笑。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "小黑屋的貘",
+  "url": "",
+  "summary": "认真讲诡异故事，用户好评。",
+  "category": "生活",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "小约翰可汗",
+  "url": "",
+  "summary": "多位用户提及，值得关注。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "灵茶山艾府",
+  "url": "",
+  "summary": "讲算法的内容受到高度评价。",
+  "category": "编程",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     175
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "Johnny",
+  "url": "https://www.youtube.com/@Johnny_vlog",
+  "summary": "被推荐，并附带了原链接。",
+  "category": "生活",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [
+     217
+    ],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "视野环球财经",
+  "url": "",
+  "summary": "具有很高的流量和内容质量。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     79
+    ],
+    "positive_floors": [
+     79
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "沉默的螺旋上",
+  "url": "",
+  "summary": "交易员，建议关注。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "cbvivi",
+  "url": "http://space.bilibili.com/34858100",
+  "summary": "电影区视频内容丰富，受用户推荐。",
+  "category": "影视",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 326698,
+    "floors": [],
+    "positive_floors": [
+     70
+    ]
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "电影最 top",
+  "url": "",
+  "summary": "电影解读不错。 ",
+  "category": "影视",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "方猫 BOOM",
+  "url": "",
+  "summary": "风格独特的博主。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 840328,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "林芷伊 kiwi",
+  "url": "",
+  "summary": "超绝建模，备受推崇。",
+  "category": "其他",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "bilibili",
+  "name": "姜汁+CLS 同学",
+  "url": "",
+  "summary": "视频内容不错，值得关注。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "polymatter",
+  "url": "",
+  "summary": "英文博主，推荐高质量内容。",
+  "category": "科技数码",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "youtube",
+  "name": "bloomberg origin",
+  "url": "",
+  "summary": "英文博主，推荐高质量内容。",
+  "category": "财经",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1094836,
+    "floors": [],
+    "positive_floors": []
+   }
+  ]
+ },
+ {
+  "type": "creator",
+  "platform": "other",
+  "name": "小宇宙播客：硅谷 101、科技早知道",
+  "url": "",
+  "summary": "提供有趣的科技内容。",
+  "category": "科技数码",
+  "mention_count": 1,
+  "self_promo": false,
+  "sources": [
+   {
+    "topic_id": 1205371,
+    "floors": [
+     76
+    ],
+    "positive_floors": [
+     76
+    ]
+   }
+  ]
+ }
+]
