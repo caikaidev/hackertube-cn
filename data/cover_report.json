@@ -1,16 +1,16 @@
 {
  "stats": {
-  "card_api": 9,
-  "search_exact": 13,
+  "card_api": 7,
+  "search_exact": 9,
   "search_multi": 0,
-  "yt": 3,
+  "yt": 6,
   "no_match": 15,
-  "name_mismatch_on_url": 1,
+  "name_mismatch_on_url": 2,
   "errors": 0
  },
  "entries": [
   {
-   "name": "罗永浩",
+   "name": "半拿铁",
    "platform": "other",
    "outcome": "skipped"
   },
@@ -20,9 +20,15 @@
    "outcome": "card_api"
   },
   {
+   "name": "忽左忽右",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
    "name": "微小微",
    "platform": "bilibili",
-   "outcome": "no_exact_match"
+   "outcome": "card_api",
+   "note": "card name differs: 仙女110"
   },
   {
    "name": "杨旭游记",
@@ -38,7 +44,19 @@
   {
    "name": "峰哥亡命天涯",
    "platform": "bilibili",
-   "outcome": "card_api"
+   "outcome": "search_exact_backfilled",
+   "mid": "35847683"
+  },
+  {
+   "name": "无聊斋",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "小鱼哥",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "598816"
   },
   {
    "name": "三个火呛手",
@@ -68,12 +86,33 @@
   {
    "name": "木鱼水心",
    "platform": "bilibili",
-   "outcome": "card_api"
+   "outcome": "card_api_failed"
   },
   {
    "name": "硬核课堂",
    "platform": "bilibili",
-   "outcome": "card_api"
+   "outcome": "card_api_failed"
+  },
+  {
+   "name": "付鹏",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3259455"
+  },
+  {
+   "name": "under the influence",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "无人知晓",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "郭德纲",
+   "platform": "other",
+   "outcome": "skipped"
   },
   {
    "name": "字节篝火",
@@ -111,6 +150,22 @@
    "outcome": "card_api_failed"
   },
   {
+   "name": "珍大户",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "355327690"
+  },
+  {
+   "name": "史诗级韭菜",
+   "platform": "bilibili",
+   "outcome": "card_api_failed"
+  },
+  {
+   "name": "梁文道",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
    "name": "老高与小茉",
    "platform": "youtube",
    "outcome": "skipped"
@@ -118,8 +173,7 @@
   {
    "name": "小鹿 Lawrence",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "37029661"
+   "outcome": "card_api_failed"
   },
   {
    "name": "阿程",
@@ -133,11 +187,6 @@
   },
   {
    "name": "科技乱炖",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "半拿铁",
    "platform": "other",
    "outcome": "skipped"
   },
@@ -252,6 +301,44 @@
    "outcome": "card_api_failed"
   },
   {
+   "name": "Veritasium",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "schelley",
+   "platform": "youtube",
+   "outcome": "yt_avatar"
+  },
+  {
+   "name": "grindsgears",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
+   "name": "南半球聊财经",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "517986781"
+  },
+  {
+   "name": "叶落初冬",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "439750728"
+  },
+  {
+   "name": "枫落白衣",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "听风的蚕",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "3546564563831207"
+  },
+  {
    "name": "极客湾",
    "platform": "youtube",
    "outcome": "yt_no_avatar_found"
@@ -259,20 +346,17 @@
   {
    "name": "赖导",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "4918712"
+   "outcome": "card_api_failed"
   },
   {
    "name": "老宋 CHANNEL",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "15418765"
+   "outcome": "card_api_failed"
   },
   {
    "name": "小钟",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "177323"
+   "outcome": "card_api_failed"
   },
   {
    "name": "鲁豫",
@@ -280,15 +364,14 @@
    "outcome": "skipped"
   },
   {
-   "name": "小 A 在上网",
-   "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "3546587229849778"
-  },
-  {
-   "name": "忽左忽右",
+   "name": "于谦",
    "platform": "other",
    "outcome": "skipped"
+  },
+  {
+   "name": "小 A 在上网",
+   "platform": "bilibili",
+   "outcome": "card_api_failed"
   },
   {
    "name": "大内密谈",
@@ -308,20 +391,17 @@
   {
    "name": "老张啊",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "3493281040174002"
+   "outcome": "card_api_failed"
   },
   {
    "name": "绝命墨菲",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "8049684"
+   "outcome": "card_api_failed"
   },
   {
    "name": "小片片说大片",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "10119428"
+   "outcome": "card_api_failed"
   },
   {
    "name": "何同学",
@@ -379,11 +459,6 @@
    "outcome": "skipped"
   },
   {
-   "name": "史诗级韭菜",
-   "platform": "bilibili",
-   "outcome": "card_api_failed"
-  },
-  {
    "name": "笨笨的韭菜",
    "platform": "bilibili",
    "outcome": "card_api_failed"
@@ -429,6 +504,93 @@
    "outcome": "card_api_failed"
   },
   {
+   "name": "张小珺商业访谈录",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "午夜狂暴哈士奇",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "412888728"
+  },
+  {
+   "name": "火箭哥 Lewis",
+   "platform": "xiaohongshu",
+   "outcome": "skipped"
+  },
+  {
+   "name": "Andreas Kling",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "Neal Wu",
+   "platform": "youtube",
+   "outcome": "yt_avatar"
+  },
+  {
+   "name": "hello mayuko",
+   "platform": "youtube",
+   "outcome": "yt_avatar"
+  },
+  {
+   "name": "Fireship",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "techlead",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "paulwu",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "仓又加错-刘成岗",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "管我财",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "黑色面包",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "坚信价值",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "爱理财的小羊",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "峰哥亡命天涯",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "外部性",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "那月有声",
+   "platform": "bilibili",
+   "outcome": "search_exact_backfilled",
+   "mid": "374703854"
+  },
+  {
    "name": "polymatter",
    "platform": "youtube",
    "outcome": "skipped"
@@ -446,26 +608,22 @@
   {
    "name": "talkai",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "1507942085"
+   "outcome": "card_api_failed"
   },
   {
    "name": "阿星探店",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "398581197"
+   "outcome": "card_api_failed"
   },
   {
    "name": "步履不停的后天",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "40606197"
+   "outcome": "card_api_failed"
   },
   {
    "name": "朱志文",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "32748613"
+   "outcome": "card_api_failed"
   },
   {
    "name": "Little Chinese Everywhere",
@@ -473,15 +631,9 @@
    "outcome": "skipped"
   },
   {
-   "name": "乔·罗根 Joe Rogan",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
    "name": "牛总",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "3493130896673752"
+   "outcome": "card_api_failed"
   },
   {
    "name": "知识噪音",
@@ -570,21 +722,6 @@
   },
   {
    "name": "《肥话连篇》",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "无人知晓",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "半拿铁|商业沉浮录",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "半拿铁·周刊",
    "platform": "other",
    "outcome": "skipped"
   },
@@ -852,59 +989,9 @@
    "name": "摸鱼早报",
    "platform": "other",
    "outcome": "skipped"
-  },
-  {
-   "name": "面基",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "摸鱼早报",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "商业就是这样",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "十字路口 Crossing",
-   "platform": "other",
-   "outcome": "skipped"
   }
  ],
  "fuzzy_pass": [
-  {
-   "name": "微小微",
-   "best": {
-    "mid": "353298291",
-    "uname": "我不是微小微",
-    "fans": 22414,
-    "score": 6.0,
-    "detail": {
-     "name": 5.0,
-     "fans": 0.0,
-     "corroboration": 1.0,
-     "rank": 0.0,
-     "handle": 0.0
-    }
-   },
-   "runner_up": {
-    "mid": "3546870448130150",
-    "uname": "小微小微你好呀",
-    "fans": 9,
-    "score": 6.0,
-    "detail": {
-     "name": 5.0,
-     "fans": 0.0,
-     "corroboration": 1.0,
-     "rank": 0.0,
-     "handle": 0.0
-    }
-   },
-   "accepted": false
-  },
   {
    "name": "野食小哥",
    "best": {
@@ -940,7 +1027,7 @@
    "best": {
     "mid": "1497330079",
     "uname": "OK哥环球探海记",
-    "fans": 3012227,
+    "fans": 3012259,
     "score": 7.5,
     "detail": {
      "name": 5.0,
@@ -970,7 +1057,7 @@
    "best": {
     "mid": "363653563",
     "uname": "药学生阿程",
-    "fans": 22933,
+    "fans": 22934,
     "score": 6.0,
     "detail": {
      "name": 5.0,
@@ -1000,7 +1087,7 @@
    "best": {
     "mid": "694866933",
     "uname": "陶三丰逐梦之旅",
-    "fans": 263073,
+    "fans": 263065,
     "score": 6.5,
     "detail": {
      "name": 5.0,
@@ -1027,6 +1114,12 @@
   },
   {
    "name": "liangguan5",
+   "best": null,
+   "runner_up": null,
+   "accepted": false
+  },
+  {
+   "name": "grindsgears",
    "best": null,
    "runner_up": null,
    "accepted": false
@@ -1109,7 +1202,7 @@
    "runner_up": {
     "mid": "1039025435",
     "uname": "战国时代_姜汁汽水",
-    "fans": 833141,
+    "fans": 833168,
     "score": 1.5,
     "detail": {
      "name": 0.0,
@@ -1126,7 +1219,7 @@
    "best": {
     "mid": "32360194",
     "uname": "当下频道",
-    "fans": 447722,
+    "fans": 447720,
     "score": 7.5,
     "detail": {
      "name": 5.0,
