@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""Fetch seed V2EX topics + all replies via public API v1. Saves raw JSON per topic."""
+import json, time, urllib.request, urllib.error, os, sys
+
+TOPIC_IDS = [723217, 893469, 840328, 1094836, 1176867, 1205371, 1171199, 326698]
+OUT = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
+os.makedirs(OUT, exist_ok=True)
+UA = {"User-Agent": "Mozilla/5.0 (HackerTubeCN-MVP research)"}
+
+def get(url, tries=4):
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except Exception as e:
+            print(f"  retry {i+1} {url}: {e}", flush=True)
+            time.sleep(2 * (i + 1))
+    return None
+
+for tid in TOPIC_IDS:
+    path = os.path.join(OUT, f"topic_{tid}.json")
+    if os.path.exists(path):
+        print(f"{tid}: cached, skip", flush=True)
+        continue
+    topic = get(f"https://www.v2ex.com/api/topics/show.json?id={tid}")
+    if not topic:
+        print(f"{tid}: TOPIC FETCH FAILED", flush=True)
+        continue
+    topic = topic[0]
+    replies, seen = [], set()
+    for page in range(1, 12):
+        batch = get(f"https://www.v2ex.com/api/replies/show.json?topic_id={tid}&page={page}&page_size=100")
+        if not batch:
+            break
+        new = [r for r in batch if r["id"] not in seen]
+        for r in new:
+            seen.add(r["id"])
+        replies.extend(new)
+        print(f"  {tid} page {page}: +{len(new)} (total {len(replies)}/{topic.get('replies')})", flush=True)
+        if len(new) == 0 or len(replies) >= (topic.get("replies") or 0):
+            break
+        time.sleep(1)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"topic": topic, "replies": replies}, f, ensure_ascii=False)
+    print(f"{tid}: saved {len(replies)} replies, title={topic.get('title')!r}", flush=True)
+    time.sleep(1)
+print("DONE")
