@@ -143,21 +143,6 @@ HTML = r"""<!DOCTYPE html>
 [data-theme="dark"]{--bg:#141518;--card:#1d1f24;--ink:#e9e6e0;--mut:#9d968b;--line:#2e3038;--acc:#f0762b;--acc2:#33231a;--bili:#39bcd6;--yt:#ff6b6b}
 *{box-sizing:border-box}[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
-@media (max-width:640px){
-header h1{font-size:21px}header p{display:none}
-.hbtn{padding:5px 8px;font-size:12px}.hbtns{padding-top:2px}
-.stats{gap:8px;font-size:12px;margin-top:8px;flex-wrap:nowrap;white-space:nowrap;overflow:hidden}
-.stats b{font-size:14px}
-.wrap{padding:16px 12px 48px}
-.controls{position:static;padding:10px 0 4px}
-.search{padding:9px 12px;font-size:14px}
-.controls .row{flex-wrap:nowrap;overflow-x:auto;margin-top:8px;padding-bottom:2px;scrollbar-width:none}
-.controls .row::-webkit-scrollbar{display:none}
-.chip{flex:none;padding:4px 10px;font-size:12px}
-.tabs{flex:none}.tabs button{padding:4px 10px;font-size:12px}
-.sortnote{display:none}
-.card{padding:13px}.coverwrap{height:84px}
-}
 .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 .wrap{max-width:1080px;margin:0 auto;padding:28px 16px 60px}
 header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
@@ -225,6 +210,21 @@ footer a{color:var(--mut)}
 .pal .it{padding:9px 15px;font-size:14px;cursor:pointer;display:flex;justify-content:space-between;gap:10px;color:var(--ink)}
 .pal .it small{color:var(--mut)}
 .pal .it.sel{background:var(--acc2)}
+@media (max-width:640px){
+header h1{font-size:19px;white-space:nowrap}header p{display:none}
+.hbtn{padding:4px 7px;font-size:11px}.hbtns{padding-top:1px;gap:5px}
+.stats{gap:6px;font-size:11px;margin-top:7px;flex-wrap:nowrap;white-space:nowrap;overflow:hidden}
+.stats b{font-size:13px}
+.wrap{padding:14px 12px 48px}
+.controls{position:static;padding:10px 0 4px}
+.search{padding:9px 12px;font-size:14px}
+.controls .row{flex-wrap:nowrap;overflow-x:auto;margin-top:8px;padding-bottom:2px;scrollbar-width:none}
+.controls .row::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:4px 10px;font-size:12px}
+.tabs{flex:none}.tabs button{padding:4px 10px;font-size:12px}
+.sortnote{display:none}
+.card{padding:13px}.coverwrap{height:84px}
+}
 </style>
 </head>
 <body>
