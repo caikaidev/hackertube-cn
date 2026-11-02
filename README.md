@@ -6,6 +6,25 @@
 - 纯外链：本站不托管、不嵌入任何视频，点卡片直接去 B 站 / YouTube 看原视频。
 - 无账号、无后端：一个静态页面 + 一份 JSON 数据。
 
+## 站点功能
+
+- **网友原话优先**：卡片主文案是来源帖里网友的真实评价（带出处），不是机器生成的摘要；
+- 搜索 / 分类 / 平台 / 排序（提及次数 › 粉丝数 › 最近提及）、卡片与高密度列表双视图；
+- 暗黑模式（默认跟随系统）、键盘导航（`j`/`k`/`Enter`/`/`）、`Cmd/Ctrl+K` 命令面板；
+- 本地收藏 / 稍后再看 / 屏蔽（只存浏览器 localStorage）、JSON/CSV 导出、RSS（`site/feed.xml`）；
+- 个别条目带「网友提到的单集」：帖子里出现的视频链接，经平台接口核对作者后才挂到对应博主名下（审计见 `data/episodes_report.json`）。
+
+## 快速开始
+
+```bash
+# 1) 看成品：浏览器直接打开 site/index.html，或访问线上站点
+# 2) 改数据后重建站点（零依赖，Python 3 即可）：
+python3 pipeline/build_site.py   # 产出 site/index.html / site/data.json / site/feed.xml
+# 3) 跑完整管线（抓取 → 解析 → 提取 → 富化 → 建站）：见下方「数据是怎么来的」与 架构.md
+```
+
+注意：原话摘录与首提/最近提及时间在构建时从本地语料（`data/parsed/`）计算，该语料是 V2EX 原文全文、**不随仓库分发**（见 .gitignore）；克隆仓库后直接重建，这两项会缺失，其余功能不受影响，线上成品以 `site/` 中已构建的版本为准。
+
 ## 数据是怎么来的
 
 1. **种子帖**：V2EX 上「有哪些值得关注的 XX 博主 / UP 主」类高互动帖子。
@@ -19,9 +38,9 @@
 5. **头像与主页补全**（`pipeline/fetch_covers.py`，审计记录在 `data/cover_report.json`）：
    - 头像、粉丝数取自平台公开接口（B 站 card 接口 / 搜索接口、YouTube 频道页），图片仍在平台 CDN，本站只存链接；
    - 原文没给主页链接的 B 站博主，只在平台搜索结果中存在**精确同名**账号时才补全主页链接，并打上 `resolved_via: bili_search_exact` 标记供核对；对不上的一律不补（宁可空缺）。
-   - 精确同名也对不上的，走置信度评分兜底（`pipeline/fetch_covers_fuzzy.py`）：名字相似度、粉丝量级、签名/视频标题佐证、搜索排名多信号打分（满分 10），**>8 分**才补全，标记 `resolved_via: bili_fuzzy_scored` 并把分数写进数据的 `confidence` 字段，页面上以「相似匹配·置信 X/10」徽章明示。
+   - 精确同名也对不上的，走置信度评分兜底（`pipeline/fetch_covers_fuzzy.py`）：名字相似度、粉丝量级、签名/视频标题佐证、搜索排名多信号打分（满分 10），**>8 分**才补全，标记 `resolved_via: bili_fuzzy_scored` 并把分数写进数据的 `confidence` 字段（校验细节只留在数据里供审计，页面不展示）。
 
-管线代码在 `pipeline/`，方案细节见 `MVP方案-v0.2.md`，每轮提取的审计记录见 `样本报告-v1.md` / `样本报告-v2.md`。
+管线代码在 `pipeline/`，方案细节见 `MVP方案-v0.2.md`，整体分层与新增数据源的方法见 `架构.md`，每轮提取的审计记录见 `样本报告-v1.md` / `样本报告-v2.md`。
 
 ## 收录口径
 
@@ -37,9 +56,10 @@
 ## 目录
 
 ```
-site/       静态站点（index.html 内嵌数据，data.json 为同份副本）
-data/       data.json（正式数据） / excluded_politics.json（时政排除名单）
-pipeline/   抓取 → 解析 → 提取 → 合并 → 建站脚本
+site/       静态站点（index.html 内嵌数据，data.json 为同份副本，feed.xml 为 RSS）
+data/       data.json（正式数据） / excluded_politics.json（时政排除名单） / 各轮审计报告
+pipeline/   sources/ 数据源适配器（v2ex 已接入）+ corpus.py 统一语料层
+            + 抓取 → 解析 → 提取 → 富化 → 建站脚本（全部源无关，见 架构.md）
 ```
 
 本地预览：直接用浏览器打开 `site/index.html` 即可。

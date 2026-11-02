@@ -257,6 +257,21 @@ function rowHTML(d){
     + '<div class="meta"><span>' + pfName(d.platform) + '</span><span>' + esc(d.category) + '</span>'
     + (d.fans != null ? '<span class="mono">' + fansFmt(d.fans) + ' 粉</span>' : '') + markBtns(d) + '</div></div>';
 }
+var nodeCache = {};
+function cachedNode(kind, d, html){
+  var k = kind + ':' + mkey(d);
+  var n = nodeCache[k];
+  if (!n) {
+    var t = document.createElement('template');
+    t.innerHTML = html.trim();
+    n = t.content.firstChild;
+    nodeCache[k] = n;
+  }
+  var mk = getMark(d);
+  var btns = n.querySelectorAll('.mk');
+  for (var i = 0; i < btns.length; i++) btns[i].classList.toggle('on', btns[i].dataset.act === mk);
+  return n;
+}
 function render(){
   lastList = currentList(); focusIdx = -1;
   var blockedN = DATA.filter(function(d){ return getMark(d) === 'blocked'; }).length;
@@ -264,10 +279,10 @@ function render(){
   if (blockedN) { bb.hidden = false; bb.textContent = state.showBlocked ? '隐藏屏蔽（' + blockedN + '）' : '已屏蔽 ' + blockedN + ' 条 · 显示'; } else bb.hidden = true;
   if (view === 'list') {
     $('grid').hidden = true; $('rows').hidden = false;
-    $('rows').innerHTML = lastList.map(rowHTML).join('');
+    $('rows').replaceChildren.apply($('rows'), lastList.map(function(d){ return cachedNode('r', d, rowHTML(d)); }));
   } else {
     $('rows').hidden = true; $('grid').hidden = false;
-    $('grid').innerHTML = lastList.map(cardHTML).join('');
+    $('grid').replaceChildren.apply($('grid'), lastList.map(function(d){ return cachedNode('c', d, cardHTML(d)); }));
   }
   $('empty').hidden = lastList.length > 0;
   $('viewBtn').textContent = view === 'list' ? '卡片' : '列表';
