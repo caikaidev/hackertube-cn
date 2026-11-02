@@ -54,6 +54,18 @@ def main(ids):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
+    # Multi-source entry point: --source <name> (default v2ex). This script is
+    # the V2EX fetcher; other sources plug in via pipeline/sources/ adapters.
+    if "--source" in args:
+        i = args.index("--source")
+        src = args[i + 1] if i + 1 < len(args) else ""
+        del args[i:i + 2]
+        if src != "v2ex":
+            sys.path.insert(0, os.path.dirname(__file__))
+            from sources import SOURCES
+            if src in SOURCES:
+                raise SystemExit(f"source {src!r}: use its adapter in pipeline/sources/ to fetch")
+            raise SystemExit(f"unknown source {src!r}; available: {', '.join(sorted(SOURCES))}")
     if args and args[0] == "--from-discovery":
         d = json.load(open(os.path.join(BASE, args[1]), encoding="utf-8"))
         main([c["topic_id"] for c in d["kept"]])

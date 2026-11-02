@@ -16,19 +16,22 @@
      2,
      32,
      53
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [],
     "positive_floors": [
      83
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
@@ -37,7 +40,8 @@
     ],
     "positive_floors": [
      179
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/b9156496b6f7a934731143e57f7eb89a19ca0aff.jpg@128w_128h_1c",
@@ -57,7 +61,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 326698,
@@ -71,14 +76,16 @@
      16,
      40,
      51
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 326698,
     "floors": [],
     "positive_floors": [
      68
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -99,7 +106,8 @@
      32,
      35
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
@@ -108,14 +116,16 @@
      182,
      190
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      125
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=7 pos=True",
@@ -139,7 +149,8 @@
     "floors": [],
     "positive_floors": [
      8
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/d0403c0c2552818bb9b7e3e3516e87c412921bb2.jpg@128w_128h_1c",
@@ -163,7 +174,8 @@
      138,
      159,
      163
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
@@ -171,7 +183,8 @@
     "positive_floors": [
      241,
      251
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/member/noface.jpg@128w_128h_1c",
@@ -200,7 +213,8 @@
      21,
      22,
      25
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -219,14 +233,16 @@
     "floors": [
      25
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
     "floors": [
      248
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
@@ -235,7 +251,8 @@
      60,
      61
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=5 pos=True"
@@ -258,14 +275,16 @@
      55,
      70
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      125
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=5 pos=True",
@@ -290,21 +309,24 @@
      125,
      258
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 326698,
     "floors": [
      29
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      114
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=5 pos=False",
@@ -332,7 +354,8 @@
      144,
      192
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=5 pos=False"
@@ -355,7 +378,8 @@
     ],
     "positive_floors": [
      40
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/569499c4cbabfa3c5a5a672e7c02a07d59b64bd1.jpg@128w_128h_1c",
@@ -380,7 +404,8 @@
     ],
     "positive_floors": [
      9
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 723217,
@@ -389,7 +414,8 @@
     ],
     "positive_floors": [
      116
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/cb9ef82714507e6bda707dac216da94c97d70037.jpg@128w_128h_1c",
@@ -412,7 +438,8 @@
     "positive_floors": [
      72,
      104
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
@@ -421,7 +448,8 @@
     ],
     "positive_floors": [
      125
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/e922d9dc09a2d21f1400ad0f02f75ecf1b3575c8.jpg@128w_128h_1c",
@@ -441,7 +469,8 @@
    {
     "topic_id": 893469,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
@@ -450,7 +479,8 @@
     ],
     "positive_floors": [
      185
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/99dcd2806b3c82bc771f58789609feb78a227d74.jpg@128w_128h_1c",
@@ -475,7 +505,8 @@
      81,
      135
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=4 pos=True",
@@ -501,7 +532,8 @@
      66,
      105
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=4 pos=True",
@@ -524,7 +556,8 @@
     "floors": [
      165
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
@@ -533,7 +566,8 @@
      94,
      137
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=4 pos=True",
@@ -556,7 +590,8 @@
     "floors": [
      186
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
@@ -565,7 +600,8 @@
      55,
      58
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=4 pos=True",
@@ -590,14 +626,16 @@
      55,
      90
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [
      45
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=4 pos=True",
@@ -623,12 +661,14 @@
     "positive_floors": [
      16,
      24
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -649,7 +689,8 @@
      4,
      9,
      55
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/817c2a3ea3fa9a8350c0d622b00976145f868823.jpg@128w_128h_1c",
@@ -673,7 +714,8 @@
      180,
      189,
      190
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg@128w_128h_1c",
@@ -698,7 +740,8 @@
      9,
      10,
      21
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -719,7 +762,8 @@
      14,
      18,
      30
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -740,7 +784,8 @@
      65,
      80,
      84
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/aabb00d3fa8b1526879ee5fc3875c5f543100aa2.jpg@128w_128h_1c",
@@ -765,7 +810,8 @@
      85,
      88,
      93
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/83bb511365da513c55aa3d1958524f3b7db40684.jpg@128w_128h_1c",
@@ -789,12 +835,14 @@
     ],
     "positive_floors": [
      50
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/03c8076eb6391bd3e796643aca0e878babf8fb05.jpg@128w_128h_1c",
@@ -818,7 +866,8 @@
      56,
      59,
      60
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/ae439693d6fd79a55b1b5f935ed6474ae6fba35b.jpg@128w_128h_1c",
@@ -842,7 +891,8 @@
      12,
      13,
      33
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
@@ -864,7 +914,8 @@
     "floors": [
      11
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1205371,
@@ -872,7 +923,8 @@
      41,
      103
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -896,14 +948,16 @@
      23,
      63
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      96
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -929,7 +983,8 @@
      185,
      230
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -953,14 +1008,16 @@
      27,
      58
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [
      87
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -985,7 +1042,8 @@
      97,
      158
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1010,7 +1068,8 @@
      140,
      141
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1035,7 +1094,8 @@
      159,
      241
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1059,14 +1119,16 @@
      38,
      262
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      125
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1091,14 +1153,16 @@
      205,
      247
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      138
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1124,7 +1188,8 @@
      23,
      41
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1147,7 +1212,8 @@
     "floors": [
      247
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 326698,
@@ -1155,7 +1221,8 @@
      13,
      27
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True"
@@ -1176,14 +1243,16 @@
      24,
      69
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [
      11
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=3 pos=True",
@@ -1207,7 +1276,8 @@
     "positive_floors": [
      10,
      38
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/681490e6600ee52089320ed4e5bc6cae7771b4cb.jpg@128w_128h_1c",
@@ -1231,7 +1301,8 @@
     "positive_floors": [
      113,
      165
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/eef12b850c10b0d7a7929236abb08604955823c0.jpg@128w_128h_1c",
@@ -1254,7 +1325,8 @@
     "positive_floors": [
      182,
      199
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1273,7 +1345,8 @@
     "floors": [],
     "positive_floors": [
      244
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/ec34c6f6de3b28bada6a62fcdce14f5f438c9cdb.jpg@128w_128h_1c",
@@ -1297,7 +1370,8 @@
     "positive_floors": [
      17,
      11
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1317,7 +1391,8 @@
     "positive_floors": [
      5,
      49
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1337,7 +1412,8 @@
     "positive_floors": [
      4,
      22
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1357,7 +1433,8 @@
     "positive_floors": [
      40,
      41
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1376,7 +1453,8 @@
     "floors": [],
     "positive_floors": [
      67
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1393,7 +1471,8 @@
    {
     "topic_id": 1205371,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -1413,7 +1492,8 @@
     "positive_floors": [
      11,
      23
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/5a9e33bec2c768cc2d56d80f370f5a33faa8d5b0.webp@128w_128h_1c",
@@ -1437,7 +1517,8 @@
     "positive_floors": [
      22,
      23
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/f66dd4e51ce99d67107b92efcaa28878c2093b93.jpg@128w_128h_1c",
@@ -1460,7 +1541,8 @@
     "positive_floors": [
      46,
      50
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "episode": {
@@ -1487,7 +1569,8 @@
     "positive_floors": [
      63,
      68
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -1507,7 +1590,8 @@
     "positive_floors": [
      81,
      107
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/735a740232b89fc8f994202342f678e80d2dfa9b.jpg@128w_128h_1c",
@@ -1530,7 +1614,8 @@
     "positive_floors": [
      73,
      101
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/66d18877c510381d9479d822fc4dfecb82c2efc3.jpg@128w_128h_1c",
@@ -1554,7 +1639,8 @@
     ],
     "positive_floors": [
      115
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/524e7989aff12d16030107bd133b284d49e46905.jpg@128w_128h_1c",
@@ -1578,7 +1664,8 @@
     ],
     "positive_floors": [
      12
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/c5da9ec1ee98f69068acb005a9063e3968f60fc6.jpg@128w_128h_1c",
@@ -1602,7 +1689,8 @@
     ],
     "positive_floors": [
      31
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/b6dad37ef0a68341b6e2f84de5e1f9ee02f8365e.jpg@128w_128h_1c",
@@ -1627,7 +1715,8 @@
     ],
     "positive_floors": [
      31
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/b830989d9b8af6001da511a8a95b0ea806c11b60.jpg@128w_128h_1c",
@@ -1651,7 +1740,8 @@
     "positive_floors": [
      60,
      89
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/afe334d673fda9bd834923aa0a67f207120e5eee.jpg@128w_128h_1c",
@@ -1682,7 +1772,8 @@
     "positive_floors": [
      60,
      104
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/75e7900298999ef755bde5509c256c39561892ef.jpg@128w_128h_1c",
@@ -1705,7 +1796,8 @@
     "positive_floors": [
      60,
      110
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/709477a1337157e40dcf09f20d4ff39898e3dabf.jpg@128w_128h_1c",
@@ -1728,7 +1820,8 @@
     "positive_floors": [
      60,
      104
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/79d6dcaff782ab912e9940da9b94292bc5ddb30c.jpg@128w_128h_1c",
@@ -1752,7 +1845,8 @@
     ],
     "positive_floors": [
      141
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/5bc1308ef3ac8eed73ed98ad4770f960547688d3.jpg@128w_128h_1c",
@@ -1775,7 +1869,8 @@
     "floors": [
      129
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
@@ -1797,7 +1892,8 @@
     "floors": [],
     "positive_floors": [
      53
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/ab8eabf8337b624c5f8fcb082af32b74ffacddcc.jpg@128w_128h_1c",
@@ -1819,7 +1915,8 @@
     "floors": [],
     "positive_floors": [
      41
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/41067a1aed838c02fd4cd7236f73287f210ce696.jpg@128w_128h_1c",
@@ -1842,7 +1939,8 @@
     "positive_floors": [
      12,
      13
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/7da48f2ca095299093d5a33d19242f3628135f8e.jpg@128w_128h_1c",
@@ -1864,7 +1962,8 @@
     "floors": [],
     "positive_floors": [
      83
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/378e302faec33f1168246f917f11a0fd7577f9fa.jpg@128w_128h_1c",
@@ -1886,7 +1985,8 @@
     "floors": [],
     "positive_floors": [
      156
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/2389c5476d2ae12a8e1c8e70e880ca107e99a594.jpg@128w_128h_1c",
@@ -1909,7 +2009,8 @@
      78,
      161
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -1933,7 +2034,8 @@
      15,
      78
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -1957,7 +2059,8 @@
      1,
      8
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -1982,14 +2085,16 @@
     "floors": [
      34
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
     "floors": [
      115
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2009,14 +2114,16 @@
     "floors": [
      63
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [
      12
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2039,14 +2146,16 @@
     "floors": [
      55
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1205371,
     "floors": [
      71
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2067,7 +2176,8 @@
      4,
      20
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2092,7 +2202,8 @@
      20,
      35
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2113,7 +2224,8 @@
      24,
      30
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2137,7 +2249,8 @@
      15,
      78
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2158,7 +2271,8 @@
      36,
      165
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2181,14 +2295,16 @@
     "floors": [
      247
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 840328,
     "floors": [
      118
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2209,7 +2325,8 @@
      36,
      81
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2233,7 +2350,8 @@
      38,
      262
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2258,7 +2376,8 @@
      9,
      14
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2282,7 +2401,8 @@
      38,
      262
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2307,7 +2427,8 @@
      59,
      178
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2330,14 +2451,16 @@
     "floors": [
      24
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 893469,
     "floors": [
      134
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True"
@@ -2358,7 +2481,8 @@
      38,
      166
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2381,14 +2505,16 @@
     "floors": [
      31
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1176867,
     "floors": [
      109
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "via_sweep": "users=2 pos=True",
@@ -2411,14 +2537,16 @@
     "floors": [
      56
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1185562,
     "floors": [
      76
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2439,14 +2567,16 @@
     ],
     "positive_floors": [
      24
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 1185562,
     "floors": [
      66
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2467,14 +2597,16 @@
     ],
     "positive_floors": [
      20
-    ]
+    ],
+    "source": "v2ex"
    },
    {
     "topic_id": 1185562,
     "floors": [
      76
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2493,14 +2625,16 @@
     "floors": [
      1
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    },
    {
     "topic_id": 1185562,
     "floors": [
      76
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2517,7 +2651,8 @@
    {
     "topic_id": 1094836,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2534,7 +2669,8 @@
    {
     "topic_id": 1094836,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2551,7 +2687,8 @@
    {
     "topic_id": 1094836,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2568,7 +2705,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2585,7 +2723,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
@@ -2605,7 +2744,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/f9718665815750c1c835896b7d717d4a2167a3ef.jpg@128w_128h_1c",
@@ -2625,7 +2765,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2642,7 +2783,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2659,7 +2801,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/4ac8e19a6bcfd648db4eb167ad1bafd13f959231.jpg@128w_128h_1c",
@@ -2680,7 +2823,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/e03559195e5e5e10951437616d0fc9ee6bbeccce.jpg@128w_128h_1c",
@@ -2701,7 +2845,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2718,7 +2863,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2735,7 +2881,8 @@
    {
     "topic_id": 1176867,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/f26353bfba18d7dd3b9a8cf6a33fc59cc2da63a2.jpg@128w_128h_1c",
@@ -2757,7 +2904,8 @@
     "floors": [
      217
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nLxOCT7qrhIe50CgsatjLIkcALBlBA5b6phRdsYEH9MA=s176-c-k-c0x00ffffff-no-rj",
@@ -2779,7 +2927,8 @@
     "floors": [],
     "positive_floors": [
      175
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/6d74d5d4d4460ba1acad394d31a39515871d8c67.jpg@128w_128h_1c",
@@ -2803,7 +2952,8 @@
     ],
     "positive_floors": [
      57
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -2822,7 +2972,8 @@
     "floors": [
      61
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2843,7 +2994,8 @@
     ],
     "positive_floors": [
      27
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -2860,7 +3012,8 @@
    {
     "topic_id": 1185562,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2877,7 +3030,8 @@
    {
     "topic_id": 1185562,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2896,7 +3050,8 @@
     "floors": [],
     "positive_floors": [
      65
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -2915,7 +3070,8 @@
     "floors": [
      66
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2934,7 +3090,8 @@
     "floors": [
      66
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2953,7 +3110,8 @@
     "floors": [],
     "positive_floors": [
      78
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -2972,7 +3130,8 @@
     "floors": [
      79
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -2993,7 +3152,8 @@
     ],
     "positive_floors": [
      61
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -3014,7 +3174,8 @@
     ],
     "positive_floors": [
      62
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -3035,7 +3196,8 @@
     ],
     "positive_floors": [
      70
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -3056,7 +3218,8 @@
     ],
     "positive_floors": [
      79
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
@@ -3080,7 +3243,8 @@
     ],
     "positive_floors": [
      76
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -3097,7 +3261,8 @@
    {
     "topic_id": 1205371,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -3114,7 +3279,8 @@
    {
     "topic_id": 1205371,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i1.hdslb.com/bfs/face/9dfaaf10b479431d03f0464716c4f828a69cd284.jpg@128w_128h_1c",
@@ -3136,7 +3302,8 @@
     "floors": [
      38
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -3155,7 +3322,8 @@
     "floors": [
      24
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_lipWfr05o_6CSvTmpo-bfMwaNqNrUUfIA8tpCYmvXrVA=s176-c-k-c0x00ffffff-no-rj",
@@ -3177,7 +3345,8 @@
     "floors": [
      29
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://yt3.googleusercontent.com/4n7lgk5U_hJYGKa8UVydgxYq08E9AGCaaDyazGfFhy7eIY3q1BagxhlCvm0MqQYhT1bvuTCNHec=s176-c-k-c0x00ffffff-no-rj",
@@ -3201,7 +3370,8 @@
     ],
     "positive_floors": [
      33
-    ]
+    ],
+    "source": "v2ex"
    }
   ]
  },
@@ -3220,7 +3390,8 @@
     "floors": [],
     "positive_floors": [
      70
-    ]
+    ],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/ca58a72682f108d42a94aba4c72022750f0096ad.jpg@128w_128h_1c",
@@ -3240,7 +3411,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/6b2ade215ea603b495648875c925172a863d16d4.jpg@128w_128h_1c",
@@ -3260,7 +3432,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  },
@@ -3277,7 +3450,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/7a02171b68c17d28c0992dd26a4acaea1b8b4141.jpg@128w_128h_1c",
@@ -3298,7 +3472,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i2.hdslb.com/bfs/face/21d2a655e44aa4844c7353d138b33581f7aaa94f.jpg@128w_128h_1c",
@@ -3318,7 +3493,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://i0.hdslb.com/bfs/face/b8a75ae7d2a0e2af1d36ca9f1084d850eebb28e3.jpg@128w_128h_1c",
@@ -3338,7 +3514,8 @@
    {
     "topic_id": 840328,
     "floors": [],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ],
   "avatar": "https://static.hdslb.com/images/member/noface.gif@128w_128h_1c",
@@ -3360,7 +3537,8 @@
     "floors": [
      76
     ],
-    "positive_floors": []
+    "positive_floors": [],
+    "source": "v2ex"
    }
   ]
  }
