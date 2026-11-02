@@ -11,18 +11,26 @@ for p in glob.glob(os.path.join(BASE, "data", "parsed", "topic_*.json")):
 
 for it in items:
     srcs = []
+    mention_ts = []
     for s in it["sources"]:
         t = topics.get(s["topic_id"])
         if not t:
             continue
+        by_floor = {f["floor"]: f for f in t["floors"]}
         first_user = ""
         fl = sorted(s["floors"] or [])
-        if fl:
-            by_floor = {f["floor"]: f for f in t["floors"]}
-            if fl[0] in by_floor:
-                first_user = by_floor[fl[0]]["username"]
+        if fl and fl[0] in by_floor:
+            first_user = by_floor[fl[0]]["username"]
+        for flno in (s["floors"] or []) + (s.get("positive_floors") or []):
+            if flno in by_floor and by_floor[flno].get("created"):
+                mention_ts.append(by_floor[flno]["created"])
         srcs.append({"title": t["title"], "url": t["url"], "by": first_user})
+        if not mention_ts and t["floors"]:
+            # No floor-level evidence recorded: fall back to the topic's start.
+            mention_ts.append(min(f["created"] for f in t["floors"] if f.get("created")))
     it["source_topics"] = srcs
+    if mention_ts:
+        it["last_mention"] = max(mention_ts)
     it.pop("sources", None)
 
 data_json = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
@@ -92,6 +100,13 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 <button data-p="all" class="on">全平台</button><button data-p="bilibili">B站</button><button data-p="youtube">YouTube</button><button data-p="other">其他</button>
 </div>
 </div>
+<div class="row">
+<span style="font-size:13px;color:var(--mut)">排序</span>
+<div class="tabs" id="sortTabs">
+<button data-s="fans" class="on">粉丝数</button><button data-s="recent">最近提及</button><button data-s="mentions">提及次数</button>
+</div>
+<span style="font-size:12px;color:var(--mut)">粉丝从多到少 · 提及从新到旧</span>
+</div>
 </div>
 <div class="grid" id="grid"></div>
 <div class="empty" id="empty" hidden>没有符合条件的条目，换个关键词试试。</div>
@@ -104,7 +119,7 @@ footer{margin-top:44px;font-size:12.5px;color:var(--mut);line-height:1.8;border-
 <script type="application/json" id="data">__DATA__</script>
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
-const state = {q:'', cat:'全部', type:'all', pf:'all'};
+const state = {q:'', cat:'全部', type:'all', pf:'all', sort:'fans'};
 const PFNAME = {bilibili:'B站', youtube:'YouTube', other:'其他平台'};
 const cats = ['全部', ...new Set(DATA.map(d=>d.category))];
 document.getElementById('stats').innerHTML =
@@ -125,7 +140,8 @@ function tabWire(id, key, attr){
     [...el.children].forEach(x=>x.classList.remove('on')); btn.classList.add('on'); render();
   });
 }
-tabWire('typeTabs','type','t'); tabWire('pfTabs','pf','p');
+tabWire('typeTabs','type','t'); tabWire('pfTabs','pf','p'); tabWire('sortTabs','sort','s');
+function fmtDate(ts){if(!ts)return '';const d=new Date(ts*1000);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase(); render();});
 function outLink(d){
   if(d.url) return d.url;
@@ -143,6 +159,9 @@ function render(){
     (state.type==='all'||d.type===state.type)&&
     (state.pf==='all'||d.platform===state.pf)&&
     (!state.q||(d.name+' '+d.summary+' '+d.category).toLowerCase().includes(state.q)));
+  if(state.sort==='fans') list.sort((a,b)=>((b.fans||-1)-(a.fans||-1))||(b.mention_count-a.mention_count));
+  else if(state.sort==='recent') list.sort((a,b)=>((b.last_mention||0)-(a.last_mention||0))||((b.fans||-1)-(a.fans||-1)));
+  else list.sort((a,b)=>(b.mention_count-a.mention_count)||((b.fans||-1)-(a.fans||-1)));
   const grid=document.getElementById('grid');
   document.getElementById('empty').hidden=list.length>0;
   grid.innerHTML=list.map(d=>{
@@ -158,7 +177,7 @@ function render(){
     (d.self_promo?'<span class="b promo">自荐</span>':'')+'</div></div></div>'+
     '<p class="sum">'+esc(d.summary||'')+'</p>'+
     '<a class="go" href="'+esc(outLink(d))+'" target="_blank" rel="noopener">'+(d.url?'直达主页/视频':'去'+PFNAME[d.platform]+'搜索')+' ↗</a>'+
-    '<div class="foot">被提及 '+d.mention_count+' 次 · 来源 V2EX：'+src+'</div></div>';
+    '<div class="foot">被提及 '+d.mention_count+' 次'+(d.last_mention?' · 最近提及 '+fmtDate(d.last_mention):'')+' · 来源 V2EX：'+src+'</div></div>';
   }).join('');
 }
 render();
