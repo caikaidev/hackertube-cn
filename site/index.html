@@ -107,7 +107,7 @@ header h1{font-size:19px;white-space:nowrap}header p{display:none}
 <div class="hbtns">
 <button class="hbtn" id="palBtn" title="命令面板">⌘K</button>
 <button class="hbtn" id="viewBtn" title="切换卡片/列表视图">列表</button>
-<button class="hbtn" id="themeBtn" title="切换暗黑模式">暗黑</button>
+<button class="hbtn" id="themeBtn" title="切换暗黑/亮色" aria-label="切换暗黑/亮色"></button>
 </div>
 </header>
 <div class="controls">
@@ -292,13 +292,16 @@ function onMarks(e){
 }
 $('grid').addEventListener('click', onMarks); $('rows').addEventListener('click', onMarks);
 
+var ICON_MOON = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+var ICON_SUN = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:block"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+function themeUI(t){ document.documentElement.dataset.theme = t; $('themeBtn').innerHTML = t === 'dark' ? ICON_SUN : ICON_MOON; }
 function applyTheme(t){
-  document.documentElement.dataset.theme = t;
+  themeUI(t);
   try { localStorage.setItem('ht-theme', t); } catch (e) {}
-  $('themeBtn').textContent = t === 'dark' ? '亮色' : '暗黑';
 }
 $('themeBtn').addEventListener('click', function(){ applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'); });
-$('themeBtn').textContent = document.documentElement.dataset.theme === 'dark' ? '亮色' : '暗黑';
+themeUI(document.documentElement.dataset.theme || 'light');
+try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(){ var saved = null; try { saved = localStorage.getItem('ht-theme'); } catch (e) {} if (!saved) themeUI(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }); } catch (e) {}
 function applyView(v){ view = v; try { localStorage.setItem('ht-view', v); } catch (e) {} render(); }
 $('viewBtn').addEventListener('click', function(){ applyView(view === 'list' ? 'card' : 'list'); });
 
