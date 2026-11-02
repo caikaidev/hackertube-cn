@@ -1,12 +1,12 @@
 [
  {
   "type": "creator",
-  "platform": "other",
-  "name": "罗永浩",
-  "url": "",
+  "platform": "bilibili",
+  "name": "罗永浩的十字路口",
+  "url": "https://space.bilibili.com/538596213",
   "summary": "访谈风格适合做采访类节目，深具影响力。",
   "category": "其他",
-  "mention_count": 13,
+  "mention_count": 18,
   "self_promo": false,
   "sources": [
    {
@@ -40,8 +40,39 @@
      115,
      126
     ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1166095,
+    "floors": [],
+    "positive_floors": [
+     22,
+     49,
+     54
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     20
+    ],
+    "positive_floors": [
+     20
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
+    ],
+    "positive_floors": []
    }
-  ]
+  ],
+  "avatar": "https://i0.hdslb.com/bfs/face/be8407fc55e47132912b11efabffa54209d203c4.jpg@128w_128h_1c",
+  "fans": 1081478,
+  "resolved_via": "manual_verified"
  },
  {
   "type": "creator",
@@ -507,38 +538,6 @@
  {
   "type": "creator",
   "platform": "other",
-  "name": "罗永浩的十字路口",
-  "url": "",
-  "summary": "节奏和话题把控得很好，值得反复听。",
-  "category": "其他",
-  "mention_count": 4,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1166095,
-    "floors": [],
-    "positive_floors": [
-     22,
-     49,
-     54
-    ]
-   },
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     20
-    ],
-    "positive_floors": [
-     20
-    ]
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
   "name": "声动早咖啡",
   "url": "",
   "summary": "适合通勤时听的节目，评价较好。",
@@ -783,7 +782,7 @@
   "url": "",
   "summary": "经常听的播客之一",
   "category": "其他",
-  "mention_count": 3,
+  "mention_count": 5,
   "self_promo": false,
   "sources": [
    {
@@ -804,6 +803,22 @@
     "positive_floors": [
      24
     ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     66
+    ],
+    "positive_floors": []
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     66
+    ],
+    "positive_floors": []
    }
   ]
  },
@@ -1739,10 +1754,10 @@
   "type": "creator",
   "platform": "other",
   "name": "阿星探店",
-  "url": "",
+  "url": "https://space.bilibili.com/398581197",
   "summary": "被多位用户提及，并且有正面评价。",
   "category": "生活",
-  "mention_count": 2,
+  "mention_count": 3,
   "self_promo": false,
   "sources": [
    {
@@ -1753,9 +1768,19 @@
      182,
      199
     ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1150933,
+    "floors": [
+     46
+    ],
+    "positive_floors": []
    }
   ],
-  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png"
+  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png",
+  "avatar": "https://i1.hdslb.com/bfs/face/6a6b4346d00f3881937c710dfd11c514d104004a.jpg",
+  "fans": 1004441
  },
  {
   "type": "creator",
@@ -1788,7 +1813,7 @@
   "url": "",
   "summary": "年度最佳播客，质量高，访谈优秀。",
   "category": "其他",
-  "mention_count": 2,
+  "mention_count": 3,
   "self_promo": false,
   "sources": [
    {
@@ -1799,6 +1824,14 @@
      17,
      11
     ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1161892,
+    "floors": [
+     7
+    ],
+    "positive_floors": []
    }
   ]
  },
@@ -2185,30 +2218,6 @@
  {
   "type": "creator",
   "platform": "bilibili",
-  "name": "阿星探店",
-  "url": "https://space.bilibili.com/398581197",
-  "summary": "不更新的原因不明。",
-  "category": "生活",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1150933,
-    "floors": [
-     46
-    ],
-    "positive_floors": []
-   }
-  ],
-  "avatar": "https://i1.hdslb.com/bfs/face/6a6b4346d00f3881937c710dfd11c514d104004a.jpg",
-  "fans": 1004441,
-  "resolved_via": "bili_search_exact",
-  "cover": "https://i0.hdslb.com/bfs/space/44b47cd4269be9bc935f2da85732cc9f9ae9a7ab.png"
- },
- {
-  "type": "creator",
-  "platform": "bilibili",
   "name": "步履不停的后天",
   "url": "https://space.bilibili.com/40606197",
   "summary": "视频质量很高的一个博主。",
@@ -2270,26 +2279,6 @@
   "cover": "https://yt3.googleusercontent.com/7ZTBBN47ThFUHPPRVAzoLC6MvLuqosTLHcI4ma4Fi_VIFI2MZED2Tg4W-Y2Pf_42FH-EFrH3fg=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
   "resolved_via": "yt_channel_page",
   "avatar": "https://yt3.googleusercontent.com/ZOP-nd14maZaqHL6nlB22UMmR09GNraTzbxVmFdO0rKVv9FNz4SP6nQ4BM8rRMA4G415LN8EGlc=s176-c-k-c0x00ffffff-no-rj"
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "乔·罗根 Joe Rogan",
-  "url": "",
-  "summary": "国外最有名的播客引导了这一趋势",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1161892,
-    "floors": [
-     7
-    ],
-    "positive_floors": []
-   }
-  ]
  },
  {
   "type": "creator",
@@ -2586,7 +2575,7 @@
   "url": "",
   "summary": "推荐的播客之一，值得一听。",
   "category": "其他",
-  "mention_count": 1,
+  "mention_count": 2,
   "self_promo": false,
   "sources": [
    {
@@ -2594,6 +2583,14 @@
     "topic_id": 1182763,
     "floors": [
      56
+    ],
+    "positive_floors": []
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
     ],
     "positive_floors": []
    }
@@ -2682,46 +2679,6 @@
   "url": "",
   "summary": "合集推荐",
   "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     66
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "半拿铁|商业沉浮录",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "财经",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     66
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "半拿铁·周刊",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "财经",
   "mention_count": 1,
   "self_promo": false,
   "sources": [
@@ -4139,7 +4096,7 @@
   "url": "",
   "summary": "商业播客，楼主与名单楼两次推荐",
   "category": "财经",
-  "mention_count": 2,
+  "mention_count": 3,
   "self_promo": false,
   "sources": [
    {
@@ -4157,6 +4114,14 @@
     ],
     "positive_floors": [],
     "source": "v2ex"
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 1185562,
+    "floors": [
+     76
+    ],
+    "positive_floors": []
    }
   ]
  },
@@ -4167,7 +4132,7 @@
   "url": "",
   "summary": "播客名单楼集中推荐之一",
   "category": "科技数码",
-  "mention_count": 1,
+  "mention_count": 2,
   "self_promo": false,
   "sources": [
    {
@@ -4177,79 +4142,7 @@
     ],
     "positive_floors": [],
     "source": "v2ex"
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "面基",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     76
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "摸鱼早报",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     76
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "商业就是这样",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
-   {
-    "source": "v2ex",
-    "topic_id": 1185562,
-    "floors": [
-     76
-    ],
-    "positive_floors": []
-   }
-  ]
- },
- {
-  "type": "creator",
-  "platform": "other",
-  "name": "十字路口 Crossing",
-  "url": "",
-  "summary": "合集推荐",
-  "category": "其他",
-  "mention_count": 1,
-  "self_promo": false,
-  "sources": [
+   },
    {
     "source": "v2ex",
     "topic_id": 1185562,
