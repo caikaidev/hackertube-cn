@@ -5,7 +5,10 @@ and match the author against catalog entries by mid or exact name.
 No inference: a link is attributed only when the platform itself says the
 video's author is that entry. Output: data/episodes_report.json + updates
 data/data.json with an `episode` field on matched entries."""
-import json, glob, re, subprocess, sys, time
+import json, re, subprocess, sys, time
+
+sys.path.insert(0, "/home/hatch/workspace/hackertube-cn/pipeline")
+from corpus import load_topics
 
 ROOT = "/home/hatch/workspace/hackertube-cn"
 BV = re.compile(r'https?://(?:www\.)?bilibili\.com/video/(BV[0-9A-Za-z]+)')
@@ -21,23 +24,21 @@ def curl_json(url):
         return None
 
 # ---- 1. collect links with floor context ----
-occurrences = {}  # video key -> list of {topic_id, floor, username, text}
-for f in sorted(glob.glob(f"{ROOT}/data/parsed/*.json")):
-    t = json.load(open(f, encoding="utf-8"))
-    tid = t["topic_id"]
+occurrences = {}  # video key -> list of {source, topic_id, floor, username, text}
+for (tsrc, tid), t in sorted(load_topics().items()):
     spots = [(0, t.get("op", ""), (t.get("content") or ""))]
     for fl in t["floors"]:
         spots.append((fl["floor"], fl.get("username", ""), fl.get("content") or ""))
     for flno, user, txt in spots:
         for m in BV.finditer(txt):
             occurrences.setdefault(("bili", m.group(1)), []).append(
-                {"topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
+                {"source": tsrc, "topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
         for m in YTV.finditer(txt):
             occurrences.setdefault(("yt", m.group(1)), []).append(
-                {"topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
+                {"source": tsrc, "topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
         for m in YTS.finditer(txt):
             occurrences.setdefault(("yt", m.group(1)), []).append(
-                {"topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
+                {"source": tsrc, "topic_id": tid, "floor": flno, "by": user, "text": txt[:200]})
 
 print(f"unique videos: {len(occurrences)}", file=sys.stderr)
 
@@ -94,12 +95,12 @@ for (plat, vid), occs in sorted(occurrences.items()):
             url = (f"https://www.bilibili.com/video/{vid}" if plat == "bili"
                    else f"https://www.youtube.com/watch?v={vid}")
             occ = occs[0]
-            ep = {"url": url, "title": r["title"], "topic_id": occ["topic_id"],
-                  "floor": occ["floor"], "by": occ["by"]}
+            ep = {"url": url, "title": r["title"], "source": occ["source"],
+                  "topic_id": occ["topic_id"], "floor": occ["floor"], "by": occ["by"]}
             # prefer an occurrence whose floor text also names the entry
             for o in occs:
                 if entry["name"] in o["text"]:
-                    ep.update({"topic_id": o["topic_id"], "floor": o["floor"], "by": o["by"]})
+                    ep.update({"source": o["source"], "topic_id": o["topic_id"], "floor": o["floor"], "by": o["by"]})
                     break
             cur = attached.get(entry["name"])
             if cur is None:

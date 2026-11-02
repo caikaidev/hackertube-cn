@@ -10,16 +10,16 @@ rejected: iframe embeds (site stays pure-outlink by founding rule), 50%
 thumbnail trick (no per-video data, no such API), React/Tailwind stack,
 IndexedDB (localStorage is enough at this scale).
 """
-import json, os, glob, re
+import json, os, re, sys
 from email.utils import formatdate
 from xml.sax.saxutils import escape as xesc
 
+sys.path.insert(0, os.path.dirname(__file__))
+from corpus import load_topics, source_of, topic_key
+
 BASE = os.path.join(os.path.dirname(__file__), "..")
 items = json.load(open(os.path.join(BASE, "data", "data.json"), encoding="utf-8"))
-topics = {}
-for p in glob.glob(os.path.join(BASE, "data", "parsed", "topic_*.json")):
-    t = json.load(open(p, encoding="utf-8"))
-    topics[t["topic_id"]] = t
+topics = load_topics()
 
 URL_RE = re.compile(r"https?://\S+")
 
@@ -66,7 +66,7 @@ for it in items:
     mention_ts = []
     quote = None
     for s in it["sources"]:
-        t = topics.get(s["topic_id"])
+        t = topics.get(topic_key(source_of(s), s["topic_id"]))
         if not t:
             continue
         by_floor = {f["floor"]: f for f in t["floors"]}
@@ -77,7 +77,7 @@ for it in items:
         for flno in (s["floors"] or []) + (s.get("positive_floors") or []):
             if flno in by_floor and by_floor[flno].get("created"):
                 mention_ts.append(by_floor[flno]["created"])
-        srcs.append({"title": t["title"], "url": t["url"], "by": first_user})
+        srcs.append({"title": t["title"], "url": t["url"], "by": first_user, "source": source_of(s)})
         if not mention_ts and t["floors"]:
             mention_ts.append(min(f["created"] for f in t["floors"] if f.get("created")))
         if quote is None:

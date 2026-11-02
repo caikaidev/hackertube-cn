@@ -2,18 +2,20 @@
 """Chunked extraction v2: split each topic's floors into ~55-floor chunks, extract per chunk,
 merge all chunks+topics by normalized name, then verify names against source corpus and
 apply the politics blocklist (user decision: politics excluded by default)."""
-import json, os, re, glob, subprocess
+import json, os, re, subprocess, sys
 from collections import defaultdict
 
+sys.path.insert(0, os.path.dirname(__file__))
+from corpus import load_topics, source_of, topic_key
+
 BASE = os.path.join(os.path.dirname(__file__), "..")
-PARSED = os.path.join(BASE, "data", "parsed")
 EXT = os.path.join(BASE, "data", "extracted_v2")
 os.makedirs(EXT, exist_ok=True)
 HELPER = os.path.expanduser("~/workspace/custom-connectors/custom.openai/bin/openai_api.py")
 MODEL = "gpt-4o-mini"
 CHUNK = 55
 
-HEAD = """你是一个严格的内容筛选助手。下面是一个 V2EX 主题的部分回复楼层（楼层号是全帖统一编号）。每楼后面标注了该楼包含的链接、哪些楼层回复了它。
+HEAD = """你是一个严格的内容筛选助手。下面是一个在线论坛主题的部分回复楼层（楼层号是全帖统一编号）。每楼后面标注了该楼包含的链接、哪些楼层回复了它。
 
 【任务】从这段楼层中提取被推荐的视频或博主，并为每条找到佐证。
 
@@ -47,10 +49,8 @@ def main():
     merged = {}
     excluded = []
     corpus = {}
-    for path in sorted(glob.glob(os.path.join(PARSED, "topic_*.json"))):
-        topic = json.load(open(path, encoding="utf-8"))
-        tid = topic["topic_id"]
-        corpus[tid] = norm(topic["title"] + topic["content"] + " ".join(f["content"] for f in topic["floors"]))
+    for (tsrc, tid), topic in sorted(load_topics().items()):
+        corpus[(tsrc, tid)] = norm(topic["title"] + topic["content"] + " ".join(f["content"] for f in topic["floors"]))
         children = defaultdict(list)
         for f in topic["floors"]:
             if f["parent_floor"]:
@@ -58,7 +58,7 @@ def main():
         floors = topic["floors"]
         chunks = [floors[i:i+CHUNK] for i in range(0, len(floors), CHUNK)] or [[ ]]
         for ci, chunk in enumerate(chunks):
-            out_path = os.path.join(EXT, "t%d_c%d.json" % (tid, ci))
+            out_path = os.path.join(EXT, "%s_t%d_c%d.json" % (tsrc, tid, ci))
             if os.path.exists(out_path):
                 result = json.load(open(out_path, encoding="utf-8"))
             else:
@@ -74,9 +74,9 @@ def main():
                     if notes:
                         line += "  〔" + "；".join(notes) + "〕"
                     lines.append(line)
-                pf = os.path.join(EXT, "prompt_t%d_c%d.txt" % (tid, ci))
+                pf = os.path.join(EXT, "prompt_%s_t%d_c%d.txt" % (tsrc, tid, ci))
                 open(pf, "w", encoding="utf-8").write("\n".join(lines))
-                raw = os.path.join(EXT, "raw_t%d_c%d.json" % (tid, ci))
+                raw = os.path.join(EXT, "raw_%s_t%d_c%d.json" % (tsrc, tid, ci))
                 r = subprocess.run(["python3", HELPER, "chat", pf, MODEL, raw], capture_output=True, text=True, timeout=600)
                 if r.returncode != 0 or not os.path.exists(raw):
                     print("FAIL", tid, ci, r.stdout[:150], r.stderr[:150], flush=True)
@@ -90,7 +90,7 @@ def main():
                 result = json.load(open(raw, encoding="utf-8"))
                 json.dump(result, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             for e in result.get("excluded", []):
-                excluded.append(dict({"topic_id": tid}, **e))
+                excluded.append(dict({"source": tsrc, "topic_id": tid}, **e))
             for it in result.get("items", []):
                 key = (it.get("platform", ""), norm(it.get("name", "")))
                 if not key[1]:
@@ -98,7 +98,7 @@ def main():
                 if key in merged:
                     m = merged[key]
                     m["mention_count"] += it.get("mention_count", 1)
-                    m["sources"].append({"topic_id": tid, "floors": it.get("source_floors", []), "positive_floors": it.get("positive_floors", [])})
+                    m["sources"].append({"source": tsrc, "topic_id": tid, "floors": it.get("source_floors", []), "positive_floors": it.get("positive_floors", [])})
                     if not m["url"] and it.get("url"):
                         m["url"] = it["url"]
                     m["self_promo"] = m["self_promo"] and bool(it.get("self_promo"))
@@ -107,19 +107,19 @@ def main():
                                    "url": it.get("url", ""), "summary": it.get("summary", ""),
                                    "category": it.get("category", "其他"), "mention_count": it.get("mention_count", 1),
                                    "self_promo": bool(it.get("self_promo")),
-                                   "sources": [{"topic_id": tid, "floors": it.get("source_floors", []), "positive_floors": it.get("positive_floors", [])}]}
-            print("t%d c%d: %d items" % (tid, ci, len(result.get("items", []))), flush=True)
+                                   "sources": [{"source": tsrc, "topic_id": tid, "floors": it.get("source_floors", []), "positive_floors": it.get("positive_floors", [])}]}
+            print("%s t%d c%d: %d items" % (tsrc, tid, ci, len(result.get("items", []))), flush=True)
     # verify names against corpus of their source topics; drop fabrications
     verified, dropped = [], []
     for it in merged.values():
-        ok = any(norm(it["name"]) in corpus[s["topic_id"]] for s in it["sources"])
+        ok = any(norm(it["name"]) in corpus[topic_key(source_of(s), s["topic_id"])] for s in it["sources"])
         (verified if ok else dropped).append(it if ok else it["name"])
     # politics blocklist
     final, moved = [], []
     for it in verified:
         if any(p in it["name"] for p in POLITICS):
             moved.append(it["name"])
-            excluded.append({"topic_id": it["sources"][0]["topic_id"], "name": it["name"], "reason": "用户口径：时政类默认不收（管线后过滤）"})
+            excluded.append({"source": source_of(it["sources"][0]), "topic_id": it["sources"][0]["topic_id"], "name": it["name"], "reason": "用户口径：时政类默认不收（管线后过滤）"})
         else:
             final.append(it)
     final.sort(key=lambda x: -x["mention_count"])
