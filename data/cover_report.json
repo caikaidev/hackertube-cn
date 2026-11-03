@@ -1,28 +1,28 @@
 {
  "stats": {
-  "card_api": 7,
-  "search_exact": 9,
+  "card_api": 9,
+  "search_exact": 0,
   "search_multi": 0,
-  "yt": 6,
-  "no_match": 15,
-  "name_mismatch_on_url": 2,
+  "yt": 7,
+  "no_match": 23,
+  "name_mismatch_on_url": 4,
   "errors": 0
  },
  "entries": [
   {
+   "name": "忽左忽右",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
    "name": "半拿铁",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "软件工艺师",
    "platform": "bilibili",
    "outcome": "card_api"
-  },
-  {
-   "name": "忽左忽右",
-   "platform": "other",
-   "outcome": "skipped"
   },
   {
    "name": "微小微",
@@ -37,6 +37,11 @@
    "note": "card name differs: yaaangmin"
   },
   {
+   "name": "声动早咖啡",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
    "name": "野食小哥",
    "platform": "bilibili",
    "outcome": "no_exact_match"
@@ -44,23 +49,22 @@
   {
    "name": "峰哥亡命天涯",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "35847683"
+   "outcome": "card_api"
   },
   {
    "name": "无聊斋",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "小鱼哥",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "598816"
+   "outcome": "card_api",
+   "note": "card name differs: 招财小瑜哥"
   },
   {
    "name": "三个火呛手",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -71,7 +75,8 @@
   {
    "name": "蜀犬吠日",
    "platform": "bilibili",
-   "outcome": "card_api"
+   "outcome": "card_api",
+   "note": "card name differs: 蜀犬吠日SCFR"
   },
   {
    "name": "codesheep",
@@ -96,22 +101,21 @@
   {
    "name": "付鹏",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "3259455"
+   "outcome": "card_api_failed"
   },
   {
    "name": "under the influence",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "无人知晓",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "郭德纲",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -126,12 +130,7 @@
   },
   {
    "name": "罗永浩的十字路口",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "声动早咖啡",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -152,8 +151,7 @@
   {
    "name": "珍大户",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "355327690"
+   "outcome": "card_api_failed"
   },
   {
    "name": "史诗级韭菜",
@@ -162,7 +160,7 @@
   },
   {
    "name": "梁文道",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -318,14 +316,12 @@
   {
    "name": "南半球聊财经",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "517986781"
+   "outcome": "card_api_failed"
   },
   {
    "name": "叶落初冬",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "439750728"
+   "outcome": "no_exact_match"
   },
   {
    "name": "枫落白衣",
@@ -335,13 +331,12 @@
   {
    "name": "听风的蚕",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "3546564563831207"
+   "outcome": "card_api_failed"
   },
   {
    "name": "极客湾",
-   "platform": "youtube",
-   "outcome": "yt_no_avatar_found"
+   "platform": "bilibili",
+   "outcome": "card_api_failed"
   },
   {
    "name": "赖导",
@@ -365,7 +360,7 @@
   },
   {
    "name": "于谦",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -375,23 +370,18 @@
   },
   {
    "name": "大内密谈",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
-   "name": "商业访谈录",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "知行小酒馆",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "老张啊",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "绝命墨菲",
@@ -405,18 +395,13 @@
   },
   {
    "name": "何同学",
-   "platform": "other",
-   "outcome": "skipped"
+   "platform": "bilibili",
+   "outcome": "card_api_failed"
   },
   {
    "name": "Tim",
    "platform": "other",
    "outcome": "skipped"
-  },
-  {
-   "name": "赖导 AboutLai",
-   "platform": "bilibili",
-   "outcome": "card_api_failed"
   },
   {
    "name": "食贫道",
@@ -425,8 +410,8 @@
   },
   {
    "name": "阿星探店",
-   "platform": "other",
-   "outcome": "skipped"
+   "platform": "bilibili",
+   "outcome": "card_api_failed"
   },
   {
    "name": "毕导",
@@ -435,7 +420,7 @@
   },
   {
    "name": "Joe Rogan Experience",
-   "platform": "youtube",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -445,12 +430,12 @@
   },
   {
    "name": "忽软忽硬",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "谐星聊天会",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -505,14 +490,13 @@
   },
   {
    "name": "张小珺商业访谈录",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
    "name": "午夜狂暴哈士奇",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "412888728"
+   "outcome": "no_exact_match"
   },
   {
    "name": "火箭哥 Lewis",
@@ -575,11 +559,6 @@
    "outcome": "skipped"
   },
   {
-   "name": "峰哥亡命天涯",
-   "platform": "other",
-   "outcome": "skipped"
-  },
-  {
    "name": "外部性",
    "platform": "other",
    "outcome": "skipped"
@@ -587,8 +566,7 @@
   {
    "name": "那月有声",
    "platform": "bilibili",
-   "outcome": "search_exact_backfilled",
-   "mid": "374703854"
+   "outcome": "card_api_failed"
   },
   {
    "name": "polymatter",
@@ -611,11 +589,6 @@
    "outcome": "card_api_failed"
   },
   {
-   "name": "阿星探店",
-   "platform": "bilibili",
-   "outcome": "card_api_failed"
-  },
-  {
    "name": "步履不停的后天",
    "platform": "bilibili",
    "outcome": "card_api_failed"
@@ -623,17 +596,17 @@
   {
    "name": "朱志文",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "Little Chinese Everywhere",
-   "platform": "other",
-   "outcome": "skipped"
+   "platform": "youtube",
+   "outcome": "yt_avatar"
   },
   {
    "name": "牛总",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "知识噪音",
@@ -702,7 +675,7 @@
   },
   {
    "name": "面基",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -712,7 +685,7 @@
   },
   {
    "name": "《东吴相对论》",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -722,7 +695,7 @@
   },
   {
    "name": "《肥话连篇》",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -732,7 +705,7 @@
   },
   {
    "name": "藏书票",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -753,7 +726,7 @@
   {
    "name": "视野环球财经",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "小宇宙播客：硅谷 101、科技早知道",
@@ -791,6 +764,66 @@
    "outcome": "skipped"
   },
   {
+   "name": "张震讲故事",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
+   "name": "LTSC",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "电丸科技",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "黑水怪谈",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
+   "name": "商业访谈录",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "脑洞乌托邦",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "机核网--中元夜话",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
+   "name": "硬核说（硬核电台）",
+   "platform": "podcast",
+   "outcome": "skipped"
+  },
+  {
+   "name": "赛博岛屿",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "LinusTechTips",
+   "platform": "youtube",
+   "outcome": "skipped"
+  },
+  {
+   "name": "乔·罗根 Joe Rogan",
+   "platform": "other",
+   "outcome": "skipped"
+  },
+  {
+   "name": "石国鹏 1972",
+   "platform": "bilibili",
+   "outcome": "no_exact_match"
+  },
+  {
    "name": "Links",
    "platform": "bilibili",
    "outcome": "card_api_failed"
@@ -818,7 +851,7 @@
   {
    "name": "女菩萨",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "无穷小亮",
@@ -848,7 +881,7 @@
   {
    "name": "回形针",
    "platform": "bilibili",
-   "outcome": "card_api_failed"
+   "outcome": "no_exact_match"
   },
   {
    "name": "寒食君",
@@ -862,11 +895,6 @@
   },
   {
    "name": "绿导师",
-   "platform": "bilibili",
-   "outcome": "card_api_failed"
-  },
-  {
-   "name": "SCFR",
    "platform": "bilibili",
    "outcome": "card_api_failed"
   },
@@ -901,11 +929,6 @@
    "outcome": "card_api_failed"
   },
   {
-   "name": "落拓",
-   "platform": "bilibili",
-   "outcome": "card_api_failed"
-  },
-  {
    "name": "蓝战非",
    "platform": "other",
    "outcome": "skipped"
@@ -933,7 +956,7 @@
   {
    "name": "落拓呀",
    "platform": "bilibili",
-   "outcome": "no_exact_match"
+   "outcome": "card_api_failed"
   },
   {
    "name": "探钓者序",
@@ -982,7 +1005,7 @@
   },
   {
    "name": "商业就是这样",
-   "platform": "other",
+   "platform": "podcast",
    "outcome": "skipped"
   },
   {
@@ -1027,7 +1050,7 @@
    "best": {
     "mid": "1497330079",
     "uname": "OK哥环球探海记",
-    "fans": 3012259,
+    "fans": 3012870,
     "score": 7.5,
     "detail": {
      "name": 5.0,
@@ -1087,7 +1110,7 @@
    "best": {
     "mid": "694866933",
     "uname": "陶三丰逐梦之旅",
-    "fans": 263065,
+    "fans": 263068,
     "score": 6.5,
     "detail": {
      "name": 5.0,
@@ -1125,6 +1148,66 @@
    "accepted": false
   },
   {
+   "name": "叶落初冬",
+   "best": {
+    "mid": "121538100",
+    "uname": "魔兽世界叶落初冬",
+    "fans": 96147,
+    "score": 5.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.5,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "383076074",
+    "uname": "叶落初冬丶",
+    "fans": 726,
+    "score": 5.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "老张啊",
+   "best": {
+    "mid": "3691000052583381",
+    "uname": "宇智波老张啊",
+    "fans": 390,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "9323084",
+    "uname": "老张啊哈哟",
+    "fans": 115,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
    "name": "林亦",
    "best": {
     "mid": "173806227",
@@ -1143,6 +1226,92 @@
     "mid": "101418707",
     "uname": "林亦蝶0112",
     "fans": 1115,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "午夜狂暴哈士奇",
+   "best": {
+    "mid": "3493140969293887",
+    "uname": "狂暴午夜哈士奇",
+    "fans": 2108,
+    "score": 3.0,
+    "detail": {
+     "name": 3.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "412888728",
+    "uname": "午夜狂暴哈士奇",
+    "fans": 193,
+    "score": 0.0,
+    "detail": {
+     "empty_account": true
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "朱志文",
+   "best": {
+    "mid": "479592209",
+    "uname": "朱志文漂游记",
+    "fans": 711895,
+    "score": 6.5,
+    "detail": {
+     "name": 5.0,
+     "fans": 1.5,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "440443792",
+    "uname": "朱志文带我看世界",
+    "fans": 21,
+    "score": 5.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "牛总",
+   "best": {
+    "mid": "3707022264502877",
+    "uname": "牛总的打板日常",
+    "fans": 192,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "1048218610",
+    "uname": "小牛总-羊绒",
+    "fans": 116,
     "score": 6.0,
     "detail": {
      "name": 5.0,
@@ -1185,6 +1354,20 @@
    "accepted": false
   },
   {
+   "name": "视野环球财经",
+   "best": {
+    "mid": "608347907",
+    "uname": "视野环球财经",
+    "fans": 0,
+    "score": 0.0,
+    "detail": {
+     "empty_account": true
+    }
+   },
+   "runner_up": null,
+   "accepted": false
+  },
+  {
    "name": "姜汁+CLS 同学",
    "best": {
     "mid": "11821578",
@@ -1202,7 +1385,7 @@
    "runner_up": {
     "mid": "1039025435",
     "uname": "战国时代_姜汁汽水",
-    "fans": 833168,
+    "fans": 833432,
     "score": 1.5,
     "detail": {
      "name": 0.0,
@@ -1215,11 +1398,37 @@
    "accepted": false
   },
   {
+   "name": "石国鹏 1972",
+   "best": {
+    "mid": "433260675",
+    "uname": "石国鹏",
+    "fans": 22,
+    "score": 0.0,
+    "detail": {
+     "empty_account": true
+    }
+   },
+   "runner_up": {
+    "mid": "3546928547629304",
+    "uname": "老石匠仵国鹏",
+    "fans": 7,
+    "score": 0.0,
+    "detail": {
+     "name": 0.0,
+     "fans": 0.0,
+     "corroboration": 0.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
    "name": "当下",
    "best": {
     "mid": "32360194",
     "uname": "当下频道",
-    "fans": 447720,
+    "fans": 447711,
     "score": 7.5,
     "detail": {
      "name": 5.0,
@@ -1251,6 +1460,66 @@
    "accepted": false
   },
   {
+   "name": "女菩萨",
+   "best": {
+    "mid": "481463515",
+    "uname": "互联网女菩萨超顶",
+    "fans": 1675,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "358855134",
+    "uname": "祖安女菩萨",
+    "fans": 41,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
+   "name": "回形针",
+   "best": {
+    "mid": "3546935726180938",
+    "uname": "回形针设计",
+    "fans": 2577,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "runner_up": {
+    "mid": "3546613150648929",
+    "uname": "凉拌回形针",
+    "fans": 285,
+    "score": 6.0,
+    "detail": {
+     "name": 5.0,
+     "fans": 0.0,
+     "corroboration": 1.0,
+     "rank": 0.0,
+     "handle": 0.0
+    }
+   },
+   "accepted": false
+  },
+  {
    "name": "谷阿莫",
    "best": {
     "mid": "123393925",
@@ -1278,24 +1547,6 @@
      "handle": 0.0
     }
    },
-   "accepted": false
-  },
-  {
-   "name": "落拓呀",
-   "best": {
-    "mid": "43276908",
-    "uname": "是落拓呀",
-    "fans": 126106,
-    "score": 6.5,
-    "detail": {
-     "name": 5.0,
-     "fans": 1.0,
-     "corroboration": 0.0,
-     "rank": 0.5,
-     "handle": 0.0
-    }
-   },
-   "runner_up": null,
    "accepted": false
   }
  ]
