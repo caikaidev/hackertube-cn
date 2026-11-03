@@ -113,6 +113,9 @@ def main():
                 else:
                     results = bili_search(name)
                     exact = [r for r in results if norm(r.get("uname", "")) == norm(name)]
+                    # Empty accounts (no videos) are name squatters, not matches:
+                    # ignore them and re-match (user rule, 2026-11-03).
+                    exact = [r for r in exact if (r.get("videos") or 0) > 0]
                     if exact:
                         exact.sort(key=lambda r: -(r.get("fans") or 0))
                         top = exact[0]

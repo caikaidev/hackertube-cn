@@ -23,6 +23,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_covers import bili_card, bili_search, norm, BASE, DATA, REPORT
 
 def score(entry_name, cand, rank_idx):
+    # Empty accounts (no videos) are name squatters, never a match
+    # (user rule, 2026-11-03).
+    if (cand.get("videos") or 0) <= 0:
+        return 0.0, {"empty_account": True}
     en, cn = norm(entry_name), norm(cand.get("uname", ""))
     detail = {}
     if en == cn:
