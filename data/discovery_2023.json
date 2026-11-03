@@ -1,0 +1,4684 @@
+{
+ "kept": [
+  {
+   "topic_id": 907150,
+   "title": "求推荐油管优质中文博主（未入驻 b 站或 b 站有删减的）",
+   "created": "2023-01-07",
+   "found_by": "宝藏博主",
+   "replies": 154,
+   "node": "qna"
+  },
+  {
+   "topic_id": 999882,
+   "title": "2023 年我关注的 Telegram 频道",
+   "created": "2023-12-13",
+   "found_by": "关注列表",
+   "replies": 115,
+   "node": "telegram"
+  },
+  {
+   "topic_id": 931002,
+   "title": "为什么 B 站会在首页推荐栏推荐我在油管上看过的博主视频？",
+   "created": "2023-04-09",
+   "found_by": "宝藏博主",
+   "replies": 49,
+   "node": "bilibili"
+  },
+  {
+   "topic_id": 1003005,
+   "title": "请给推荐几个美式口音教 Java /leetcode/面试的 youtuber",
+   "created": "2023-12-24",
+   "found_by": "YouTuber 推荐",
+   "replies": 42,
+   "node": "en"
+  },
+  {
+   "topic_id": 979391,
+   "title": "有什么播客推荐吗",
+   "created": "2023-10-07",
+   "found_by": "关注列表",
+   "replies": 35,
+   "node": "podcast"
+  },
+  {
+   "topic_id": 969483,
+   "title": "中元节鬼故事播客推荐，不限平台",
+   "created": "2023-08-30",
+   "found_by": "播客 推荐",
+   "replies": 27,
+   "node": "life"
+  },
+  {
+   "topic_id": 944399,
+   "title": "微信今天突然不能关注公众号了，数量未到上限，但是和一个微信公众号博主在评论区发生过一次争辩。",
+   "created": "2023-05-31",
+   "found_by": "宝藏博主",
+   "replies": 22,
+   "node": "qna"
+  },
+  {
+   "topic_id": 970699,
+   "title": "最近发现，在 YOUTUBE 浏览过的频道，会在 B 站给推荐",
+   "created": "2023-09-04",
+   "found_by": "请推荐几个 UP主",
+   "replies": 21,
+   "node": "share"
+  }
+ ],
+ "dropped": [
+  {
+   "topic_id": 1004244,
+   "title": "观察最近汽车帖的讨论，发现部分 V 友依然对汽车品牌、汽车技术壁垒有迷信",
+   "created": "2023-12-28",
+   "found_by": "YouTuber 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970136,
+   "title": "工厂产线类国产 youtuber： Yunica",
+   "created": "2023-09-01",
+   "found_by": "YouTuber 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960995,
+   "title": "空调导致电脑黑屏的原因探究",
+   "created": "2023-07-30",
+   "found_by": "YouTuber 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913519,
+   "title": "独立产品灵感周刊 DecoHack #046 - 试试用 ChatGPT 写周刊",
+   "created": "2023-02-06",
+   "found_by": "YouTuber 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004748,
+   "title": "快来分享你们的 2023 年度总结~",
+   "created": "2023-12-31",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004661,
+   "title": "看到 b 站娶外国老婆的视频破防了",
+   "created": "2023-12-30",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004509,
+   "title": "我的 2023 年度游戏总结",
+   "created": "2023-12-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003547,
+   "title": "博主/up 主管理 | My Library 3.7.0",
+   "created": "2023-12-26",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003138,
+   "title": "为了更好地收集优质资源，专门学前端做了这个网站",
+   "created": "2023-12-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002813,
+   "title": "我的 2023 年，关于工作、开源、副业",
+   "created": "2023-12-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002062,
+   "title": "为什么国内不封杀丁胖子金牌讲师?",
+   "created": "2023-12-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001763,
+   "title": "大理菌子火锅",
+   "created": "2023-12-19",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001049,
+   "title": "使用 yutto，自动下载博主更新的视频，再用不怕视频忽然被和谐啦（狗头）",
+   "created": "2023-12-17",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000282,
+   "title": "求助！索尼电视接 USB3.0 转千兆网口速度还是只有 300M",
+   "created": "2023-12-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000097,
+   "title": "普通人如何破局",
+   "created": "2023-12-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999934,
+   "title": "[有码]听说你也在考雅思？我开发了一个备考口语的 App",
+   "created": "2023-12-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999761,
+   "title": "我的自建 NAS",
+   "created": "2023-12-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999574,
+   "title": "「PageSpy 里程碑」海报分享",
+   "created": "2023-12-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999571,
+   "title": "手机店的那些操作，吃相难看",
+   "created": "2023-12-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999490,
+   "title": "深入浅出玩转绿联 UGOS (下)",
+   "created": "2023-12-11",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999185,
+   "title": "iOS 开始整治共享 id 下载的软件了",
+   "created": "2023-12-10",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999086,
+   "title": "耗时三年开发的 H5 商城，推荐给大家",
+   "created": "2023-12-10",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999085,
+   "title": "耗时三年开源的 H5 商城，强烈推荐",
+   "created": "2023-12-10",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998962,
+   "title": "为什么境内互联网社区讨论手机的信号问题似乎成为了敏感话题？",
+   "created": "2023-12-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998889,
+   "title": "京东购买智能马桶发货错误维权之路（不定时更新）",
+   "created": "2023-12-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998139,
+   "title": "纪念一下我独立开发的 App 上架一周年，分享一下我的经历",
+   "created": "2023-12-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997896,
+   "title": "如何看待交警冲业绩这一行为",
+   "created": "2023-12-05",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997894,
+   "title": "[八字排盘] 第一版本网站上线，有同道易友可以抢先体验哈~",
+   "created": "2023-12-05",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997883,
+   "title": "百度站长平台快速收录权限和 sitemap 提交权限被全部收回",
+   "created": "2023-12-05",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997687,
+   "title": "小技术君的新项目发布：一站式个人社交信息整理工具",
+   "created": "2023-12-05",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997499,
+   "title": "分享一个观点，可能存在错误",
+   "created": "2023-12-04",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997333,
+   "title": "[赛博灯泡] 电脑 DPI 分辨率 500%的设置方法+最强恢复拯救方法！#电脑防身知识",
+   "created": "2023-12-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996273,
+   "title": "AI 绘画版权第一案？这个有人关注吗？",
+   "created": "2023-11-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996181,
+   "title": "转： OpenAI 内幕文件惊人曝出， Q*疑能破解加密， AI 背着人类在编程，网友：三个月接近 AGI",
+   "created": "2023-11-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996071,
+   "title": "我的所有信息源",
+   "created": "2023-11-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995912,
+   "title": "聊聊我在一个月抖音小红书粉丝累积到 3 万最后不再维护的事。",
+   "created": "2023-11-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995732,
+   "title": "论简中区内容（人性）堕落",
+   "created": "2023-11-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995652,
+   "title": "中国三大电信运营商国际网络互联相关资料",
+   "created": "2023-11-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995427,
+   "title": "燃油车真的快落幕了吗",
+   "created": "2023-11-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 994713,
+   "title": "不在同一局域网里，能否通过屏幕共享做到一台 Mac 远程控制另一台 Mac。",
+   "created": "2023-11-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993796,
+   "title": "感觉当下 social media 最好是小而美",
+   "created": "2023-11-21",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993606,
+   "title": "500 元左右电动牙刷推荐",
+   "created": "2023-11-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993033,
+   "title": "排名前十的谷歌 SEO 工具推荐：十款助力网站优化的利器",
+   "created": "2023-11-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 990432,
+   "title": "杭州创业分子积极交流",
+   "created": "2023-11-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988948,
+   "title": "索尼、海信、tcl 和小米的用户进来看看，关于 appletv 适配电视 HDMI CEC 的问题",
+   "created": "2023-11-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 987888,
+   "title": "我的背单词网站在抖音上小火了一把（单日 10w+ 播放量）",
+   "created": "2023-11-02",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 987279,
+   "title": "不止于文字：🔗 多指令链条， GPT AI Flow 专业模式的秘密武器，改变创作游戏规则",
+   "created": "2023-10-31",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 987010,
+   "title": "[小红书副业利器] 嘴替笔记又更新人设了！送体验额度！",
+   "created": "2023-10-31",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 986501,
+   "title": "跟风分享 2023 年个人订阅账单，附省钱小妙招",
+   "created": "2023-10-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 986229,
+   "title": "自建开源的 Uptime-Kuma 云拨测 [以腾讯云轻量为例]",
+   "created": "2023-10-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 985886,
+   "title": "程序员自由创业周记#14：持续学习",
+   "created": "2023-10-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984568,
+   "title": "YouTube 上环球旅行的靠什么生活",
+   "created": "2023-10-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984521,
+   "title": "Windows 任务管理器作者，退休的微软码农老头在线讲解代码和微软历史",
+   "created": "2023-10-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984374,
+   "title": "如何用 rss 的方式看某个推特博主的帖子, 黄推让我分心",
+   "created": "2023-10-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 983241,
+   "title": "[超级干货] 推荐 UP 主最爱的 AI 自媒体工具与个人本地文档助手，轻松创造有趣又有价值的视频内容！",
+   "created": "2023-10-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982995,
+   "title": "Twitter 被封，还能找回来吗？",
+   "created": "2023-10-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982967,
+   "title": "造一个 Postman 平替的「创作历程」",
+   "created": "2023-10-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982454,
+   "title": "2023 年中秋十一双节，南下 3750KM 游记，特来与大家分享。（多图）",
+   "created": "2023-10-16",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982151,
+   "title": "我的投资学习路径 roadmap",
+   "created": "2023-10-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982133,
+   "title": "上海临港新城租房的朋友看过来，地铁站 2 分钟房东直租免中介",
+   "created": "2023-10-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981946,
+   "title": "有没有便宜的 AI 视频语音翻译平台？ ElevenLabs 有点太贵了",
+   "created": "2023-10-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981857,
+   "title": "有人知道这种 悬浮盒子阴影 跟随鼠标旋转 动效生成网站吗",
+   "created": "2023-10-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981421,
+   "title": "塞尔维亚旅游 工作 移民",
+   "created": "2023-10-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 980295,
+   "title": "小米不做 miui 的可能性多大？",
+   "created": "2023-10-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978687,
+   "title": "华为的 mate60pro 影像能力跟苹果旗舰差距蛮大的",
+   "created": "2023-10-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978579,
+   "title": "给大家分享下最近学习英语的经验心得",
+   "created": "2023-10-02",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977508,
+   "title": "ChatGPT 发布半年后，以前爆火的社群，现在怎么样了？大模型发展到什么程度了？",
+   "created": "2023-09-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977085,
+   "title": "[船新版本] 的电子木鱼，主打功德可视化 + AI + 赌博",
+   "created": "2023-09-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976993,
+   "title": "iPhone 16 系列的爆料",
+   "created": "2023-09-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976905,
+   "title": "如何看待“翻墙访问国际互联网打工被罚款 200 元，没收 100 多万”?",
+   "created": "2023-09-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976670,
+   "title": "翻墙访问国际互联网打工被处罚百万",
+   "created": "2023-09-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976624,
+   "title": "有啥批量下载抖音某个博主的所有更新视频？",
+   "created": "2023-09-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976596,
+   "title": "[免费] RSS 翻译器 开始内测啦",
+   "created": "2023-09-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976401,
+   "title": "如果 iPhone 使用高通芯片",
+   "created": "2023-09-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976330,
+   "title": "奇思妙想，如果苹果使用高通芯片",
+   "created": "2023-09-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976326,
+   "title": "苹果 15 摄像头有灰尘",
+   "created": "2023-09-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976080,
+   "title": "程序员自由创业周记#12： 999%",
+   "created": "2023-09-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 975684,
+   "title": "如何发现博客？",
+   "created": "2023-09-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 975444,
+   "title": "[挽留贴] 作为全球首款 3nm 的 A17Pro，真正的奥秘",
+   "created": "2023-09-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 974047,
+   "title": "光通信研究生选择：北邮 or 成电？",
+   "created": "2023-09-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 973792,
+   "title": "精打细算：出海企业如何选择低成本高效率的产品推广渠道",
+   "created": "2023-09-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 973684,
+   "title": "出两个 4g 路由器，可插 sim 卡或者网线的路由器",
+   "created": "2023-09-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 973660,
+   "title": "如何评价油管上的《老高与小茉》",
+   "created": "2023-09-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972679,
+   "title": "你喜欢旅行吗",
+   "created": "2023-09-11",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970896,
+   "title": "中文评论区也开始个性化分发了…",
+   "created": "2023-09-04",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970467,
+   "title": "哎， twitter 看网黄被封了",
+   "created": "2023-09-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970146,
+   "title": "如果让 AI 学会算命，会对这个世界产生影响么？",
+   "created": "2023-09-01",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969520,
+   "title": "某黄推转型反诈推博主给的麒麟 9000s 的见解",
+   "created": "2023-08-30",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969041,
+   "title": "30 岁从大厂裸辞全家搬往英国的故事（结）",
+   "created": "2023-08-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968733,
+   "title": "7 速双离合和 8AT 变速箱驾驶体验上区别大嘛",
+   "created": "2023-08-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968591,
+   "title": "Python 潮流周刊#17： Excel 终于支持 Python 了、Meta 重磅开源新项目、Mojo 新得 1 亿美元融资",
+   "created": "2023-08-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968345,
+   "title": "推荐 5 本真实不虚伪的自传，助你正确面对不完美的自己",
+   "created": "2023-08-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 967912,
+   "title": "OpenCore 0.9.4 黑苹果 关闭显示器后过一段时间后，打开显示器黑屏，但是系统在运行。",
+   "created": "2023-08-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 967150,
+   "title": "33 字幕: 支持多语种、有背景音乐也能准确识别的双语字幕软件",
+   "created": "2023-08-21",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966439,
+   "title": "如果真假都无法确定，何来善恶？论缅甸科技产业在国内的影响",
+   "created": "2023-08-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966157,
+   "title": "与世界脱轨之商品推荐下的恐惧",
+   "created": "2023-08-17",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 963749,
+   "title": "youtube 反屏蔽广告，使用广告屏蔽插件视频无法播放",
+   "created": "2023-08-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 963203,
+   "title": "你现在几岁？现在的存款有多少？买过最贵的东西是什么呢？你有什么话想跟刚进社会的年轻人说呢？",
+   "created": "2023-08-07",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 961977,
+   "title": "iPhone 14 pro 发现摄像头故障",
+   "created": "2023-08-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960171,
+   "title": "想挖掘海外赚钱项目或 niche 项目信息，有什么好的信息渠道吗？",
+   "created": "2023-07-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960014,
+   "title": "全职独立开发者陈随易 2023 年 6-7 月总结分享",
+   "created": "2023-07-26",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959364,
+   "title": "把 Code Diff 渲染成可视化效果的视频",
+   "created": "2023-07-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958966,
+   "title": "一套完善的 H5 商城开源了，绝无套路",
+   "created": "2023-07-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958390,
+   "title": "有论文已经论证了： GPT4-0613 比 GPT4-0314 版本的表现更差",
+   "created": "2023-07-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958138,
+   "title": "人脸动态捕捉技术实现方案？",
+   "created": "2023-07-19",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958127,
+   "title": "别被 AI 虚假宣传，深度解析： Code Interpreter（代码解释器）原理、功能、用途、优缺点！",
+   "created": "2023-07-19",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957992,
+   "title": "天玑 8100 实际体验不如骁龙 870",
+   "created": "2023-07-19",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957263,
+   "title": "2023 年 7 月 关于 mbp m2 14 寸选购建议",
+   "created": "2023-07-17",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957260,
+   "title": "失业在家的一月半，我在家全职做开源",
+   "created": "2023-07-17",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956848,
+   "title": "见贤思齐焉，如何发现真正厉害的牛人",
+   "created": "2023-07-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956799,
+   "title": "目前全网还有观点令人耳目一新的大神或者讨论非常自由的中文圈么？",
+   "created": "2023-07-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955757,
+   "title": "闲来无事，聊聊语言习得（英语）",
+   "created": "2023-07-11",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955231,
+   "title": "真的很讨厌中文互联网环境",
+   "created": "2023-07-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954519,
+   "title": "如何为你的产品获取免费流量？",
+   "created": "2023-07-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952623,
+   "title": "BlogSEO - 新的长篇博客内容生成器（平均 3000+ 字）",
+   "created": "2023-06-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952440,
+   "title": "Build in public #1",
+   "created": "2023-06-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 951949,
+   "title": "苹果为什么不给 Mac mini 换模具？",
+   "created": "2023-06-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 951141,
+   "title": "有什么工具可以获取 Youtube 某个视频博主的所有视频，然后按需选择下载的吗。",
+   "created": "2023-06-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 950694,
+   "title": "在 Youtube 的网页版中，有能实现让博主的视频（Video）以翻页形式展示的插件吗",
+   "created": "2023-06-21",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949125,
+   "title": "为什么我们需要一个「关于」页面？",
+   "created": "2023-06-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947353,
+   "title": "Vision + GPT + 办公",
+   "created": "2023-06-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947325,
+   "title": "雷神加速器，真 TM 恶心，好久不上线时间直接清 0！",
+   "created": "2023-06-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947101,
+   "title": "苹果的眼睛是如何做到高精度眼球追踪的？",
+   "created": "2023-06-08",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947077,
+   "title": "为什么没看库克戴一下 Vision Pro",
+   "created": "2023-06-08",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946412,
+   "title": "[利用 AI 释放你的创意力] 全新博客、段落文章、小红书、网站描述、电商售后内容生成神器！",
+   "created": "2023-06-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945509,
+   "title": "Python 潮流周刊#5：并发一百万个任务要用多少内存？",
+   "created": "2023-06-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943860,
+   "title": "ModHeader 浏览器插件用户量因 New Bing 增长十倍",
+   "created": "2023-05-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943710,
+   "title": "副业新方向： 陪诊师！",
+   "created": "2023-05-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943655,
+   "title": "房车使用一年我对房车的一些优化改装",
+   "created": "2023-05-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943188,
+   "title": "Web3 中的创造者经济范式转变： NFT、责任、DAO、MeMe",
+   "created": "2023-05-26",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942752,
+   "title": "华语 youtuber 排行榜",
+   "created": "2023-05-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942699,
+   "title": "2 个月开发的 App《时间脉络》终于发布了、用做 ppt 的方式制作历史视频",
+   "created": "2023-05-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942212,
+   "title": "朋友分享的联通 FTTR 销售技巧单，贴上来与君共赏，顺便是我的看法",
+   "created": "2023-05-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 941879,
+   "title": "求问，现在买 m1 pro 过时了吗？去哪里买靠谱？",
+   "created": "2023-05-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 941575,
+   "title": "Python 潮流周刊#2： Rust 让 Python 再次伟大",
+   "created": "2023-05-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 940271,
+   "title": "国内信用卡已经可以绑定 ChatGPT 成功",
+   "created": "2023-05-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 940237,
+   "title": "左耳朵大佬溘然长逝，突然想到，如果换做是我自己，又该怎么办呢",
+   "created": "2023-05-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 940021,
+   "title": "我想讨论下 AutoGPT 或者 AgentGPT",
+   "created": "2023-05-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939756,
+   "title": "老哥们，能不能推荐一个 chatgpt 程序",
+   "created": "2023-05-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939250,
+   "title": "为什么这次王国之泪偷跑事件会引起这么大反响？就是因为它是塞尔达吗？",
+   "created": "2023-05-11",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939117,
+   "title": "618 快到了，下个月交房，家电家具有没有推荐的，谢谢",
+   "created": "2023-05-11",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938841,
+   "title": "小弟做了一个华人 youtuber 的百大排行榜，欢迎大家挑选自己喜欢的博主，如需收录，欢迎留言！",
+   "created": "2023-05-10",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938750,
+   "title": "怎样成为优秀的后端工程师",
+   "created": "2023-05-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938607,
+   "title": "求币圈资讯网站，信息源推荐",
+   "created": "2023-05-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 937968,
+   "title": "一套前后台全部开源的 H5 商城送给大家",
+   "created": "2023-05-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 936703,
+   "title": "腾讯轻量+NGINX 配置 CDN 同款缓存",
+   "created": "2023-05-01",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933831,
+   "title": "身处在转型中的社会，个人应该怎么做？",
+   "created": "2023-04-19",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933352,
+   "title": "NAS 资源下载软件 All in one: Kubespider 集成 yt-dlp，支持下载 youtube 视频，即将支持 rsshub 资源下载",
+   "created": "2023-04-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933345,
+   "title": "企业微信的安装包为什么可以这么大？",
+   "created": "2023-04-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932362,
+   "title": "求教，身为计算机专业的大学生/研究生，有哪些途径可以学习公司实际使用的技术或是获取业界相关信息呢？",
+   "created": "2023-04-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 931013,
+   "title": "推荐算法在商城系统实践",
+   "created": "2023-04-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 929843,
+   "title": "初创团队服务器部署方案探讨",
+   "created": "2023-04-04",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 929742,
+   "title": "推荐一个针对单点的 WebP 平滑过渡的工具 WebP-ServerGo",
+   "created": "2023-04-04",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 929310,
+   "title": "B 站 UP 主发起停更潮",
+   "created": "2023-04-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928077,
+   "title": "现在的 Z790 能不能上 4*32G 高频内存？",
+   "created": "2023-03-29",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928000,
+   "title": "丑搜·中文独立博客全文搜索引擎（收录有 1K+ 博客）",
+   "created": "2023-03-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927666,
+   "title": "现在的 GPT4 逻辑推理是个猴版",
+   "created": "2023-03-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927433,
+   "title": "这个小项目，上周被国外 AI 新闻网站报道，前些天又上了 github 热榜",
+   "created": "2023-03-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927168,
+   "title": "分享一个 mybatis xml 文件热加载实现的项目",
+   "created": "2023-03-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927067,
+   "title": "[教程带广告] 越狱行动：我是怎么逃离 996，开始自由职业的",
+   "created": "2023-03-25",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 926791,
+   "title": "[分享贴] 迫于好多铁子毕业，分享一些简历求职的基本策略",
+   "created": "2023-03-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 924268,
+   "title": "csdn 博客涉嫌 seo 作弊",
+   "created": "2023-03-15",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 923963,
+   "title": "除了听歌 app 的私人推荐，大家还有别的发现好歌的渠道吗？",
+   "created": "2023-03-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 922357,
+   "title": "提问：是什么契机让你们突然想起再读一本书？",
+   "created": "2023-03-08",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921757,
+   "title": "阿里云购买的域名能把 DNS 改成 cloudflare 的后国内能正常访问吗？",
+   "created": "2023-03-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921432,
+   "title": "想学穿搭，希望大家推荐",
+   "created": "2023-03-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921139,
+   "title": "分享一个日语学习资源导航",
+   "created": "2023-03-04",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 920726,
+   "title": "历史是 人与物质的所属关系 的 不断变化的轮回",
+   "created": "2023-03-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 919753,
+   "title": "分享一点自己玩 ALL IN ONE 的体会",
+   "created": "2023-02-28",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 919497,
+   "title": "无论视频博主怎么洗。。iPadOS 就是 Apple 目前最差的系统",
+   "created": "2023-02-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 918869,
+   "title": "为啥“真有 这东西治腹泻”也会被阿瓦隆？",
+   "created": "2023-02-24",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 918543,
+   "title": "数码博主们测评手机续航时，为何不测评微信这个 APP 的耗电情况呢？",
+   "created": "2023-02-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 918312,
+   "title": "视频统一管理平台",
+   "created": "2023-02-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917878,
+   "title": "建了一个北京的生活交流群",
+   "created": "2023-02-21",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917644,
+   "title": "上海联通场景宽带（1000m 下行/200m 上行，公网 IP，无达量限速）年付 1200 的优惠活动应该至少还会延长三个月",
+   "created": "2023-02-20",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 916153,
+   "title": "建了一个广州生活交流群",
+   "created": "2023-02-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 915908,
+   "title": "科技从业 12 年 推荐练八部金刚功健康养生 保命！",
+   "created": "2023-02-14",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 915871,
+   "title": "建了一个深圳生活交流群",
+   "created": "2023-02-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 915604,
+   "title": "自媒体的终点是带货吗？",
+   "created": "2023-02-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 915360,
+   "title": "我的开源项目分享",
+   "created": "2023-02-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913956,
+   "title": "请教下笔记本电脑进水维修经验",
+   "created": "2023-02-07",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913763,
+   "title": "Apple Music 上有哪些你喜欢的歌单？",
+   "created": "2023-02-06",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913322,
+   "title": "[资源自荐] 近 400 篇搜索、推荐、广告领域的大厂实践总结文",
+   "created": "2023-02-05",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912996,
+   "title": "网络上的人都好优秀，有点自惭形愧。",
+   "created": "2023-02-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912526,
+   "title": "副业想法 | 搬运剪辑短视频到各个短视频平台？",
+   "created": "2023-02-02",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912518,
+   "title": "33 字幕开放免费通道，帮你的视频生成更准确的 AI 字幕，欢迎试用。",
+   "created": "2023-02-02",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912350,
+   "title": "把玩 Damus（nostr）有感",
+   "created": "2023-02-01",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910914,
+   "title": "关于 2023 MacBook Pro 库克老贼没说的几件事",
+   "created": "2023-01-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910817,
+   "title": "边缘行者后三集哪一集有大刀",
+   "created": "2023-01-27",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910768,
+   "title": "苹果似乎没有给中文视频内容创作者发 M2 系列的 MacBook Pro 和 Mac mini 评测",
+   "created": "2023-01-26",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910370,
+   "title": "《捕蛇者说》39 期发布： Ep 39. 和 Alex 聊聊向量数据库与职业规划",
+   "created": "2023-01-23",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910301,
+   "title": "AI 成人用品·赛博朋克边缘行者·神机医",
+   "created": "2023-01-22",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909788,
+   "title": "京东社招-北京亦庄-社招-两位数 HC!-30-50k-内推邮箱 fvffff@foxmail.com",
+   "created": "2023-01-18",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908757,
+   "title": "怎么样才能系统的了解 web3，感兴趣但是感觉了解的不够系统，有没有什么推荐？",
+   "created": "2023-01-13",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908438,
+   "title": "长相到底对个人能产生多大影响, 前阿里腾讯员工如是说.",
+   "created": "2023-01-12",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 907642,
+   "title": "独立产品灵感周刊 DecoHack #043 - 互联网从业者的灵感数据库",
+   "created": "2023-01-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 907588,
+   "title": "博客变现：有独立博客的技术博主可参与这个写产品测试推广文章的机会。",
+   "created": "2023-01-09",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 907476,
+   "title": "为什么我辞掉了腾讯阿里的工作选择做自由职业?",
+   "created": "2023-01-08",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 907145,
+   "title": "破惑、问道、安顿。我的 2022 年终总结。",
+   "created": "2023-01-07",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 906177,
+   "title": "中国人只配看广告吗",
+   "created": "2023-01-03",
+   "found_by": "宝藏博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001777,
+   "title": "为前端程序员准备的收藏神器，轻松重构任意站点全部或部分 UI，得到可维护性高的 html/css，支持转 tailwind css。",
+   "created": "2023-12-19",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956024,
+   "title": "分享一下最近开发的百词斩网页插件",
+   "created": "2023-07-12",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939689,
+   "title": "分享一下我是如何做笔记的",
+   "created": "2023-05-13",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 936649,
+   "title": "[五一快乐] 安利一款基于 Notion、ChatGPT 渐进式学习、自动化高效录入知识片段的 AI 助手",
+   "created": "2023-04-30",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 935139,
+   "title": "在推荐算法泛滥之前，我们是怎样发现新内容的？",
+   "created": "2023-04-24",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 934807,
+   "title": "爆肝一星期，做了个有点不一样的 AI 工具导航网站",
+   "created": "2023-04-23",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 931949,
+   "title": "分享一点自己在 B 站收藏的“比较有质量”的课程",
+   "created": "2023-04-12",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 924628,
+   "title": "投稿了两个 ghidra 逆向分析的视频, 给 v 友们看看我的自媒体尝试的数据情况",
+   "created": "2023-03-16",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 918545,
+   "title": "现在已经有成熟的评论机器人了吗？有一定创造性、高精度匹配、语句完整，似乎比 chatgpt 更有效？",
+   "created": "2023-02-23",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917538,
+   "title": "Apple TV 盒子 + Sony 电视 + NAS Emby 瞎折腾",
+   "created": "2023-02-20",
+   "found_by": "bilibili 收藏",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003449,
+   "title": "奔着结婚的恋爱到底该何去何从？",
+   "created": "2023-12-26",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003115,
+   "title": "强烈安利一款口腔溃疡凝胶， 10 年+经验",
+   "created": "2023-12-25",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965350,
+   "title": "安利下 博德之门 3 最好的教程",
+   "created": "2023-08-15",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948767,
+   "title": "开会糟透了？试试无声会议吧",
+   "created": "2023-06-14",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 944802,
+   "title": "写了一个 AI 搬运动漫资讯的博客",
+   "created": "2023-06-01",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 906269,
+   "title": "有点认真的 2022 工作学习总结",
+   "created": "2023-01-03",
+   "found_by": "安利 博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004820,
+   "title": "我一点都不怀念 2023",
+   "created": "2023-12-31",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004432,
+   "title": "2023 年就要过完了，还有一些问题没有想通，求指点",
+   "created": "2023-12-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003282,
+   "title": "Health3 提出及合伙人招募",
+   "created": "2023-12-25",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003038,
+   "title": "10 年资深产品经理寻个 remote 兼职",
+   "created": "2023-12-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002634,
+   "title": "求 大佬 给个 autohotkey 脚本 实现 映射 上下左右 方向键！",
+   "created": "2023-12-22",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002339,
+   "title": "想用香橙派做点小项目，请问有靠谱的教程吗",
+   "created": "2023-12-21",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001703,
+   "title": "赠送 giffgaff 30 张",
+   "created": "2023-12-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001417,
+   "title": "giffgaff 卡到货啦，免费送，顺丰到付返一半邮费！激活官方送 5 英镑余额。",
+   "created": "2023-12-18",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001191,
+   "title": "找到一些看似冷门但流量惊人的一些网站！- 独立产品灵感周刊 DecoHack #057",
+   "created": "2023-12-17",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000202,
+   "title": "2023 十一月读伦理，觉醒，心理，物理，地理，小说…20 本",
+   "created": "2023-12-13",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999796,
+   "title": "在线免费 AI 文生图，解决没显卡朋友的难题啦",
+   "created": "2023-12-12",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999482,
+   "title": "深入浅出玩转绿联 UGOS (上)",
+   "created": "2023-12-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999383,
+   "title": "请问目前有比较成熟的老年人智能家居监测方案吗？",
+   "created": "2023-12-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999335,
+   "title": "#🍊[2023]去年和前年买过我家赣南脐橙的朋友，今年我又又又来了",
+   "created": "2023-12-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999045,
+   "title": "推荐一个我喜欢的 UP 主-----小梅 vlog",
+   "created": "2023-12-09",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998964,
+   "title": "[吊诡] 手机卡实名和本人不符居然能通过各大官方平台实名认证，诡异的是在腾讯那边做一个实名认证却失败了！",
+   "created": "2023-12-09",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998904,
+   "title": "Macbook Pro 使用总结",
+   "created": "2023-12-09",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996382,
+   "title": "请推荐几个 magisk/lsp 插件，能实现如下功能的：",
+   "created": "2023-11-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996133,
+   "title": "搞笑论坛、网站推荐",
+   "created": "2023-11-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995792,
+   "title": "《HelloGitHub》第 92 期",
+   "created": "2023-11-28",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995572,
+   "title": "最近在装修，请大家帮忙推荐几款吸顶灯",
+   "created": "2023-11-27",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993908,
+   "title": "给选择 M1 系列芯片的 V 友一点建议",
+   "created": "2023-11-21",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992298,
+   "title": "使用 docker 来编排 Web 应用",
+   "created": "2023-11-15",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988738,
+   "title": "出 M1 Mac mini 16G+256G 以及 Surface Laptop Go（第一代）",
+   "created": "2023-11-05",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988651,
+   "title": "Python 潮流周刊#25：性能最快的代码格式化工具 Ruff！",
+   "created": "2023-11-04",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988453,
+   "title": "这个月就要开庭了，讲一下我和外包公司的撕逼经历吧，希望还在外包公司上班的都看看涨点经验，希望大家都不要碰到这种事",
+   "created": "2023-11-03",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988051,
+   "title": "大家请推荐几个 iPhone 15pro 的使用技巧网站",
+   "created": "2023-11-02",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 987869,
+   "title": "youtube 上的口播类视频，如何在 youtube music 上播放？",
+   "created": "2023-11-02",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 986488,
+   "title": "Python 潮流周刊#24： no-GIL 提案正式被采纳了！",
+   "created": "2023-10-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 986324,
+   "title": "农村程序员&独立开发者，在村里各处写代码的日常与一路走来的历程",
+   "created": "2023-10-28",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 985588,
+   "title": "可能会是适合程序员的恋爱指南 by 离谱",
+   "created": "2023-10-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984335,
+   "title": "独立产品灵感周刊 DecoHack #053 - 有意思的地图网站",
+   "created": "2023-10-22",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982205,
+   "title": "这倒霉的一年，我又给自己的轮子迭代了一个版本",
+   "created": "2023-10-15",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981372,
+   "title": "[翻译] Async Ruby（异步 Ruby）",
+   "created": "2023-10-12",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 980209,
+   "title": "***请推荐 win11 APP 开发框架和思路, 谢谢***",
+   "created": "2023-10-09",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979719,
+   "title": "南京联通宽带 (很便宜..)",
+   "created": "2023-10-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979513,
+   "title": "改变 axios 的用法后，我的工作效率提升了 3 倍",
+   "created": "2023-10-07",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979109,
+   "title": "毕业 4 年， 27 岁一事无成无一技傍身，转行学编程怎么样？",
+   "created": "2023-10-05",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979099,
+   "title": "蒲公英 x1 使用体验",
+   "created": "2023-10-05",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978816,
+   "title": "留下你推荐的美食 up 主，\r\n我来整理这位 up 新近推荐的菜品，然后发你，\r\n帮你旅行做参考",
+   "created": "2023-10-04",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978399,
+   "title": "程序员提高英语水平依然是值得长期投入的，离谱开了一个儿童乐园并在一周回本了",
+   "created": "2023-10-01",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976679,
+   "title": "Python 潮流周刊#21：如何提升及测量 Python 代码的性能？",
+   "created": "2023-09-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976589,
+   "title": "美区 Apple One 超大杯，缺三人， 126/季度",
+   "created": "2023-09-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976486,
+   "title": "破事水: 关于 C2C 线和 iCloud 备份和 FaceTime 可用性",
+   "created": "2023-09-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976448,
+   "title": "初涉录音设备，记录我购买声卡和麦克风的曲折经历以及第一首翻唱陶喆——流沙 soul power 版本（low quality)",
+   "created": "2023-09-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 976355,
+   "title": "大龄程序员自学智能合约，准备投简历了，求教 V 友们，是“海投”好还是找准几家咬定青山不放松？",
+   "created": "2023-09-22",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 975381,
+   "title": "3 个月小程序用户破百万，作为独立开发者我可能做对了哪些事情，小程序从业者可以来聊聊",
+   "created": "2023-09-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 975380,
+   "title": "3 个月小程序用户破百万，作为独立开发者我可能做对了哪些事情",
+   "created": "2023-09-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 974964,
+   "title": "独立开发周记 #31：从未有过的审核经历",
+   "created": "2023-09-18",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 973394,
+   "title": "铁子们，最近入手了一个 xbox series x，求推荐一个高刷便携屏，预算 1K 以内吧",
+   "created": "2023-09-13",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972588,
+   "title": "老生常态之英语学习 有点想润最近在苦练口语并奉上遗失的章节 写作篇",
+   "created": "2023-09-10",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972103,
+   "title": "b 站可以设置推荐 [关注 UP 的过往内容] 吗？",
+   "created": "2023-09-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972059,
+   "title": "Reqable 项目技术栈全方面总结，欢迎来理性讨论",
+   "created": "2023-09-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970364,
+   "title": "Python 潮流周刊#18： Flask、Streamlit、Polars 的学习教程",
+   "created": "2023-09-02",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970181,
+   "title": "装一台 3D 打印定制的 EVA 主题 ITX 黑苹果，等 5 个月终于到货组装完成",
+   "created": "2023-09-01",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969903,
+   "title": "学习 dk、分享一篇 34w 阅读的小红书笔记的出炉全过程",
+   "created": "2023-08-31",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968132,
+   "title": "怎样制作艺术二维码？",
+   "created": "2023-08-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966920,
+   "title": "Midjourney API 申请及使用",
+   "created": "2023-08-20",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966712,
+   "title": "Python 潮流周刊#16：优雅重要么？如何写出 Pythonic 的代码？",
+   "created": "2023-08-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966440,
+   "title": "求指导,已学英语 8 个月, 关于\"可理解输入\"的一些困惑",
+   "created": "2023-08-18",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965650,
+   "title": "Google Domain 被 Squarespace 收购",
+   "created": "2023-08-16",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965320,
+   "title": "[画大饼]我的点子有可能属于技术革命、科学范式革命、web3、人类与 AI 竞争的工具，想请一些人备份和完善它[正经标题]为解决问题和探索奥秘提供尽可能多的通用工具",
+   "created": "2023-08-15",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964870,
+   "title": "写了一篇详细的创建本地音乐库的教程",
+   "created": "2023-08-13",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964567,
+   "title": "请推荐几个建网站相关的比较活跃的中文论坛，谢谢！",
+   "created": "2023-08-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962149,
+   "title": "[爬虫、 Python 后端] 有人看机会吗？招聘网站捞不到人了是怎么回事？",
+   "created": "2023-08-03",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960975,
+   "title": "（深度分析）开源框架/库的伟大与罪恶",
+   "created": "2023-07-30",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960381,
+   "title": "如果想玩 Switch 游戏，是不是模拟器会是一个更好的选择？",
+   "created": "2023-07-27",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959569,
+   "title": "求推荐一个带鱼屏显示器",
+   "created": "2023-07-25",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959481,
+   "title": "艰难的广州买房-装修篇",
+   "created": "2023-07-25",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959091,
+   "title": "30 岁从大厂裸辞全家搬往英国的故事（下）",
+   "created": "2023-07-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958993,
+   "title": "海外支付卡/账户 折腾一月半 成果和过程记录",
+   "created": "2023-07-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958926,
+   "title": "YouTube 有那些 up 主推荐呢",
+   "created": "2023-07-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955994,
+   "title": "最近研究了一下向上管理，写了一篇文章在这里分享一下",
+   "created": "2023-07-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955929,
+   "title": "坝上草原骑马登山两日游，求搭子 北京出发",
+   "created": "2023-07-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954908,
+   "title": "快速创建 API 和类型定义(come in mo fish😊)",
+   "created": "2023-07-07",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954304,
+   "title": "2023 六月读宗教史，基督教，佛道，觉醒，跑姿……14 本",
+   "created": "2023-07-05",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954074,
+   "title": "为啥在基本的道德是非的事上都有那么大分歧 —— 读某人和某爸矛盾热帖有感",
+   "created": "2023-07-04",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 951359,
+   "title": "Homelab | 架构设计与实现-Low-level design---Proxmox",
+   "created": "2023-06-25",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 951133,
+   "title": "Homelab | 架构设计与实现-Low-level design --Nginx Reverse Proxy",
+   "created": "2023-06-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949818,
+   "title": "个人开发者如何发布第一款微信小游戏: 基本流程以及建议",
+   "created": "2023-06-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948902,
+   "title": "谁能写出合适的 ChatGPT 提示词按如下要求整理下列文本?",
+   "created": "2023-06-15",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948683,
+   "title": "猛然发现， Linux 这些年进步迅速啊。Windows 的原有市场在慢慢被蚕食。。",
+   "created": "2023-06-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948621,
+   "title": "是时候该换掉你的 axios 了",
+   "created": "2023-06-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948308,
+   "title": "B 站 70 万粉丝 up 主秋葉 aaaki，窃取资源发家，月入几万",
+   "created": "2023-06-13",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947586,
+   "title": "Python 潮流周刊#6： Python 3.12 有我贡献的代码！",
+   "created": "2023-06-10",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946424,
+   "title": "求推荐平板",
+   "created": "2023-06-06",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945465,
+   "title": "求问, 项目开发和管理工具",
+   "created": "2023-06-03",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 944533,
+   "title": "12 期「硬地骇客」Podcast 制作，这些经验要是有人提前告诉我就好了",
+   "created": "2023-05-31",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943444,
+   "title": "Python 潮流周刊#3： PyPI 的安全问题",
+   "created": "2023-05-27",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943176,
+   "title": "入坑了 8505， 16G+1T，请教各位大佬该如何配置系统？",
+   "created": "2023-05-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942573,
+   "title": "Java on Azure Tooling 的更新 – 2023 年 4 月 Azure Spring Apps 入门模板增强功能和 Azure Service Bus 支持",
+   "created": "2023-05-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942556,
+   "title": "Java on Azure Tooling 的更新 – 2023 年 4 月 Azure Service Bus 支持和 Azure Spring Apps 入门模板增强功能",
+   "created": "2023-05-24",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938375,
+   "title": "摆烂操作搞定了美区 PayPal 和美区 Apple ID",
+   "created": "2023-05-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 937306,
+   "title": "rss 求助！",
+   "created": "2023-05-04",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 936293,
+   "title": "ChatBLOOM-1.7B 开源中英文聊天模型",
+   "created": "2023-04-28",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 935669,
+   "title": "2023 年求推荐笔记本电脑",
+   "created": "2023-04-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 935519,
+   "title": "看到个网友分享城市里骨灰的安葬方式及费用",
+   "created": "2023-04-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 934825,
+   "title": "让你的 Synology DiskStation DSM 更安全",
+   "created": "2023-04-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 934748,
+   "title": "求问！海淀知春路工作，哪里租房比较好呢",
+   "created": "2023-04-23",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933905,
+   "title": "ChatGPT vs Bing Chat：有什么区别，应该使用哪一个？",
+   "created": "2023-04-20",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932578,
+   "title": "Hetzner AX102 独服 7950X3D 128G 寻合租车友",
+   "created": "2023-04-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932556,
+   "title": "实测可用的 chatGPT 美元卡，身份证可开通",
+   "created": "2023-04-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 931507,
+   "title": "手把手教你当一个合格的云土耳其人-上篇",
+   "created": "2023-04-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930883,
+   "title": "✨ V2EX 周报 04.01-04.07 本周热门主题及高赞回复 964",
+   "created": "2023-04-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930872,
+   "title": "✨ V2EX 周报 04.01-04.07 本周热门主题及高赞回复",
+   "created": "2023-04-08",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930359,
+   "title": "整理了高回复率的求职信（Cover Letter）写作攻略， 4 个步骤➕中英双语模版，文中自取。",
+   "created": "2023-04-06",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 929185,
+   "title": "新加坡生小孩的医院和流程费用介绍",
+   "created": "2023-04-02",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928808,
+   "title": "[经验帖] 上班当然是为了钱，不要避讳。分享一些和 HR 谈薪的技巧",
+   "created": "2023-03-31",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928546,
+   "title": "自己做产品一年多了，对于个人开发者如何购买云服务有一些经验可以分享",
+   "created": "2023-03-30",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928179,
+   "title": "咨询用越狱 iPhone 的朋友安全性\\易用性怎样？",
+   "created": "2023-03-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927407,
+   "title": "预算 600 以内，想收个手持云台做 UP 主，求 V 友们给推荐推荐。直接挂黄鱼链接最好。",
+   "created": "2023-03-27",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927208,
+   "title": "PVE all in One + iStoreOS 作为 NAS 方案请教",
+   "created": "2023-03-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 925628,
+   "title": "gpt 用来推荐歌曲也不错",
+   "created": "2023-03-20",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 925028,
+   "title": "庆祝 SORA Daily 中文推特频道的建立！",
+   "created": "2023-03-18",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 923332,
+   "title": "B 站的高科技？还是 Edge 浏览器的功能？",
+   "created": "2023-03-12",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 922672,
+   "title": "OIDC & OAuth2.0 协议及其授权模式详解｜认证协议最佳实践系列 [1]",
+   "created": "2023-03-09",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 920855,
+   "title": "Clicknium 中文指南 2",
+   "created": "2023-03-03",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 919623,
+   "title": "独立产品灵感周刊 DecoHack #049 - 开发者如何学习 UI 设计",
+   "created": "2023-02-27",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 919381,
+   "title": "人没有压力是不会进步的，我的触底反弹必定能让你保持乐观心态，到达彼岸",
+   "created": "2023-02-26",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917465,
+   "title": "国内信用卡订阅 ChatGPT Plus",
+   "created": "2023-02-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 916525,
+   "title": "更新了一下之前做的一个 chatgpt 的镜像站",
+   "created": "2023-02-16",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913915,
+   "title": "深度学习快速上手——基于 MegEngine 的 LeNet 快速训练与部署",
+   "created": "2023-02-07",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913557,
+   "title": "王部长回村过年",
+   "created": "2023-02-06",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 913261,
+   "title": "月经贴 求推荐适合 macbook m1 pro 的外接显示器",
+   "created": "2023-02-04",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912344,
+   "title": "求助，中文稍微高质量的论坛",
+   "created": "2023-02-01",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 911765,
+   "title": "性能提升 40 倍！我们用 Rust 重写了自己的项目",
+   "created": "2023-01-30",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 911435,
+   "title": "推荐一篇 2022 年你看过最好的一本技术书籍/技术文章？",
+   "created": "2023-01-29",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910078,
+   "title": "wiliwilii 专为手柄控制设计的开源第三方跨平台 B 站客户端，目前可以运行在 PC 全平台和 Nintendo Switch 上",
+   "created": "2023-01-20",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909817,
+   "title": "「🎉福利送码」iOS 保护隐私利器 - Flinteger A1",
+   "created": "2023-01-19",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909290,
+   "title": "DTO Weekly Curations #2 - You Want Modules, Not Microservices",
+   "created": "2023-01-16",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908975,
+   "title": "求有给家里买过锅的推荐一个",
+   "created": "2023-01-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908948,
+   "title": "How To Be Successful → 30 条",
+   "created": "2023-01-14",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908255,
+   "title": "杭州摩托车入门指南",
+   "created": "2023-01-11",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 905893,
+   "title": "有没有老哥推荐几个看修驴蹄、锻刀这些看着比较解压的 up 主",
+   "created": "2023-01-01",
+   "found_by": "请推荐几个 UP主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004600,
+   "title": "国内市场的佳明 FR265Music 支持 Spotify 吗？",
+   "created": "2023-12-30",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004316,
+   "title": "2023 年的末尾，请签收这份 repo -- Lua-Radix-Router Lua 性能最快的 API Router 🚀",
+   "created": "2023-12-29",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003420,
+   "title": "大家有什么好的青龙脚本推荐吗？除了京东的和阿里云盘的",
+   "created": "2023-12-26",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003022,
+   "title": "[送码] | 专注日常-番茄钟&笔记",
+   "created": "2023-12-24",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002274,
+   "title": "前端之虎陈随易 2023 年终回顾与总结",
+   "created": "2023-12-21",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002246,
+   "title": "X 是不是崩了？点了的推文都显示页面不存在，刷新后推荐，关注和列表都看不到。",
+   "created": "2023-12-21",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001863,
+   "title": "网友淘宝账号下出现非本人购买记录，过程梳理、推断和求助",
+   "created": "2023-12-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999774,
+   "title": "🎉[福利] iOS & macOS 福利放送， 150 位， 5 选 1",
+   "created": "2023-12-12",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999506,
+   "title": "Python 潮流周刊第一季完结（1~30）",
+   "created": "2023-12-11",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996596,
+   "title": "[远程/兼职/合肥/等/求职] 四年前端，技术栈 React/TS",
+   "created": "2023-11-30",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996473,
+   "title": "中国版的 GPTs： InsCode AI 生成应用",
+   "created": "2023-11-30",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995770,
+   "title": "揭露 Strikingly 公司不公行为，警告初创公司及个人用户",
+   "created": "2023-11-27",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995251,
+   "title": "Python 潮流周刊#28：两种线程池、四种优化程序的方法",
+   "created": "2023-11-26",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995200,
+   "title": "🎉🎉🎉 我把个人独立开发的基于 React Native 的播客客户端 PodPodium（领讲台）开源了 🔥🔥🔥",
+   "created": "2023-11-25",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993155,
+   "title": "分享我对 DiscuzQ 这款现代化开源轻社区的二次开发成果。DiscuzQ 依然是站长的最佳选择！",
+   "created": "2023-11-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993078,
+   "title": "Python 潮流周刊#27：应该如何处理程序的错误？",
+   "created": "2023-11-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992839,
+   "title": "见鬼了， B 站账号出现一条我没发过的评论， IP 也是异地",
+   "created": "2023-11-17",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992712,
+   "title": "如何使用 Niche Finder 关键词工具做好营销关键词筛选提升流量？",
+   "created": "2023-11-17",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992179,
+   "title": "解密 MySQL：索引—优化数据库性能的关键（二）",
+   "created": "2023-11-15",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 991087,
+   "title": "Python 潮流周刊#26： requests3 的现状",
+   "created": "2023-11-12",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 990612,
+   "title": "私有云和多云管理平台 | Cloudpods v3.10.7 发布",
+   "created": "2023-11-10",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 990474,
+   "title": "一行控制台代码实现 github 批量 unstar",
+   "created": "2023-11-09",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 990234,
+   "title": "KCL 开源社区最新动态速递 | 超多 IDE 体验提升和开箱即用的模型等你来探！",
+   "created": "2023-11-09",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 989805,
+   "title": "[送激活码] 说说最近如何通过获取抖音高转化免费精准流量变现 2.3W 的",
+   "created": "2023-11-08",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 989315,
+   "title": "好玩有用的独立产品与开源项目 - 独立产品灵感周刊 DecoHack #055",
+   "created": "2023-11-06",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 985188,
+   "title": "过滤是解决 RSS 信息过载的一种方法，有没有更好的呢？ [ReadBot 能够自定义主题]",
+   "created": "2023-10-25",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984556,
+   "title": "出一堆闲置， iPhone 12 mini， iPhone XS max ， N1，电脑主机等等等等",
+   "created": "2023-10-23",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 983141,
+   "title": "[2023-10-18 14:00] iOS 的 VVebo 已经彻挂掉了，打算使用 RSS 了",
+   "created": "2023-10-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981816,
+   "title": "Python 潮流周刊#22： Python 3.12.0 发布了！",
+   "created": "2023-10-13",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981356,
+   "title": "[翻译] Ruby Fiber Scheduler",
+   "created": "2023-10-12",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 980554,
+   "title": "那个专注于信息过滤的 RSS 阅读器功能更新了 [支持多关键词筛选]",
+   "created": "2023-10-10",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979052,
+   "title": "用 VS Code 管理服务器，我有独特的服务器管理方式",
+   "created": "2023-10-05",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978800,
+   "title": "翻译 | 15 个快速且易于实施的 SaaS 创意",
+   "created": "2023-10-03",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978089,
+   "title": "vscode 扩展 fnMap（函数地图）v3 发布，体验升级！",
+   "created": "2023-09-28",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977207,
+   "title": "[免费+抽奖] ChatAIr-ChatGPT 客户端 TF 版发布",
+   "created": "2023-09-26",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 973945,
+   "title": "专注于信息过滤的 RSS 阅读器 [支持同步 Cubox 了]",
+   "created": "2023-09-15",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972310,
+   "title": "Python 潮流周刊#19： Mojo 终于提供下载了！",
+   "created": "2023-09-09",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972052,
+   "title": "我来重复造轮子了，做了一个专注于信息过滤的 RSS 阅读器",
+   "created": "2023-09-08",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 971503,
+   "title": "值得关注的海外独立开发者列表",
+   "created": "2023-09-06",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970306,
+   "title": "独立网站收费首月收入分享",
+   "created": "2023-09-02",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966394,
+   "title": "我为什么放弃 Go 语言? 转载觉得写的还不错, 轻喷^_^",
+   "created": "2023-08-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964960,
+   "title": "Python 潮流周刊#15：如何分析 FastAPI 异步请求的性能？",
+   "created": "2023-08-13",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 963132,
+   "title": "如果有这么一款剪贴板应用，你会为它买单吗",
+   "created": "2023-08-07",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962374,
+   "title": "新版发布 | Cloudpods v3.10.4 和 v3.9.12 正式发布",
+   "created": "2023-08-04",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 961169,
+   "title": "[翻译] 移动开发最佳实践：为 Android 和 iOS 构建成功应用的策略",
+   "created": "2023-07-31",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960704,
+   "title": "B 站音乐播放器",
+   "created": "2023-07-28",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960618,
+   "title": "玩转即刻 app，发现即刻上值得关注的人",
+   "created": "2023-07-28",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960449,
+   "title": "零代码，使用 Dify 两分钟接入企业微信 AI 机器人",
+   "created": "2023-07-28",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960331,
+   "title": "专注：如何提高专注力和注意力的简要指南",
+   "created": "2023-07-27",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960234,
+   "title": "Java on Visual Studio Code 的更新 – 2023 年 7 月 动态开启/关闭嵌入提示、代码补全性能的持续优化、反编译器支持升级等",
+   "created": "2023-07-27",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960123,
+   "title": "Java on Visual Studio Code 的更新 – 2023 年 7 月 反编译器支持升级、动态开启/关闭嵌入提示、代码补全性能的持续优化等",
+   "created": "2023-07-27",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960061,
+   "title": "第 40 期 - 偷懒爱好者周刊 23/07/26",
+   "created": "2023-07-27",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959994,
+   "title": "2023 年了，你还在学 Nginx 吗",
+   "created": "2023-07-26",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959173,
+   "title": "[教女朋友 从 0 到 1 学编程系列] 二、快速掌握前端基础",
+   "created": "2023-07-24",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958531,
+   "title": "微博全部关注随机显示？",
+   "created": "2023-07-21",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958410,
+   "title": "使用 Higress 网关降低企业 AI 大模型使用成本",
+   "created": "2023-07-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958381,
+   "title": "使用 Higress 网关降低 AI 大模型使用成本，提升合规性",
+   "created": "2023-07-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956658,
+   "title": "🏷️ 添加用户标签的用户脚本重磅升级，支持 V2EX 手机网页版",
+   "created": "2023-07-14",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956427,
+   "title": "提高团队生产力的 13 种时间管理技巧",
+   "created": "2023-07-13",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955373,
+   "title": "做了个围绕 Threads 周边的网站，一天上线，来收集需求了",
+   "created": "2023-07-10",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955347,
+   "title": "Threads 值得关注的列表",
+   "created": "2023-07-09",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954568,
+   "title": "V2EX 给我带来了哪些变化？- 之这些年开发的 V2EX 周边",
+   "created": "2023-07-06",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954382,
+   "title": "Java +springboot+vue 开发的视频点播网站（求 star）, 可用作小电影网站，你懂的",
+   "created": "2023-07-05",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953983,
+   "title": "关于消息推送方案的讨论",
+   "created": "2023-07-04",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952354,
+   "title": "第 36 期 - 偷懒爱好者周刊 23/06/28",
+   "created": "2023-06-28",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 950499,
+   "title": "第 35 期 - 偷懒爱好者周刊 23/06/21",
+   "created": "2023-06-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 950215,
+   "title": "异地组局域网玩游戏多网卡无法加入房间问题",
+   "created": "2023-06-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949669,
+   "title": "Python +django 开发的视频点播网站（求 star）",
+   "created": "2023-06-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949636,
+   "title": "Spring for twitter 部分功能失效",
+   "created": "2023-06-17",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949462,
+   "title": "如何优雅地为 Clash 添加自定义代理规则？这是你要看的最后一篇教程",
+   "created": "2023-06-17",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 949254,
+   "title": "云联壹云企业版新增自动巡检功能",
+   "created": "2023-06-16",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948518,
+   "title": "第 34 期 - 偷懒爱好者周刊 23/06/14",
+   "created": "2023-06-13",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 947858,
+   "title": "搭建你的 OpenAI 接口服务，支持多种渠道包括 Azure，支持渠道管理、令牌管理、用户管理，开箱即用 & 功能丰富",
+   "created": "2023-06-12",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946829,
+   "title": "第 33 期 - 偷懒爱好者周刊 23/06/07",
+   "created": "2023-06-08",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946500,
+   "title": "「抽奖送码」用 ONEW 管理你的账户与资产，告别流水记账！抽奖赠送 Plus 兑换码啦～",
+   "created": "2023-06-07",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945691,
+   "title": "如何使用 ChatGPT 自带插件",
+   "created": "2023-06-04",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945352,
+   "title": "bilibili 电视 app 除了原生还有什么选择吗",
+   "created": "2023-06-02",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945300,
+   "title": "分享个产品经理的收藏神器 -- Pixcall（自产自销）",
+   "created": "2023-06-02",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945254,
+   "title": "ChatGPT 介绍与使用场景",
+   "created": "2023-06-02",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 943938,
+   "title": "最新的一些 Web3 开发相关技术栈更新 && MetaMask 是怎么保存你的钱包秘钥的？",
+   "created": "2023-05-29",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939478,
+   "title": "写一个 Vue DevTools，让开发体验飞一会儿",
+   "created": "2023-05-12",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938580,
+   "title": "Apee-Router，简单轻量的 JavaScript 路由库",
+   "created": "2023-05-09",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938256,
+   "title": "独立产品灵感周刊 DecoHack #052 - 100 个 AI 工具导航网站",
+   "created": "2023-05-08",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938126,
+   "title": "酷瓜云课堂 v1.6.3 发布，快坚持不下去了",
+   "created": "2023-05-07",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 935324,
+   "title": "家里长辈沉迷于低质量短视频怎么办",
+   "created": "2023-04-25",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933425,
+   "title": "部署团队服务导航网站 Team-nav",
+   "created": "2023-04-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932667,
+   "title": "把 OpenAI 的 ChatGPT 兼容接口上线到网站上了",
+   "created": "2023-04-14",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 931367,
+   "title": "babyagi_zh（通用人工智能婴儿版支持中文任务）： AI 任务管理系统",
+   "created": "2023-04-10",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930409,
+   "title": "海外 SaaS、工具、技术栈实用指南",
+   "created": "2023-04-06",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930155,
+   "title": "✨ V2EX 超强浏览器扩展：体验更先进的 V2EX！",
+   "created": "2023-04-06",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 927352,
+   "title": "分享一个修改了 xml 文件再也不用重启的项目 mybatis-xmlrealod",
+   "created": "2023-03-26",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 925533,
+   "title": "微信用户关注的公众号列表有可能拿到吗？",
+   "created": "2023-03-20",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921974,
+   "title": "V2compose-一个使用 Compose 构建的 V2EX 的 Android 客户端！已基本完工！",
+   "created": "2023-03-07",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921926,
+   "title": "独立开发周报 #1 (0213-0219)",
+   "created": "2023-03-07",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 918398,
+   "title": "微信订阅号突然被全部清空",
+   "created": "2023-02-22",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917214,
+   "title": "微信关注的公众号全部消失，有没有办法抢救一下？",
+   "created": "2023-02-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909784,
+   "title": "[ToMemo] [iOS][送码]「新年祝福」短语 - 还在为过年时要发送的祝福语而烦恼吗",
+   "created": "2023-01-18",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909499,
+   "title": "继续分享个 Go 微服务实战 - 关系服务(gRPC)",
+   "created": "2023-01-17",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908582,
+   "title": "在路上",
+   "created": "2023-01-13",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 906493,
+   "title": "A1Blocker - iOS 上隐藏 App 和锁定 App 来进一步保护你的隐私 ( 新年新版本 2.2.0 发布+送码)",
+   "created": "2023-01-04",
+   "found_by": "关注列表",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004867,
+   "title": "2023 打动我的文艺作品",
+   "created": "2023-12-31",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1004652,
+   "title": "Python 潮流周刊第 33 期（摘要）",
+   "created": "2023-12-30",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003882,
+   "title": "我开发了一个自动剪辑音频的 APP，但是我不知道如何推广它，怎么办？",
+   "created": "2023-12-27",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003529,
+   "title": "Spotify 针对播客似乎推出了一个 read along 的功能",
+   "created": "2023-12-26",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1003154,
+   "title": "求网络方案，现在手机热点+鹏博士宽带+免费 2.4gwifi",
+   "created": "2023-12-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002949,
+   "title": "Python 潮流周刊第 32 期（摘要）",
+   "created": "2023-12-24",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002658,
+   "title": "Spotify 尼日利亚 拼车",
+   "created": "2023-12-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002646,
+   "title": "买了 5700u 小主机挂家里 7*24，感觉性能过剩不知道干啥...",
+   "created": "2023-12-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002497,
+   "title": "便宜寄快递新选择，附该副业项目问答经验分享",
+   "created": "2023-12-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002093,
+   "title": "篡改猴脚本：给 web 版小宇宙 FM 增加播放速率选项",
+   "created": "2023-12-20",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002044,
+   "title": "我的助眠类播客《静夜斋》上线啦～",
+   "created": "2023-12-20",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000948,
+   "title": "Python 潮流周刊第 31 期（摘要）",
+   "created": "2023-12-16",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000152,
+   "title": "2024 年 Google Analytics 全面转化为 GA4 版本，是时候尝试这三个最佳的开源统计工具了",
+   "created": "2023-12-13",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999153,
+   "title": "Spotify 尼日利亚 有车位",
+   "created": "2023-12-10",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999116,
+   "title": "2023 年为何我还在使用 RSS",
+   "created": "2023-12-10",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998950,
+   "title": "iOS 系统 播客 app Carplay 上会跟高德冲突吗？",
+   "created": "2023-12-09",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998948,
+   "title": "Python 潮流周刊第 30 期（摘要）",
+   "created": "2023-12-09",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998821,
+   "title": "Spotify 尼日利亚",
+   "created": "2023-12-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 998478,
+   "title": "Spotify 尼日利亚 发车",
+   "created": "2023-12-07",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997128,
+   "title": "Python 潮流周刊第 29 期（摘要）",
+   "created": "2023-12-02",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996949,
+   "title": "陈随易 2023 年终回顾和 2024 年计划",
+   "created": "2023-12-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996651,
+   "title": "程序员商业指南-定价策略",
+   "created": "2023-11-30",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 995461,
+   "title": "利用 Copilot 来练习英语语法的小技巧",
+   "created": "2023-11-27",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 994034,
+   "title": "大家都在听什么播客?",
+   "created": "2023-11-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 994010,
+   "title": "大家早晨起床后会听一些什么？",
+   "created": "2023-11-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 993370,
+   "title": "苹果自带的播客 APP 在 Mac 和 iPhone 之间同步不及时",
+   "created": "2023-11-20",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992829,
+   "title": "做个什么样的 AI 应用的思考",
+   "created": "2023-11-17",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992723,
+   "title": "小红书 ssp 和阿里校招白菜 offer 选择求助",
+   "created": "2023-11-17",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 991641,
+   "title": "采访了一年前顺利拿到大厂 offer 润到爱尔兰的朋友，做成了一期播客",
+   "created": "2023-11-13",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 991127,
+   "title": "播客《纵横四海》主播初印象",
+   "created": "2023-11-12",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 990986,
+   "title": "被网易 pc 端开发人员恶心到了",
+   "created": "2023-11-11",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 989736,
+   "title": "大家都在用 Telegram 做什么呢？",
+   "created": "2023-11-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988644,
+   "title": "新手求推荐跑鞋？",
+   "created": "2023-11-04",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988349,
+   "title": "求 MySQL 进阶书籍或课程",
+   "created": "2023-11-03",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 988196,
+   "title": "iPhone 磁吸充电底座攻略分享",
+   "created": "2023-11-03",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 987486,
+   "title": "写了一个网易云音乐 Apple TV 客户端，已开源",
+   "created": "2023-11-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 985717,
+   "title": "有懂麦克风的老哥吗？罗德的 podmic USB 怎么样？",
+   "created": "2023-10-26",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984492,
+   "title": "「App 君数据分享 #02」： moontake🌕中秋节售卖与小红书🍠转化率的相关数据的分析和想法",
+   "created": "2023-10-23",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984285,
+   "title": "Python 潮流周刊#23： 35 个容易上手的 Python 小项目",
+   "created": "2023-10-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 983951,
+   "title": "比较搞笑,擅长聊天,一说就说很远,大家都愿意和我聊,适合播客?",
+   "created": "2023-10-20",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 983019,
+   "title": "大家都在用什么记账软件？",
+   "created": "2023-10-18",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 982289,
+   "title": "📣美国 AI 社交平台，超精英团队招客户端/后端工程师，坐标北京",
+   "created": "2023-10-16",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 981517,
+   "title": "独立开发变现周刊（第 107 期）：一个 AI 播客工具，月收入 1.2 万美金",
+   "created": "2023-10-13",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 980569,
+   "title": "📣美国 AI 社交平台，超精英团队招 iOS/Android/后端工程师，坐标北京",
+   "created": "2023-10-10",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979644,
+   "title": "关于苹果播客 Podcast 使用问题，请教大佬。",
+   "created": "2023-10-07",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979211,
+   "title": "做了一个网络视频转播客的小工具",
+   "created": "2023-10-06",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978998,
+   "title": "升级到 iOS17.0.3 以后，指南针不显示经纬度坐标和海拔高度了，有人遇到和我一样的问题吗？",
+   "created": "2023-10-05",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 978420,
+   "title": "内容创客工具箱导航，欢迎大家提交链接",
+   "created": "2023-10-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977963,
+   "title": "尼日利亚 Spotify 家庭会员",
+   "created": "2023-09-28",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977380,
+   "title": "Spotify 的播客 podcast 语音翻译功能超赞，真正跨越语言障碍",
+   "created": "2023-09-26",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977361,
+   "title": "[ Public Beta ] Podwise，专为 Podcast 听友设计的 AI 学习应用 🎁",
+   "created": "2023-09-26",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977121,
+   "title": "[送码] THORN: GPT-4 加持的全功能文章编辑器 ✕ 极致简单易用的个人建站管理服务",
+   "created": "2023-09-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977086,
+   "title": "独立开发周记 #32：沮丧的一周",
+   "created": "2023-09-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 975909,
+   "title": "overcast 不能自动下载新播客吗",
+   "created": "2023-09-21",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 974296,
+   "title": "spotify 巴区 半年 20（无播客功能）翻车按天退款",
+   "created": "2023-09-15",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972311,
+   "title": "Nosub 一个专注于字幕编辑的字幕软件",
+   "created": "2023-09-09",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 972151,
+   "title": "提取音频或者视频为文字信息有什么好办法吗？",
+   "created": "2023-09-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 971929,
+   "title": "阅微的网络日志 #22",
+   "created": "2023-09-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970890,
+   "title": "独立开发周记 #29： 8 月数据总结",
+   "created": "2023-09-04",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 970269,
+   "title": "程序员自由创业周记#9：最开心的事",
+   "created": "2023-09-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969820,
+   "title": "Astro 给我发了 250 美金，做开源还有钱拿，太爽了！",
+   "created": "2023-08-31",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969205,
+   "title": "整理了最新一些招募信息，待遇丰厚，大家来看看有没有合适的哈",
+   "created": "2023-08-29",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968344,
+   "title": "一个人做的坏事比普通人多很多，做的好事也比普通人多很多。怎么看待这个人？",
+   "created": "2023-08-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 968203,
+   "title": "向你介绍「播客学英语」iOS app",
+   "created": "2023-08-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 967238,
+   "title": "有哪些比较极客的邮箱能争取下，也能同时证明在 cs 领域的能力？比如 @ntp.org 的邮箱",
+   "created": "2023-08-21",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966313,
+   "title": "程序员自由创业周记#7：仲裁",
+   "created": "2023-08-18",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965568,
+   "title": "自带播客有办法可以听喜马拉雅里的节目吗",
+   "created": "2023-08-15",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965212,
+   "title": "[ Private Beta 邀请 ] Podwise, 一款面向 Podcast 听众的学习软件",
+   "created": "2023-08-14",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964621,
+   "title": "在博客融入一个跨平台作品集",
+   "created": "2023-08-12",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 963672,
+   "title": "有没有实时录音手机的音频的 app,并转成文字?",
+   "created": "2023-08-09",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962892,
+   "title": "33 岁移居东京后入职派遣企业---成功与渺小",
+   "created": "2023-08-06",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962743,
+   "title": "想和 Vim 忠实用户聊一期播客节目",
+   "created": "2023-08-06",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962658,
+   "title": "Python 潮流周刊第 14 期（内容摘要）",
+   "created": "2023-08-05",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 961918,
+   "title": "翻译 | 作为软件工程师成为全职创作者：有争议的建议",
+   "created": "2023-08-02",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960940,
+   "title": "王局最新播客节目里那个黑客小伙说的 Apple 漏洞是真的吗？",
+   "created": "2023-07-30",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960882,
+   "title": "舒适的 obsidian+hugo 使用，更多点自动化吧",
+   "created": "2023-07-29",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960083,
+   "title": "Apple Store、播客、图书等自带 APP 不显示头像的问题",
+   "created": "2023-07-27",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959698,
+   "title": "一个月突破雅思 7.0",
+   "created": "2023-07-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 959670,
+   "title": "从年入百万到月收入为零：分享我这十年的创业经历！",
+   "created": "2023-07-25",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958820,
+   "title": "Python 潮流周刊第 12 期（2023-07-22）",
+   "created": "2023-07-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958762,
+   "title": "分享 4 个 Memo AI 内测码",
+   "created": "2023-07-22",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958716,
+   "title": "请问 mac 播客中下载的节目存储的路径在哪里？",
+   "created": "2023-07-21",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958551,
+   "title": "应届华为工作三年，不想做个纯程序员，请大佬们指个路",
+   "created": "2023-07-21",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 958144,
+   "title": "交出你的 RSS 订阅列表并简单说明自己的 rss 偏好",
+   "created": "2023-07-19",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957577,
+   "title": "Memo AI 内测邀请码分享",
+   "created": "2023-07-17",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957274,
+   "title": "Memo AI 内测码分享，用掉了请在评论区标记一下",
+   "created": "2023-07-17",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 957024,
+   "title": "Python 潮流周刊第 11 期（2023-07-15）",
+   "created": "2023-07-15",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956777,
+   "title": "如何成为独立黑客（Indie Hacker）",
+   "created": "2023-07-14",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956323,
+   "title": "30 岁从大厂裸辞全家搬往英国的故事（中）",
+   "created": "2023-07-13",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955918,
+   "title": "基于妙记多 Mojidoc 剪藏内容和内容创建的工作流程介绍",
+   "created": "2023-07-11",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955699,
+   "title": "支付宝小程序云产品发布会： 6 大产品 20 项亮点全揭秘",
+   "created": "2023-07-11",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955560,
+   "title": "想找一个尽量简单能播放 NAS 里歌曲的播放器",
+   "created": "2023-07-10",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955168,
+   "title": "Python 潮流周刊第 10 期（2023-07-08）",
+   "created": "2023-07-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 955117,
+   "title": "关于 4070ti+12100 的硬件测试参考,以及 126kf+80ti 的对比,4k 分辨率！",
+   "created": "2023-07-08",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954828,
+   "title": "大家有觉得有意思的播客吗？",
+   "created": "2023-07-07",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954385,
+   "title": "人类程序员将在 5 年内消失",
+   "created": "2023-07-05",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954135,
+   "title": "🔥🔥🔥 PodPodium Web 端满血复活并🔥开源🔥启用新域名🔥",
+   "created": "2023-07-04",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953817,
+   "title": "🎉 个人开发的播客 APP “领讲台” 改名 “PodPodium”！🚀🚀🔥🔥",
+   "created": "2023-07-03",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953290,
+   "title": "Python 潮流周刊#9：如何在本地部署开源大语言模型？",
+   "created": "2023-07-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953182,
+   "title": "小米折合 15 元每位的获客成本有点绷不住呀，哪里操作有问题吗？独立开发者",
+   "created": "2023-07-01",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952864,
+   "title": "请教下大家给 4 岁左右小孩看电视有推荐的 tv 软件吗？",
+   "created": "2023-06-30",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952290,
+   "title": "和朋友一起做了一个围绕植物和生活主题的播客，有兴趣的来交个朋友呀",
+   "created": "2023-06-28",
+   "found_by": "播客 推荐",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002371,
+   "title": "上次送了 300 份会员，这次新玩意直接全免费！一个宠物分享社区，欢迎来吸",
+   "created": "2023-12-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002162,
+   "title": "Orbstack 的“免费个人使用”，可能不像你想的那样",
+   "created": "2023-12-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1001148,
+   "title": "15 款 MacBook Pro15 寸升级苹果最新系统后进不去桌面",
+   "created": "2023-12-17",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1000875,
+   "title": "b 站收藏了很多有用的视频，有些突然失效",
+   "created": "2023-12-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 999065,
+   "title": "up 主录屏幕视频录音，想找一款 500 元以下的麦克风",
+   "created": "2023-12-09",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 996655,
+   "title": "今天下午发布的魅族 21 各位怎么看",
+   "created": "2023-11-30",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 992392,
+   "title": "搭车 AIGC 中国当前增长最快的出海项目之一 大量 HC 欢迎咨询与投递",
+   "created": "2023-11-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 989845,
+   "title": "最新公式： 8G + macOS > 16G",
+   "created": "2023-11-08",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 984460,
+   "title": "B 站一 up 主《在家躺平，被列为电诈分子。》系列已更新至 12 集，三个月过去仍未解决问题",
+   "created": "2023-10-23",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 977688,
+   "title": "免费提供一些法律帮助",
+   "created": "2023-09-27",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 971815,
+   "title": "无法关注 TikTok 的 Up 主 但是可以收藏和点赞 这是啥原因？",
+   "created": "2023-09-07",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 969160,
+   "title": "高性能 websocket 库 quickws 发布",
+   "created": "2023-08-29",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966724,
+   "title": "HM-SMR 能拯救叠瓦盘么？",
+   "created": "2023-08-19",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 966609,
+   "title": "那些打着打假测评的旗号实际带货的视频，算不算诈骗？",
+   "created": "2023-08-19",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 965432,
+   "title": "寻找一个 up 主，视频内容大概是申请美国各大名校计算机（硕士还是博士）,收到很多大学录取最后选了 CMU ...",
+   "created": "2023-08-15",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964654,
+   "title": "sony 降噪豆 wf1000xm4 和 xm5 使用感受",
+   "created": "2023-08-12",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 964498,
+   "title": "神奇的诈骗背锅事件",
+   "created": "2023-08-11",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962855,
+   "title": "v 友们的 B 站历史记录会出现没看过的视频吗",
+   "created": "2023-08-06",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 961438,
+   "title": "用了三年的 AllinBoom 灵车分享",
+   "created": "2023-08-01",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960883,
+   "title": "202307 装机求指导~",
+   "created": "2023-07-29",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 960035,
+   "title": "从 b 站通知发现一个不是我本人发的评论被视频 up 主回复",
+   "created": "2023-07-26",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956424,
+   "title": "低端高考移民 子女谋出路 鹤岗买房思考讨论求大脸求避坑",
+   "created": "2023-07-13",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 956322,
+   "title": "破 120 亿日元票房速度纪录《超级马力欧兄弟大电影》，原声 CD 和黑胶唱片预购开跑",
+   "created": "2023-07-12",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953764,
+   "title": "利民为啥不在国内卖内存？",
+   "created": "2023-07-03",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 948503,
+   "title": "一台 12900K 主机，坐标东莞。",
+   "created": "2023-06-13",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946923,
+   "title": "如果能用 LLM 控制自己的手机就好了",
+   "created": "2023-06-08",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946530,
+   "title": "B 站 70 万粉丝 up 主秋葉 aaaki，月入大几万，互联网他是真玩明白了",
+   "created": "2023-06-07",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 946040,
+   "title": "Linux 多 ip docker 指定出口问题",
+   "created": "2023-06-05",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942971,
+   "title": "第一次买 iPhone 有什么要注意的吗？",
+   "created": "2023-05-25",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 942669,
+   "title": "4090 配置推荐",
+   "created": "2023-05-24",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 941776,
+   "title": "如何批量下载 b 站 UP 主所有视频？",
+   "created": "2023-05-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 941743,
+   "title": "Studio Display 的电源线是有两种材质的吗？",
+   "created": "2023-05-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 941573,
+   "title": "一个新闻类产品的小想法",
+   "created": "2023-05-20",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 940724,
+   "title": "最近经常在抖音里刷到游戏开挂的直播",
+   "created": "2023-05-17",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 939753,
+   "title": "国内大部分大学和发达国家差距真不是一点半点",
+   "created": "2023-05-13",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938896,
+   "title": "[在线工具] 输入 b 站用户 id, 生成用户信息卡片",
+   "created": "2023-05-10",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938565,
+   "title": "2023 年独立开发者这条路还能走下去吗",
+   "created": "2023-05-09",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 938207,
+   "title": "昨天刷了一大堆便利店选址的视频，大家可以参考一下回家躺平的可行性",
+   "created": "2023-05-08",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 937278,
+   "title": "对于普通人睡后收入有哪些？",
+   "created": "2023-05-04",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 935430,
+   "title": "B 站 UP 主的拯救计划",
+   "created": "2023-04-25",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 934199,
+   "title": "如何看待 Up 主`阿祯吐槽`对 macOS 生态的吐槽？",
+   "created": "2023-04-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 933321,
+   "title": "B 站 up 主更新长视频放慢了很多？",
+   "created": "2023-04-17",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932995,
+   "title": "关于 macbook 上面安装 ios 应用的问题",
+   "created": "2023-04-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932953,
+   "title": "b 站看到 IPKVM 的一个方案，请教下怎么实现",
+   "created": "2023-04-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932565,
+   "title": "支持自建的邮箱+看板+网盘+在线文档来了",
+   "created": "2023-04-14",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 932240,
+   "title": "B 站是出重大事故了吗？",
+   "created": "2023-04-13",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930057,
+   "title": "你所使用的手机你最离不开的优点是？最反感的缺点是？",
+   "created": "2023-04-05",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928681,
+   "title": "Windows 或 Linux 上有什么合适的字幕识别软件吗？",
+   "created": "2023-03-31",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 928657,
+   "title": "如何把 b 站科技科普区的 “知名 up 主” 都关注一遍，是不是 b 站没有这个公开的网页名单啥的？",
+   "created": "2023-03-31",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 926986,
+   "title": "买了张 GLOBE 的卡，貌似翻车了",
+   "created": "2023-03-24",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 924699,
+   "title": "一种意想不到的百度云提速方法",
+   "created": "2023-03-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 924491,
+   "title": "谈谈国内的审查机制",
+   "created": "2023-03-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921367,
+   "title": "这会儿， B 站 UP 主自制视频一个都看不了了，不知道是挂在哪里了。",
+   "created": "2023-03-05",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 921321,
+   "title": "使用 stableDiffusion 怎么不换脸只换衣服和姿势的？",
+   "created": "2023-03-05",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917841,
+   "title": "B 站虽然没有片头广告，但是广告已经满天飞了",
+   "created": "2023-02-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917255,
+   "title": "关于 bilibili 数据的疑问",
+   "created": "2023-02-18",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917247,
+   "title": "Pants 001: 成为 Pants 社区的记名贡献者",
+   "created": "2023-02-18",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917237,
+   "title": "我是不是买了假的 M1",
+   "created": "2023-02-18",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 912072,
+   "title": "都说 M2 青春版（丐）固态盘读写速度降了",
+   "created": "2023-01-31",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 911348,
+   "title": "在 B 站经常看的 up 主，为什么会突然出现在油管上刷到？",
+   "created": "2023-01-29",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910425,
+   "title": "即将第一次看车、买车，求点经验",
+   "created": "2023-01-24",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 910203,
+   "title": "2023 请大家帮我推荐一些 mac 软件/技巧/效率 订阅源",
+   "created": "2023-01-21",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909885,
+   "title": "一个搞笑 up 主",
+   "created": "2023-01-19",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909180,
+   "title": "想对英语进行康复训练，大家有经验吗",
+   "created": "2023-01-16",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 909143,
+   "title": "利用 openwrt 路由器 讓未裝 Tailscale 的設備也能訪問其網絡的方法",
+   "created": "2023-01-15",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 908330,
+   "title": "不理解 S 级战队开挂的行为逻辑",
+   "created": "2023-01-12",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 907248,
+   "title": "对于包饺子这件事你怎么看？",
+   "created": "2023-01-07",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 906127,
+   "title": "关于碎片化时间的一点思考",
+   "created": "2023-01-02",
+   "found_by": "宝藏 up主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 1002649,
+   "title": "希尔顿枕头丨失眠党的福音，静音/护颈款， 2 个 99，正品直发",
+   "created": "2023-12-22",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 997937,
+   "title": "一个人如何开发超过 15 万行代码的开源项目",
+   "created": "2023-12-05",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 979307,
+   "title": "大家都在用什么 app 看国内新闻呀",
+   "created": "2023-10-06",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 954063,
+   "title": "严肃探讨下程序员如何具备跨行业视角",
+   "created": "2023-07-04",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 953701,
+   "title": "Build In Public #4",
+   "created": "2023-07-03",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952809,
+   "title": "✌️ 0 经验！短短两天把互联网社群做到 150+人了！已经开始接资源啦～～哈哈哈哈",
+   "created": "2023-06-29",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 945378,
+   "title": "[摩集电商] 限时三期免息， Mac 系列全新官翻产品，未拆封未激活，全国联保 1 年",
+   "created": "2023-06-02",
+   "found_by": "优质博主",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 980609,
+   "title": "有几个问题需要咨询一下，做了个查询美元人民币汇率查询的简单网站 http://www.freehuilv.com ？",
+   "created": "2023-10-10",
+   "found_by": "扩充关注",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 962284,
+   "title": "求帮看老电脑加装 ssd",
+   "created": "2023-08-04",
+   "found_by": "扩充关注",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 952109,
+   "title": "最近升级了一下家里的网络设备",
+   "created": "2023-06-27",
+   "found_by": "扩充关注",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 930272,
+   "title": "中文 LLaMA 模型",
+   "created": "2023-04-06",
+   "found_by": "扩充关注",
+   "why": "title_not_recommendation"
+  },
+  {
+   "topic_id": 917194,
+   "title": "使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具！",
+   "created": "2023-02-18",
+   "found_by": "扩充关注",
+   "why": "title_not_recommendation"
+  }
+ ],
+ "too_small": [
+  {
+   "topic_id": 964751,
+   "title": "能推荐一些 数码/科技/科普 类的 up 主/youtuber 吗？",
+   "created": "2023-08-12",
+   "found_by": "YouTuber 推荐",
+   "replies": 7,
+   "node": "qna"
+  },
+  {
+   "topic_id": 994685,
+   "title": "求推荐类似： CodeAesthetic，这样讲解代码优化的博主",
+   "created": "2023-11-24",
+   "found_by": "宝藏博主",
+   "replies": 0,
+   "node": "qna"
+  },
+  {
+   "topic_id": 959955,
+   "title": "求助！做游戏博主的友友们，你们都用什么工具录屏和剪辑？",
+   "created": "2023-07-26",
+   "found_by": "宝藏博主",
+   "replies": 2,
+   "node": "qna"
+  },
+  {
+   "topic_id": 958065,
+   "title": "请问大佬，做大数据岗位的经常看哪几个网站、论坛，公众号、抖音、B 站博主呢？",
+   "created": "2023-07-19",
+   "found_by": "宝藏博主",
+   "replies": 2,
+   "node": "qna"
+  },
+  {
+   "topic_id": 940606,
+   "title": "在哪里能找到，哪些专门盯着各地银行的利息的博主？",
+   "created": "2023-05-17",
+   "found_by": "宝藏博主",
+   "verify_error": "HTTP Error 522: <none>"
+  },
+  {
+   "topic_id": 935222,
+   "title": "51 快到了，推荐一个“IT 民工”转航拍的博主",
+   "created": "2023-04-25",
+   "found_by": "宝藏博主",
+   "replies": 12,
+   "node": "share"
+  },
+  {
+   "topic_id": 934618,
+   "title": "抖音又无法关注视频博主了",
+   "created": "2023-04-22",
+   "found_by": "宝藏博主",
+   "replies": 3,
+   "node": "programmer"
+  },
+  {
+   "topic_id": 932430,
+   "title": "分享一个做 YouTuber 的油管 up 交流电报群",
+   "created": "2023-04-14",
+   "found_by": "宝藏博主",
+   "replies": 2,
+   "node": "share"
+  },
+  {
+   "topic_id": 927576,
+   "title": "有常看抖音的朋友吗。迫于抖音推荐算法辣鸡，希望大家交流分享下有意思的博主",
+   "created": "2023-03-27",
+   "found_by": "宝藏博主",
+   "replies": 2,
+   "node": "share"
+  },
+  {
+   "topic_id": 912645,
+   "title": "推荐一个博主 Alan 聊特斯拉的视频 《北美科技公司被裁》",
+   "created": "2023-02-02",
+   "found_by": "宝藏博主",
+   "replies": 14,
+   "node": "career"
+  },
+  {
+   "topic_id": 936086,
+   "title": "人文历史类 up 主 YouTube 油管频道导航推荐|第一期 1~20|YouTube 交流博客",
+   "created": "2023-04-28",
+   "found_by": "请推荐几个 UP主",
+   "replies": 0,
+   "node": "promotions"
+  },
+  {
+   "topic_id": 1000286,
+   "title": "我的 2023 年年度推荐频道/评论互荐频道",
+   "created": "2023-12-14",
+   "found_by": "关注列表",
+   "replies": 8,
+   "node": "telegram"
+  },
+  {
+   "topic_id": 997877,
+   "title": "有么有 go 相关的比较好的播客或者网站推荐学习",
+   "created": "2023-12-05",
+   "found_by": "播客 推荐",
+   "replies": 6,
+   "node": "go"
+  },
+  {
+   "topic_id": 994759,
+   "title": "大家看 TikTok 吗？ 有哪些值得推荐的频道或者直播主播了？",
+   "created": "2023-11-24",
+   "found_by": "播客 推荐",
+   "verify_error": "list index out of range"
+  },
+  {
+   "topic_id": 994212,
+   "title": "有没有有趣的英语初学者可以听懂的英语播客",
+   "created": "2023-11-22",
+   "found_by": "播客 推荐",
+   "replies": 6,
+   "node": "podcast"
+  },
+  {
+   "topic_id": 981885,
+   "title": "求推荐类似自带的“播客”的 APP",
+   "created": "2023-10-14",
+   "found_by": "播客 推荐",
+   "verify_error": "HTTP Error 522: <none>"
+  },
+  {
+   "topic_id": 978797,
+   "title": "有没有听播客记笔记的最佳解决方案",
+   "created": "2023-10-04",
+   "found_by": "播客 推荐",
+   "replies": 8,
+   "node": "podcast"
+  },
+  {
+   "topic_id": 977447,
+   "title": "谷歌播客 app 即将停止服务，有什么推荐的 app 吗",
+   "created": "2023-09-27",
+   "found_by": "播客 推荐",
+   "verify_error": "HTTP Error 522: <none>"
+  },
+  {
+   "topic_id": 971745,
+   "title": "分享一个播客：技术的黑暗面：聊聊东南亚灰黑产十年演化",
+   "created": "2023-09-07",
+   "found_by": "播客 推荐",
+   "replies": 3,
+   "node": "share"
+  },
+  {
+   "topic_id": 969390,
+   "title": "求大伙推荐一些有文字版的播客",
+   "created": "2023-08-30",
+   "found_by": "播客 推荐",
+   "replies": 5,
+   "node": "qna"
+  },
+  {
+   "topic_id": 969085,
+   "title": "播客 硬地骇客 「EP25 对话独立开发者道哥，分享极简时钟的成功之道」",
+   "created": "2023-08-29",
+   "found_by": "播客 推荐",
+   "replies": 0,
+   "node": "podcast"
+  },
+  {
+   "topic_id": 963392,
+   "title": "有没有什么真的好用不冗余而且还适合播客的 RSS 软件",
+   "created": "2023-08-08",
+   "found_by": "播客 推荐",
+   "replies": 0,
+   "node": "qna"
+  },
+  {
+   "topic_id": 954281,
+   "title": "23 年已过半，大家能推荐一下今年听过的值得推荐的播客节目吗？",
+   "created": "2023-07-05",
+   "found_by": "播客 推荐",
+   "replies": 4,
+   "node": "qna"
+  },
+  {
+   "topic_id": 953684,
+   "title": "大家有什么好的付费播客的订阅渠道",
+   "created": "2023-07-03",
+   "found_by": "播客 推荐",
+   "replies": 0,
+   "node": "share"
+  }
+ ]
+}

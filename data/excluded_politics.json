@@ -1,113 +1,445 @@
 [
  {
-  "topic_id": 1094836,
+  "source": "v2ex",
+  "topic_id": 326698,
   "name": "",
   "reason": ""
  },
  {
+  "source": "v2ex",
+  "topic_id": 326698,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 723217,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 723217,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 840328,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
   "topic_id": 893469,
   "name": "李沐",
   "reason": "内容不符合推荐标准。"
  },
  {
-  "topic_id": 1171199,
-  "name": "王局拍案",
-  "reason": "用户口径：时政类默认不收（管线后过滤）"
+  "source": "v2ex",
+  "topic_id": 893469,
+  "name": "",
+  "reason": ""
  },
  {
-  "topic_id": 1171199,
-  "name": "新官场",
-  "reason": "用户口径：时政类默认不收（管线后过滤）"
+  "source": "v2ex",
+  "topic_id": 1003005,
+  "name": "",
+  "reason": ""
  },
  {
-  "topic_id": 1171199,
-  "name": "听床党",
-  "reason": "用户口径：时政类默认不收（管线后过滤）"
+  "source": "v2ex",
+  "topic_id": 1064007,
+  "name": "",
+  "reason": ""
  },
  {
-  "topic_id": 1171199,
-  "name": "馆长",
-  "reason": "用户口径：时政类默认不收（管线后过滤）"
+  "source": "v2ex",
+  "topic_id": 1064781,
+  "name": "",
+  "reason": ""
  },
  {
+  "source": "v2ex",
+  "topic_id": 1089081,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1089280,
+  "name": "",
+  "reason": "没有满足推荐条件的博主或视频"
+ },
+ {
+  "source": "v2ex",
   "topic_id": 1094836,
-  "name": "柴静",
-  "reason": "用户口径：时政类默认不收（复检后过滤）"
- },
- {
-  "topic_id": 1171199,
-  "name": "王志安",
-  "reason": "用户口径：时政类默认不收（复检后过滤）"
- },
- {
-  "topic_id": 1205371,
-  "name": "星话大白",
-  "reason": "用户口径：时政类默认不收（复检后过滤）"
- },
- {
-  "topic_id": 1094836,
-  "name": "官场",
-  "reason": "用户口径：时政类默认不收（复检后过滤）"
- },
- {
-  "topic_id": 1094836,
-  "name": "王局",
-  "reason": "用户口径：时政类默认不收（复检后过滤）"
- },
- {
-  "topic_id": 1176867,
-  "name": "X 调查",
-  "reason": "社会新闻/时政相邻，待用户定（暂不收）"
- },
- {
-  "topic_id": 1176867,
-  "name": "户晨风",
-  "reason": "社会新闻/时政相邻，待用户定（暂不收）"
- },
- {
-  "topic_id": 1176867,
-  "name": "马督工",
-  "reason": "睡前消息主理人、新闻评论类，待用户定"
- },
- {
-  "topic_id": 1176867,
-  "name": "睡前消息",
-  "reason": "新闻评论节目，待用户定"
- },
- {
-  "topic_id": 1171199,
-  "name": "二爷故事",
-  "reason": "时政历史评论，待用户定"
- },
- {
-  "topic_id": 1205371,
-  "name": "赵灵敏（世界灵敏度）",
-  "reason": "国际时政评论，待用户定"
- },
- {
-  "topic_id": 1205371,
-  "name": "赵灵敏",
-  "reason": "用户已拍板不收（待定区：赵灵敏），维持原判"
- },
- {
-  "topic_id": 1183414,
-  "name": "立党",
-  "reason": "时政评论类，默认不收；且原帖评价褒贬不一，不合正面认可门槛"
- },
- {
-  "topic_id": 1182763,
-  "name": "石国鹏 1972",
-  "reason": "历史、时政评论类，默认不收"
- },
- {
-  "topic_id": 1183414,
-  "name": "王菊",
-  "reason": "2026 时政评论帖语境中被提及，默认不收（可恢复）"
+  "name": "",
+  "reason": ""
  },
  {
   "source": "v2ex",
   "topic_id": 1150066,
   "name": "王局拍案（王志安）",
-  "reason": "时政类，按既定口径不收录"
+  "reason": "王局拍案未被≥2个用户独立提及，因此不符合推荐条件。"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1161892,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1162913,
+  "name": "",
+  "reason": "未发现符合推荐条件的博主或视频"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1163523,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "",
+  "reason": "没有符合入选条件的内容。"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1176867,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1176867,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1185562,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1205371,
+  "name": "",
+  "reason": "包含新闻时政类内容，不满足入选条件。"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1246722,
+  "name": "",
+  "reason": ""
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 907150,
+  "name": "王志安",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1064781,
+  "name": "王志安",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1150066,
+  "name": "王局拍案",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "王局拍案",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "新官场",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "听床党",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1171199,
+  "name": "馆长",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "source": "v2ex",
+  "topic_id": 1183414,
+  "name": "柴静",
+  "reason": "用户口径：时政类默认不收（管线后过滤）"
+ },
+ {
+  "name": "立党",
+  "mention_count": 6,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1183414,
+    "floors": [
+     31
+    ],
+    "positive_floors": []
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "五岳散人",
+  "mention_count": 2,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     11,
+     40
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "王局",
+  "mention_count": 2,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     62,
+     74
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "躺平叔",
+  "mention_count": 2,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     77,
+     79
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "文昭谈古论今",
+  "mention_count": 1,
+  "category": "历史人文",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     22
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "陈破空纵论天下",
+  "mention_count": 1,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     22
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "江峰时刻",
+  "mention_count": 1,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     22
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "二爷故事",
+  "mention_count": 1,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1171199,
+    "floors": [
+     10
+    ],
+    "positive_floors": [
+     10
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "赵灵敏（世界灵敏度）",
+  "mention_count": 1,
+  "category": "财经",
+  "platform": "other",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1205371,
+    "floors": [],
+    "positive_floors": []
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "睡前消息",
+  "mention_count": 2,
+  "category": "生活",
+  "platform": "bilibili",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     126,
+     154
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "马督工",
+  "mention_count": 2,
+  "category": "财经",
+  "platform": "bilibili",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1176867,
+    "floors": [],
+    "positive_floors": [
+     244
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "王菊",
+  "mention_count": 2,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 1183414,
+    "floors": [],
+    "positive_floors": [
+     24
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "小岛大浪吹",
+  "mention_count": 1,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     41
+    ]
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
+ },
+ {
+  "name": "中指通",
+  "mention_count": 3,
+  "category": "其他",
+  "platform": "youtube",
+  "sources": [
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [],
+    "positive_floors": [
+     73,
+     78
+    ]
+   },
+   {
+    "source": "v2ex",
+    "topic_id": 907150,
+    "floors": [
+     133
+    ],
+    "positive_floors": []
+   }
+  ],
+  "note": "时政评论类，按既定规则不收录（2023 回补策展）"
  }
 ]
